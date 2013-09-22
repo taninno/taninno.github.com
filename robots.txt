@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://taninno.github.io/sitemap.xml 

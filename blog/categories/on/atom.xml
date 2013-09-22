@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: on | taninnosorani blog]]></title>
+  <link href="http://taninno.github.io/blog/categories/on/atom.xml" rel="self"/>
+  <link href="http://taninno.github.io/"/>
+  <updated>2013-09-22T11:07:24+09:00</updated>
+  <id>http://taninno.github.io/</id>
+  <author>
+    <name><![CDATA[taninno]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Generate Rails Command]]></title>
+    <link href="http://taninno.github.io/blog/2013/01/17/rails-command/"/>
+    <updated>2013-01-17T16:18:00+09:00</updated>
+    <id>http://taninno.github.io/blog/2013/01/17/rails-command</id>
+    <content type="html"><![CDATA[<h2>Railsのscaffoldコマンド生成ツール</h2>
+
+<p>Scaffoldなどで型の打ち間違えを無くしたいので作りました。</p>
+
+<p><a href="http://sheltered-stream-4127.herokuapp.com/">
+<img src="http://taninno.github.com/images/post/001.png" style="border:solid black 3px" width="480"/></a></p>
+
+<p><a href="http://sheltered-stream-4127.herokuapp.com/">Generate Rails Command</a></p>
+
+<hr />
+]]></content>
+  </entry>
+  
+</feed>

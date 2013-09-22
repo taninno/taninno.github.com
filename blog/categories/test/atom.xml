@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: test | taninnosorani blog]]></title>
+  <link href="http://taninno.github.io/blog/categories/test/atom.xml" rel="self"/>
+  <link href="http://taninno.github.io/"/>
+  <updated>2013-09-22T11:07:24+09:00</updated>
+  <id>http://taninno.github.io/</id>
+  <author>
+    <name><![CDATA[taninno]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[first post]]></title>
+    <link href="http://taninno.github.io/blog/2012/08/02/post-title/"/>
+    <updated>2012-08-02T00:36:00+09:00</updated>
+    <id>http://taninno.github.io/blog/2012/08/02/post-title</id>
+    <content type="html"><![CDATA[<p>test post</p>
+]]></content>
+  </entry>
+  
+</feed>

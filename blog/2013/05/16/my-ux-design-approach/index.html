@@ -1,0 +1,880 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>UXデザインアプローチ（受託UX寄り） - taninnosorani blog</title>
+  <meta name="author" content="taninno">
+
+  
+  <meta name="description" content="UXデザインフロー 目的 受託のUXデザインを進めていく中で作業の流れと自分が気を付けてることをまとめました。基本的なフローは既存のUXプロセスやデザイン思考と変わりません。ただドキュメント指向のコミュニケーティングデザインを重視しています。 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="taninnosorani blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-73046-12']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">taninnosorani blog</a></h1>
+  
+    <h2>What is the UX Workflow?</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:taninno.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">UXデザインアプローチ（受託UX寄り）</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-16T12:43:00+09:00" pubdate data-updated="true">2013/05/16</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h2>UXデザインフロー</h2>
+
+<hr />
+
+<p><img src="http://taninno.github.io/images/post/ux.png"/></p>
+
+<h4>目的</h4>
+
+<p>受託のUXデザインを進めていく中で作業の流れと自分が気を付けてることをまとめました。基本的なフローは既存のUXプロセスやデザイン思考と変わりません。ただドキュメント指向のコミュニケーティングデザインを重視しています。
+ここでのUXは受託開発で多い問題解決型のUXに関してになります。最近ではむしろ主流とされている顧客開発型のUXとは少し異なります。</p>
+
+<h4>フェイズ</h4>
+
+<ol>
+<li>理解</li>
+<li>アイディア</li>
+<li>ストーリー</li>
+<li>UI</li>
+<li>ビジュアルデザイン</li>
+<li>開発</li>
+<li>フィードバック</li>
+</ol>
+
+
+<h4>参考手法</h4>
+
+<ul>
+<li>ゴールダイレクテッドデザイン
+
+<ul>
+<li>About Face 3 インタラクションデザインの極意</li>
+<li><a href="http://hart.herokuapp.com/public/user/yk/book/39">http://hart.herokuapp.com/public/user/yk/book/39</a></li>
+</ul>
+</li>
+<li>コミュニケーティングデザイン
+
+<ul>
+<li>Webサイト設計のためのデザイン&amp;プランニング</li>
+<li><a href="http://hart.herokuapp.com/public/user/yk/book/46">http://hart.herokuapp.com/public/user/yk/book/46</a></li>
+</ul>
+</li>
+<li>コンテキスチュアルデザイン
+
+<ul>
+<li>Contextual Design: Defining Customer-Centered Systems</li>
+</ul>
+</li>
+<li>ワンページデザイン
+
+<ul>
+<li>シムシティ</li>
+<li><a href="http://www.ea.com/sim-city">http://www.ea.com/sim-city</a></li>
+</ul>
+</li>
+<li>Lean UX
+
+<ul>
+<li>Janice Fraser</li>
+</ul>
+</li>
+<li>HCD/UCD
+
+<ul>
+<li><a href="http://www.hcdnet.org/">http://www.hcdnet.org/</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h4>ご指摘大歓迎です</h4>
+
+<p>twitter:@locationsdesign</p>
+
+<!-- more -->
+
+
+<h3>1.理解</h3>
+
+<p>まずは課題（既知の問題や新規サービス）に対して、現在置かれている状況、展望、分析を行い、対象ドメインを理解したら、その人はどうされたいのか？を考えて、こうすればいいっていうアイディアが生まれたら、それをコンセプトにする。つまり理解していく中でアイディアは生まれてくる。アイディアを次のフェイズに区切っているのは、理解フェイズがアイディアを思いつくためにあるのと、アイディアを見える形に起こすためのフェイズと分けているため。</p>
+
+<h4>目的</h4>
+
+<p>ニーズや要件、問題点、環境、事情を理解し、アイディアを見つける。</p>
+
+<h4>順序</h4>
+
+<ol>
+<li>クライアントとのヒアリング</li>
+<li>顧客調査（業界調査・競合調査・ポジショニングマップ・4P分析・SWOT分析など）</li>
+<li>ビジネスゴールの設定</li>
+<li>ユーザ調査（定量的なアンケートからユーザーインタビューまで）</li>
+<li>ユーザーゴールの設定</li>
+<li>ペルソナの作成*</li>
+<li>既存ユーザーのジャーニーマップの理解*</li>
+</ol>
+
+
+<h4>作業</h4>
+
+<h5>1-1.クライアントとのヒアリング</h5>
+
+<ul>
+<li>最初に話を聞く時間をなるべく沢山とる。表向きのビジネスゴールのようなものから本音の社内ゴールや夢や愚痴などを出来る限り聞く。</li>
+<li>最初にヒアリングとして2時間くらいの打ち合わせを設けるが、2時間ぐらいでは表層の部分の問題しか聞くことができない。ましてやNDAを結んでいるとはいえ、初対面の人には言い辛いことも多い。社内政治的な原因であれば尚更話せないだろう。そういった問題はある程度親密でなければ難しい。私はこのスキルが足りてないので感覚的に16時間以上くらい（週1回の2時間MTGの頻度であれば2ヶ月後）話を聞いていると本当の問題を理解できるようになる。</li>
+</ul>
+
+
+<h5>1-2.顧客調査</h5>
+
+<ul>
+<li>マーケティングのフレームワークなどが数多くあるので既に作成されているのであれば共有してもらう。特に数字はROIで目標達成のために必要になるので集取する。</li>
+</ul>
+
+
+<h5>1-3.ビジネスゴールの設定</h5>
+
+<ul>
+<li>カスタマーエクスペリエンスといったビジネス必要な情報、KPIやROIを理解することで後に生まれるアイディアがより具体的になる。その会社や組織、チームの特徴を活かしたアイディアにする。相手のことを理解しないで考えると、思いついたアイディアが競合他社でも成り立つアイディアになってしまう。もちろんそういうアイディアでも提案するが、それは今の会社からどれくらい離れいてることなのかを覚悟して言うのとでは、ただの突拍子もない意見に聞こえてしまう。</li>
+<li>ビジネスモデルキャンバスを利用するのも良い。</li>
+</ul>
+
+
+<h5>1-4.ユーザ調査</h5>
+
+<ul>
+<li>実際のユーザーからのフィードバックや要望や苦情に目を通して、可能であれば対面でインタビューを行う。既にアンケートを実施している会社もあるが、実際にアンケートを参考されることも少ない。できれば生の意見があったほうがいい。</li>
+<li>本来はユーザーに対して調査を行いたいが、時間がなければ社内のユーザーに聞いてみるもの有効だと考える。不満やアイディアは意外と多くの人が持っていたりする。そういった人たちに話を聞いてみるものUXデザインをする人の役割だと考える。</li>
+</ul>
+
+
+<h5>1-5.ユーザーゴールの設定</h5>
+
+<ul>
+<li>エンドユーザーであったり、既存のサービス内容であったり、受託UXならクライアントであったりを理解する。その人の気持ちを理解してその人になりきる。</li>
+<li>ユーザーのニーズから直接的にゴールを設定しない。それでは対処療法的になってしまうので、新しい問題が出た時に、又は隠れた問題が合った際につじつまが合わなくなってしまう。なので、アイディアをコンセプトが複数の問題を解決する、という形にする。</li>
+<li>UX受託の問題解決型なら「解決」することを考えて、顧客開発なら「自分が嬉しい」ことを考える。</li>
+</ul>
+
+
+<h5>1-6.ペルソナの作成 ＊（以下オプションにアスタリスクを付与）</h5>
+
+<ul>
+<li>もしペルソナを作っていたら普段から意識するために壁に貼り、常に見えるようにしておく。</li>
+<li>個人的にはあまりペルソナのキャラクターを細かくしないほうが良い考える。又はフェイクペルソナを作るぐらいであればペルソナ自体を作らなくても良いと思う。ペルソナを作る目的はサービス提供者側がユーザーをもっと近くに意識するためにあると思う。細かいキャラクター設定をしたペルソナがあってもあまり説得力を持たない。
+
+<ul>
+<li><img src="http://taninno.github.io/images/post/persona.png" width="380" /></li>
+<li>ペルソナで記載する最小プロパティ
+
+<ul>
+<li>簡単なシルエット写真</li>
+<li>氏名（ニックネーム）</li>
+<li>年齢（年代）</li>
+<li>職業（業種単位）</li>
+<li>既存サビースとのタッチポイント</li>
+<li>既存サビースの利用頻度</li>
+<li>既存サビースの利用目的</li>
+<li>既存サビースのリテラシー</li>
+<li>既存サビースへの要望</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>少ないキャラクター説明では理解されにくかったらポジショニングマップを添えると良い。ただ分かりやすいことでかえって問題も単純し過ぎてしまわないようにする。2軸のポジショニングマップは軸の選択と項目の配置が難しいため、参考程度の簡易的な資料と捉えたほうがいい。</li>
+<li>できればLeanのように実際のユーザーをペルソナにしたほうが早く、納得もしやすい。ただそういったパートナーを見つけるのが難しければ簡単なペルソナを作り、サービスを作る目的がユーザーのためなのだと、思い返すために用意しておく。</li>
+</ul>
+
+
+<h5>1-7.既存サービスのジャーニーマップの理解 ＊</h5>
+
+<ul>
+<li>サービスの内容を理解し始めると、ユーザーとサービスの関わり方を一日の流れの中で図式する。これをジャーニーマップやUXマップなどに含まれるかもしれない。書いている途中でこのサービスでいいのかな？もっと先に提供すたほうがいいかな？と直したいところが出てくる。それは後々のアイディアに繋がってくるので違う色で囲ってメモしておく。</li>
+<li>ここでのジャーニーマップは簡易的なスケッチであり、紙と鉛筆でアイディアを使用した場合のペルソナを行動させてみて、１日ないしサービスの適用期間内の問題点を見つけ出す作業である。プロットの前段階で行う。</li>
+</ul>
+
+
+<h4>成果物</h4>
+
+<ul>
+<li>業界調査</li>
+<li>競合調査</li>
+<li>ポジショニングマップ</li>
+<li>ビジネスゴール</li>
+<li>ユーザーやクライアントのメンタルモデル</li>
+<li>ユーザーゴール</li>
+<li>ペルソナ*</li>
+<li>既存サービスのジャーニーマップ*</li>
+</ul>
+
+
+<h4>備考</h4>
+
+<ul>
+<li>アイディアを考えようとするのではなく問題の中にアイディアがある。だから問題や関係する人や環境を問診して、ずっとみていればいずれアイディアが出てくる。そういう意味では理解フェイズの時点でアイディアを考えて、アイディアフェイズはアイディアを視覚化するだけでもいい。</li>
+<li>ヒアリングをしている段階でアイディアを思いついたり、ユーザー調査をしているときにジャーニーマップが書けてたり、ペルソナを作っているときにUIが浮かんできたり、先のフェイズの成果物が思いつくことはよくあり、良いことだと思う。あまり進行フローに囚われず場合によっては中間の作業も包括した成果物が作成可能であればスキップすることも場合によってはあったりする。</li>
+</ul>
+
+
+<br/>
+
+
+<h3>2.アイディア</h3>
+
+<p>見つけたアイディアをチーム（作業チームやプロジェクトチーム）内で方向性を一致させるためにコンセプト（関係図）を可視化し、共有する。</p>
+
+<p><img src="http://taninno.github.io/images/post/concept.png" width="320"/></p>
+
+<h4>目的</h4>
+
+<p>アイディアを可視化する。</p>
+
+<h4>順序</h4>
+
+<ol>
+<li>ブレストを開催する</li>
+<li>アイディアを考える</li>
+<li>コンセプトに作る</li>
+<li>ビジョンを書く*</li>
+</ol>
+
+
+<h4>作業</h4>
+
+<h5>2-1.ブレストを開催する</h5>
+
+<ul>
+<li>調査フェイズをやっていると個人個人でアイディアのネタを持ち始める。それをお披露目するためにブレストを行う。</li>
+<li>ブレストなので関係者を集めて自由にディスカッションする。</li>
+</ul>
+
+
+<h5>2-2.アイディアを考える</h5>
+
+<ul>
+<li>ブレストをしてアイディアが集まったら、ビジネスゴールとユーザーゴールを両立するアイディアにしていく。</li>
+<li>ビジネスゴールとユーザーゴールのどちらかしかなければ、またブレストのやり直しか調査フェイズの成果物を読み直しを行う。</li>
+<li>考える問題の範囲を広くする。画面のUIだけで完結するのか？どこまでを変更すればいいのか？ユーザーの環境、考え方までを、受託でやることなの？ってぐらいまでを問題対象として広く考える。場合によってはちゃぶ台をひっくり返す。場合によってはここでサービス撤退さえも判断の対象となる。</li>
+</ul>
+
+
+<h5>2-3.コンセプトに作る</h5>
+
+<ul>
+<li>完璧だと思うアイディアが生まれたら可視化する。</li>
+<li>コンセプトは絵や図、文章などその時に合いそうな表現にする。最近はアジャルのエレベーターピッチのように文章がブーム。電通のディレクターがやるようなラブレターのようなものでいい。けれどコンセプトは共有するためにあるので、分かりやすいものにする。必要があればインフォグラフィックにしてもいいかもしれない。</li>
+<li>コンセプトはデザインブリーフのようにUXの方向性をチーム間で共有してブレないようにするためにある。なので作ったコンセプトは壁に貼っておく。シムシティのデザインアプローチを参考にする。</li>
+</ul>
+
+
+<h5>2-4.ビジョンを書く ＊</h5>
+
+<ul>
+<li>コンセプトはサービス内容を分かりやすく伝えるものだが、なぜそのサービスを提供するのか？そもそもなぜ提供するのか？などのもっと根本の部分を明記する。</li>
+<li>当たり前のようになりがちだが、後のフェイズで方向性は常にブレる。その時のために前提となる価値観を共有するために事前に作成しておく。</li>
+<li>既存のサービスにもユーザーに対してより良くしたいという想いがあって始めていることが多いと思う。理想的にも伝わりがちだが、達成したい想いがなければモチベーションを維持するのが難しくなる。もしビジネスゴール寄りの儲かるなどの利益を追求するだけであればUXアプローチである必要はなくなる。広告や広報にフォーカスすればいい。</li>
+</ul>
+
+
+<h4>備考</h4>
+
+<ul>
+<li>プロジェクト用の情報共有サイト（JIRAやBasecampなど）があるなら作成したアイディアなどを掲載する。コンセプトはトップページに配置するぐらいに。</li>
+<li>以前はコンセプト後に要件定義フェイズを置いていたが、要件定義は機能要件を暗に含むことが多く、誤解を生みやすい。そのため要件定義は具体的なサービス内容が見えてくるストーリーフェイズの最終成果物とする。</li>
+</ul>
+
+
+<h4>用語</h4>
+
+<ul>
+<li>アイディア
+: 相反しやすいビジネスゴールとユーザーゴールを両立させる解決策や戦略</li>
+<li>コンセプト
+: アイディアを分かりやすくキャッチコピーにしたもの</li>
+<li>ビジョン
+: ゴールを達成させたい気持ちを表した組織の目指すべきものを表したもの。ミッションまで記載するとややこしくなるので厳密には分けない。狭義の意味では先の「感動を伝えたい」はミッション的だがビジョンとしてまとめて記載している。</li>
+</ul>
+
+
+<h4>成果物</h4>
+
+<ul>
+<li>ブレスト</li>
+<li>アイディア</li>
+<li>コンセプト</li>
+<li>ビジョン*</li>
+</ul>
+
+
+<br/>
+
+
+<h3>3.ストーリー</h3>
+
+<p>ユーザーの実際にどのようにしてゴールまで辿り着くかの流れを書き起こし、抽象的なコンセプトを具体的なサービス内容に落としこむ</p>
+
+<h4>作業内容</h4>
+
+<p>アイディアをシナリオによってサービス内容を具体化する。</p>
+
+<h4>順序</h4>
+
+<ol>
+<li>プロットを構成する</li>
+<li>シナリオを書く*</li>
+<li>ジャーニーマップを描く*</li>
+<li>ストーリーボードを描く*</li>
+<li>機能要件をまとめる</li>
+</ol>
+
+
+<h4>作業</h4>
+
+<h5>3-1.プロットを構成する</h5>
+
+<ul>
+<li>この時にはもうアイディアあり、場合によっては実装しているかもしれない。ただアイディアだけではサービスを構成するには不十分で、もっとサービスを膨らませるためにアイディアをペルソナに当てはめた１日（又は数年でも）を表にまとめる。</li>
+<li>ユーザー（ペルソナ）が１日、もしかしたら数年を見越してそのサービスを使うことでメリットが何かを書き起こす。</li>
+<li>アイディアが効果を持つのはピンポイントなことも多いので、ペルソナの1日をイメージしながら考えると、朝はこうするかもしれない！とか、ここでXXXが無い！などのジャーニーマップでは抽象的過ぎて気づかなかった点を思い起こさせる。</li>
+<li>アイディアを膨らませて具体的なサービスにする。時間の流れの中でどこにサービスしたらいいかを考える。問題が出たり、しっくりこなかったらアイディアを考えなおす。</li>
+<li>機能要件でまとめる具体的なサービスはここで現れてくる。</li>
+<li>コンセプトが終わり、よし明日からシナリオを考えるぞ、ということにはならない。アイディアとシナリオは明確に区切れてるわけではなく、成果物として別であるだけある。アイディアを考えたらスイッチを入れ替えてすぐにシナリオに落としこむ。どんなシナリオも生まれる万能なコンセプトなんてものはない。
+
+<ul>
+<li><img src="http://taninno.github.io/images/post/plot.png"/></li>
+</ul>
+</li>
+</ul>
+
+
+<h5>3-2.シナリオを書く ＊</h5>
+
+<ul>
+<li>プロットを小説にしたものがシナリオになる。文章だけではなく、視覚化したジャーニーマップに含ませたり、4コマ漫画風にしたストーリーボードにしてもいい。どのアウトプットを使ってもアイディアがメリットを伝えられるようにする。</li>
+<li>シナリオは現実的になって、本当にユーザーが使ってくれるかを結構シビアに考える。ここで楽観的になって間違えるとアイディアが「夢」で終わる。</li>
+<li>以前はストーリーフェイズの最初の工程でシナリオを始めていたが、いきなりシナリオを作成するのは難しく、前段階で簡易なジャーニーマップと目次のようなプロットを用意する。</li>
+</ul>
+
+
+<h5>3-3.ジャーニーマップを描く ＊</h5>
+
+<ul>
+<li><p>ジャーニーマップには「体系的にタイムライン上のサービス構成をまとめた抽象的なもの」と「シナリオを視覚的に表現した個々の状況にフォーカスしたもの」の2種類があると考える。一般的なジャーニーマップは前者だと思うが、抽象的なジャーニーマップだけでは細かなところの誤解が生まれるかもしれないので、１人のペルソナと１つのメインシナリオをモチーフにした１つの体験を表す。</p>
+
+<ul>
+<li>前者
+
+<ul>
+<li><img src="http://taninno.github.io/images/post/former.png" width="320"/></li>
+<li><a href="http://www.adaptivepath.com/ideas/the-anatomy-of-an-experience-map">http://www.adaptivepath.com/ideas/the-anatomy-of-an-experience-map</a></li>
+</ul>
+</li>
+<li>後者
+
+<ul>
+<li><img src="http://taninno.github.io/images/post/latter.png" width="320"/></li>
+<li><a href="http://suedesign4.wordpress.com/deliverables/task-3/">http://suedesign4.wordpress.com/deliverables/task-3/</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>thatgamecompanyのPS3「風ノ旅ビト」で書いたゲーム全体のユーザー体験の推移を表したものは後者のジャーニーマップに近いかもしれないが、マップという狭義の意味は場合によっては人と異なるのでイメージを確認しておく。</p>
+
+<ul>
+<li><img src="http://taninno.github.io/images/post/journey.png" width="420"/></li>
+<li><a href="http://www.youtube.com/watch?v=S684RQHzmGA">http://www.youtube.com/watch?v=S684RQHzmGA</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h5>3-4.ストーリーボードを描く ＊</h5>
+
+<ul>
+<li>文章だけのシナリオではイメージが膨らみすぎ、チーム内で認識齟齬が生まれれるかもしれない。そんなときはペルソナを登場人物にしたマンガにする。4コマ漫画のように1つのタスク・シナリオごとに作成する。</li>
+</ul>
+
+
+<h5>3-5.機能要件をまとめる</h5>
+
+<ul>
+<li>プロットで記載したサービスやシナリオの途中で気付いたサービスを機能要件として一覧にする。</li>
+</ul>
+
+
+<h4>用語</h4>
+
+<ul>
+<li>プロット: 「順番(Step)」「小見出し(Title)」「ユーザーの行動(UserAction)」「ユーザーが思ったこと(UserEmotion)」「必要なサービス内容(Service)」「備考(Memo)」の表を記載していく工程になる。必要であれば「イメージ写真」や「場所」、「タッチポイント」などの列も追記する。この後は小見出しを元にシナリオを記載するが、プロットのボリューム次第ではシナリオはスキップするかもしれない。</li>
+</ul>
+
+
+<h4>成果物</h4>
+
+<ul>
+<li>プロット</li>
+<li>シナリオ*</li>
+<li>ジャーニーマップ*</li>
+<li>ストーリーボード*</li>
+<li>機能要件（プロットのServiceが主に該当する）</li>
+</ul>
+
+
+<h4>備考</h4>
+
+<ul>
+<li>プロットやシナリオに対してストーリーボードは形式の違いなのでどちらを使用してもよい。差はそれほど現れないと思う。慣れた方を用いる。</li>
+</ul>
+
+
+<br/>
+
+
+<h3>4.UI</h3>
+
+<p>具体的な画面イメージを描く</p>
+
+<h4>目的</h4>
+
+<p>シナリオで提示したサービス内容をUIとして図式化する。</p>
+
+<h4>順序</h4>
+
+<ol>
+<li>スケッチ</li>
+<li>詳細画面設計</li>
+<li>絵コンテ*</li>
+<li>情報構成*</li>
+<li>ガイドライン*</li>
+</ol>
+
+
+<h4>作業</h4>
+
+<h5>4-1.スケッチ</h5>
+
+<ul>
+<li>ここのでスケッチは画面アイディアの出発となる荒い状態になる。プロジェクト全員に向けて見せるわけではないので、鉛筆とスケッチブックで落書き以上速記以下の精度で画面を書いていく。
+
+<ul>
+<li><img src="http://taninno.github.io/images/post/sketch.jpg" width="320"/></li>
+</ul>
+</li>
+<li>画面と画面遷移は同時に進めていく。画面によって遷移を変更したり、遷移によって画面を変更することがある。</li>
+<li>画面レイアウトの考え方の1ではあるが画面設計は演劇と同じように舞台の背景や大道具を決めるのに似ていると思う。同じように画面遷移は場面の切り替えになる。現実の制約に即すというわけれではなく、デジタルならではのインタラクションも効果的だが、舞台演出において観客を悪い意味で驚かすことは望ましくない。垂れてるロープを引っ張ったら上から出てくるべきで、トラップのように下の床が無くなったり、右から矢が出てくるようなことは推奨されない。</li>
+<li>画面のインタラクションは画面のメンタルモデルに沿って考える。画面を演劇の舞台のように実際の空間があるように捉えて、役者と舞台装置がワープしないように気をつける。</li>
+<li>簡単な画面ができたらすぐに他の画面と繋げて遷移を確認する。タスクのフローチャートを画面行うとどうしても思ったのと違う所がでてくる。実際のデバイスやマウス・タッチやってみなとわからない。PCのWebならパワポで図形にリンク貼るでもいいので、なるべく実機で確認する。</li>
+<li>Leanやアジャイルで進めるならば、スケッチがある程度出来た段階で開発に着手することもあるかもしれない。小中規模開発向けとして生まれたアジャイルや、スタートアップは小規模のLeanにおいては少数精鋭のチームで組織されるならば、1pxの精度で指定されたワイヤーフレームでコミュニケーションする必要はあまりない。</li>
+</ul>
+
+
+<h5>4-2.詳細画面設計</h5>
+
+<ul>
+<li>一般的に、ワイヤーフレームと呼ばれるスケッチを綺麗にしたものは詳細画面設計の1つの要素として含まれる。スケッチはUIを考えるためにあるが、ワイヤーフレームはUIを誰かに伝えるためにあるため、説明や補足、遷移、又は全体の構成を含めた資料として作成する。Photoshopで作ったワイヤーフレーム単体では成果物とはならない。もし作る必要があっても、それはスケッチで十分のはずだと思う。</li>
+<li>詳細画面設計には全体の画面構成（Webならサイトマップ）からヘッダー・フッターや基本レイアウト画面などの共通項目、そして各画面の詳細画面を記載する。</li>
+<li>エラーなどのイレギュラーケースの表現もここで記載する。</li>
+<li>ここでのワイヤーフレームはスケッチから見えてきた画面のコンポジションやレイアウトを清書する段階になる。ワイヤーフレームからはやり取りする対象が広がる。例えばビジュアルデザイナーに渡す資料としてワイヤーフレームが土台になるためある分かりやすくに描いておく。可能であれば専用ツールを使用することで効率が良くなるため、なるべく利用する。
+
+<ul>
+<li><a href="http://proto.io/">http://proto.io/</a></li>
+<li><a href="http://uxpin.com/">http://uxpin.com/</a></li>
+<li><a href="http://giveabrief.com/">http://giveabrief.com/</a></li>
+<li><a href="http://www.infragistics.com/products/indigo-studio">http://www.infragistics.com/products/indigo-studio</a></li>
+</ul>
+</li>
+<li>ただし、ワイヤーフレームは画面設計者とビジュアルデザイナー、デベロッパーが分業してるプロセスに置いては有効だが、画面設計者が画面デザイン、ないし開発も兼ねるのであればワイヤーフレームは必要性が無くなる。ただ１人で全てを行うのは難しいので、理想的なのはUXデザイナーがビジュアルデザインと開発がちょっと出来ることで、ワイヤーフレームを渡すよりも相手のフィールドに合ったファイル形式（デザインであればPhotoshop、開発であればView側のファイルなど）でバトンを渡せるといったことになる。</li>
+</ul>
+
+
+<h5>4-3.絵コンテ ＊</h5>
+
+<ul>
+<li>アニメは絵コンテをもとにレイアウトと原画を作るように、アプリケーションやサービスもアニメーションが関係する箇所には絵コンテを用意する。RIAやデスクトップアプリケーション、組み込みでは特にアニメーションによる演出が重要になる。ここでのアニメーションはインタラクションとも呼ばれるユーザーの操作にたいするフィードバックをインタラクションで返すことも含む。</li>
+<li>インタラクションはすでにスケッチの段階で考察されている前提になる。ここではチーム間の共有や成果物としての提出の必要がある場合にこのタイミングに設定した。納品物としてだけの意味合いであれば後ろにずらしたほうがいい。</li>
+<li>ここでのインタラクションは画面遷移やコンポーネントの詳細、アニメーションを記載した絵コンテのようなものになる。ワイヤーフレームの余白に描くこともあるが、量がある場合は専用のシートを用いて書き起こす。</li>
+<li>インタラクションにはユーザーの待ち時間を短く感じさせたり、画面内の情報レベルを表示の順番やパターンで暗に知らせることも負う。画面遷移のトランジションもこれに含まれる。</li>
+<li>絵コンテと言ってもプロが作るようなものではなくチラシの裏側で描くレベルで十分にある。</li>
+</ul>
+
+
+<h5>4-4.情報構成 ＊</h5>
+
+<ul>
+<li>詳細画面設計に入れるには規模が大きい場合には別添として、サイトマップのようなツリーマップを作成する。</li>
+<li>追加のコンテンツがあっても上記に照らしあわせて、ふさわしい場所に配置する。</li>
+</ul>
+
+
+<h5>4-4.ガイドライン ＊</h5>
+
+<ul>
+<li>ワイヤーフレームを作成している段階である程度の共通項目が現れてくると思う。それを1つにまとめた資料がレイアウトガイドラインになる。量が少なく詳細画面設計に収まれば別添資料にしなくてもいい。</li>
+<li>ガイドラインという主にはデザインの指向性を記載したグランドデザインガイドラインやLOOK&amp;FEELのようなボタンやアイコンなどのビジュアルを記載したデザインガイドライン、アプリケーションの挙動や振る舞いの方針をまとめたインタラクションガイドラインなどがある。</li>
+<li>ただしルールが多くなると誰も守らなくなってしまう。やる気の問題ではなく、量が多いガイドラインは順守することが不可能になる。ガイドラインは暗記するものではなく、コンセプトやビジョンを汲み取ってもらうことが大切になる。ガイドラインをチェックリストとして扱うと破綻してしまう。</li>
+</ul>
+
+
+<h4>備考</h4>
+
+<h4>成果物</h4>
+
+<ul>
+<li>スケッチ</li>
+<li>ワイヤーフレーム</li>
+<li>画面遷移図（サイトマップやフローチャートを兼ねる）</li>
+<li>絵コンテ</li>
+<li>IA</li>
+<li>ガイドライン</li>
+</ul>
+
+
+<br/>
+
+
+<h3>4.1.プロトタイプ（option）</h3>
+
+<h4>目的</h4>
+
+<p>具体的なサービス画面まで設計した段階で完成形のイメージの共有を行う。</p>
+
+<h4>備考</h4>
+
+<ul>
+<li>ここはラピッドプロトタイプではなくて、ちゃんとしたものを作るイメージ。ラピッドプロトタイプ的なのは既にストーリーやUIのフェイズでモックアップなどのユーザーテストを行なっている前提とする。そのため、既にイメージが見えていればこのフェイズはスキップする。</li>
+<li>大型案件であればステークホルダーが多いため、イメージ共有を目的とした実演を実施することを推奨する。</li>
+<li>ここでのプロトタイプは技術調査を目的としない。技術調査はアイディアやUIの段階で（大変だが）検証している前提。R&amp;Dのような技術検証が目的である場合を除き、技術的に未検証のアイディアをこの段階まで進めない。アイディアやUIの実現性は技術者と常に確認を行う。</li>
+<li>ペーパープロトタイピングではない。ペーパープロトタイピングは実際のデバイス上で確認するよりも精度が下がると考え推奨しない。現在はプロトタイピングツールを利用することにより、ペーパープロトタイピングと同じ時間コストで同等以上のモックアップを作成可能である。</li>
+</ul>
+
+
+<h4>成果物</h4>
+
+<ul>
+<li>プロトタイプ</li>
+</ul>
+
+
+<br/>
+
+
+<h3>5.ビジュアルデザイン</h3>
+
+<h4>目的</h4>
+
+<p>ビジュアルイメージを具体的なアピアランスに移行する。</p>
+
+<h4>備考</h4>
+
+<ul>
+<li>アイディアを話している時からおそらくビジュアルのイメージはできてるはずで、ここではビジュアルの広報性を議論するのではなく、スキンの開発を行う。</li>
+<li>5番である必要はない。</li>
+</ul>
+
+
+<h4>成果物</h4>
+
+<ul>
+<li>アピアランスのスキン</li>
+</ul>
+
+
+<br/>
+
+
+<h3>6.開発</h3>
+
+<h4>目的</h4>
+
+<p>コンセプト(UX)とUIを実現する。</p>
+
+<h4>備考</h4>
+
+<ul>
+<li>開発まで1人でやるなら問題ないけど、誰かにお願いするなら遷移の時間感覚やアニメーションのフィーリングを身振り手振りで頑張ってわかるまで伝える。</li>
+<li>小規模案件ではプロトタイプを飛ばし、ビジュアルデザインを並行する形で、UI設計段階の途中から開発に着手することもある。</li>
+<li>リリース頻度を高くできるようにCI、デプロイ整備を行う。</li>
+<li>良いプログラミングを行う。</li>
+</ul>
+
+
+<h4>成果物</h4>
+
+<ul>
+<li>継続的に提供可能なサービス</li>
+</ul>
+
+
+<br/>
+
+
+<h3>7.フィードバック</h3>
+
+<h4>目的</h4>
+
+<p>提供可能になったサービスをフィードバックを得る</p>
+
+<h4>備考</h4>
+
+<ul>
+<li>ユーザーリサーチ・ユーザーテスト・ユーザビリティテスト・A/Bテスト・サイト分析・コンバージョン率・SEO</li>
+<li>Leanでは親しい顧客に先行して使用もらい、改善案を見つける。</li>
+</ul>
+
+
+<h4>成果物</h4>
+
+<ul>
+<li>改善案</li>
+</ul>
+
+
+<br/>
+
+
+<h2>補足</h2>
+
+<ul>
+<li>2以降はいつでも1に戻り、3以降はいつでも2に戻り。（以下同じ）</li>
+<li>アイディアやシナリオの時に技術調査や検証をいつでもできるように技術調査フェイズを予め予定しない。6.のプロトタイプは大型案件で全関係者へのお披露目の扱い。</li>
+<li>ペルソナはあまり作りこまないで、ユーザーにサービス内容や成果物の出来を聞くようにする。</li>
+<li>各工程で疑問や分からないことがあったらノートに書く。その疑問への考えと考えの流れをノートに書く。読み返した時に面白いし、たぶんチーム内の方向性の共有にも使える。WIKIでもbasecampでもyammerにしてもいい。</li>
+<li>ユーザーテストの時期は特に規定しない。その時時の期間によって可能な限りのテストを実施する。</li>
+<li>プロトタイプとテストのフェイズが独立しているが、試作とフィードバックは常に行う。ただ小回りがきかない受託型のUXでは常に行うのは現実的に難しく、予算の承認のためにも項目としてのこしている。</li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">taninno</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-16T12:43:00+09:00" pubdate data-updated="true">2013/05/16</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/ux/'>ux</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/" data-via="" data-counturl="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/02/18/hart/" title="Previous Post: Hart">&laquo; Hart</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/09/12/justinmind-prototyper/" title="Next Post: Prototyperでモックアップ中心のワークフロー">Prototyperでモックアップ中心のワークフロー &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/09/12/justinmind-prototyper/">Prototyperでモックアップ中心のワークフロー</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/05/16/my-ux-design-approach/">UXデザインアプローチ（受託UX寄り）</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/18/hart/">Hart</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/17/rails-command/">Generate Rails Command</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/15/windowsphone-on-jenkins/">jenkinsでgit管理のWindowsPhoneをビルドする</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - taninno -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
