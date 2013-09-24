@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2013-09-23T10:30:32+09:00</updated>
+  <updated>2013-09-25T00:42:49+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -200,13 +200,19 @@ via : Prototyper <a href="http://www.justinmind.com/">http://www.justinmind.com/
 
 <p><img src="http://taninno.github.io/images/prototyper/wf.png" width="240"/><br/>
 画面を綺麗に描いてもUIの操作感は検証することができません。<br/>
-via : Inspiring UI Wireframe Sketches <a href="http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches">http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches</a></p>
+Inspiring UI Wireframe Sketches <a href="http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches">http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches</a></p>
 
 <p>動くものを作らなくても、パワポやPhotoshopなどで作った画面をペーパープロトタイピングすることもありますが、できれば早い時期にスケッチでおおよそのイメージが掴めてきたら、それを検証するためにも操作可能なモックアップを作成すると良いと思います。ペーパープロトはスケッチ段階中であれば自分またはチーム間の確認のためには有効だと思いますが、ユーザーテストに使用するには被験者に慣れと画面を想像するスキルが求められることになります。ユーザーに試していただくためにもスケッチを手短にして早めにモックアップに着手することが効率が良いと考えています。</p>
 
 <p><img src="http://taninno.github.io/images/prototyper/sketch.png"/><br/>
 スケッチは綺麗に書かず、これくらいレベルでモックアップに着手します。<br/>
-via : 受諾UXアプローチ <a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/</a></p>
+受諾UXアプローチ <a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/</a></p>
+
+<p>HTMLなどの知識があれば、Prototyperなどの専用ツールではなく、HTMLを作成すればより早く開発に着手することができ、工数を短縮できます。</p>
+
+<p><img src="http://taninno.github.io/images/prototyper/responsive.png" width="240" /><br/>
+<strong>Create a responsive wireframe</strong><br/>
+<a href="http://www.creativebloq.com/javascript/create-responsive-wireframe-3133034">http://www.creativebloq.com/javascript/create-responsive-wireframe-3133034</a></p>
 
 <br/>
 
