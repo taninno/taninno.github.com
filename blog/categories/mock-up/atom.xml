@@ -4,7 +4,7 @@
   <title><![CDATA[Category: mock-up | taninnosorani blog]]></title>
   <link href="http://taninno.github.io/blog/categories/mock-up/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2013-09-25T00:42:49+09:00</updated>
+  <updated>2013-10-03T23:49:14+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -65,50 +65,78 @@
 
 <p>モックアップやワイヤーフレーム、プロトタイプなどの言葉がどの範囲なのかを以下で定義します。これは人によっては異なるかと思いますので、ここでは以下の意味で進めています。</p>
 
-<ul>
-<li><strong>スケッチ</strong>：画面のイメージを紙に描いたもの。画面の要素を考察する。<br/>
-<img src="http://taninno.github.io/images/post/sketch.jpg" width="180"/><br/>
-スケッチのイメージ</li>
-</ul>
+<h4><strong>スケッチ</strong></h4>
 
+<p>画面のイメージを紙と鉛筆で描いたものです。画面の要素を検討するために整理に使用します。<br/>
+<img src="http://taninno.github.io/images/prototyper/linowski.png" width="320"/><br/>
+Linowskiが公開しているスケッチのパターンルールです。スケッチのIllustratorのテンプレートを有償配布しているので宜しければ購入されてもいいかもしれません。図はテンプレートの説明PDFですが、これだけでもスケッチの参考になります。PDFは以下のページの下のほうにあります。<br/>
+<a href="http://www.linowski.ca/sketching.php">http://www.linowski.ca/sketching.php</a></p>
 
 <br/>
 
 
-<ul>
-<li><strong>ワイヤーフレーム</strong>：紙またはPowerPointやPhotoshopなどのツールで画面を書き表したもの。要素のレイアウトやサイズを考察する。<br/>
+<p><img src="http://taninno.github.io/images/post/sketch.jpg" width="180"/><br/>
+読書メモサービスHartのスケッチです。<br/>
+<a href="http://hart.herokuapp.com">http://hart.herokuapp.com</a></p>
+
+<br/>
+
+
+<h4><strong>ワイヤーフレーム</strong></h4>
+
+<p>紙またはPowerPointやPhotoshopなどのツールで画面を書き表したものです。要素のレイアウトやサイズを考察します。<br/>
 <img src="http://taninno.github.io/images/prototyper/wf2.png" width="140"/><br/>
 ワイヤーフレームのイメージ<br/>
-Putting it All Together: Wireframing the Example App <a href="http://developer.android.com/training/design-navigation/wireframing.html">http://developer.android.com/training/design-navigation/wireframing.html</a></li>
-</ul>
-
+Putting it All Together: Wireframing the Example App <a href="http://developer.android.com/training/design-navigation/wireframing.html">http://developer.android.com/training/design-navigation/wireframing.html</a></p>
 
 <br/>
 
 
-<ul>
-<li><strong>モックアップ</strong>：ハリボテをあたかも実際に動いているように見せて画面の操作感や画面間の遷移を確認する。デザインがあたっている状態ができれば好ましいが鉛筆で書いたラフスケッチを配置して確認することにも用いられる。例えば、パワポなどのツールでページにシェイプを配置してそれをプレゼンテーションモードでクリックしてページを移動させたもの、またはデザイナーがPhotoshopで作成した画面を画面遷移できるようにしたもの。ラピッドプロトタイプ。<br/>
+<h4><strong>モックアップ</strong></h4>
+
+<p>ハリボテをあたかも実際に動いているように見せて画面の操作感や画面間の遷移を確認するものです。ラピッドプロトタイプとも言えるかもしれません。。デザインがあたっている状態ができれば好ましいですが、鉛筆で書いたラフスケッチを配置して確認することにも用いられるかもしれません。モックアップは人によってペーパープロトタイプなどからパソコンで作った画面までを含むと思います。個人的にはペーパープロトタイプはモックアップですが、モックアップとだけ言う時はパワポなどのツールでページにシェイプを配置してそれをプレゼンテーションモードでクリックしてページを移動させたものを指すようにしています。またはデザイナーがPhotoshopで作成した画面を画面遷移できるようにしたものも含みます。<br/>
 <img src="http://taninno.github.io/images/prototyper/power.png" width="480"/><br/>
 モックアップ作成イメージ<br/>
-PowerMockup <a href="http://www.powermockup.com/">http://www.powermockup.com/</a></li>
-</ul>
-
+PowerMockup <a href="http://www.powermockup.com/">http://www.powermockup.com/</a></p>
 
 <br/>
 
 
-<ul>
-<li><strong>プロトタイプ</strong>：製品版と同じ技術を使用したプロダクトレベルでの確認用の成果物。場合によってはソースコードがそのままプロダクトに流用されることもあるが、そのような場合にはアーキテクチャレベルでの議論も含める必要がでてくるため注意が必要。モックアップとは違い一枚絵で表記されていたボタンなども製品と同じコンポーネントで、WebでればHTMLでCSSで装飾し、AndroidならレイアウトXMLで宣言する。そのため実際の開発で使用するIDEなどを使用することが多い。UIの検証というよりは非機能要件の検証の意味合いが強くなる。<br/>
+<h4><strong>プロトタイプ</strong></h4>
+
+<p>製品版と同じ技術を使用したプロダクトレベルでの確認用の成果物です。どちらかと言うとブレッドボード・プロトタイピングかもしれません。ソースコードがそのままプロダクトに流用されることもありますが、そのような場合にはアーキテクチャレベルでの議論も含める必要がでてくるため注意が必要です。モックアップとは違い一枚絵で表記されていたボタンなども製品と同じコンポーネントで、WebでればHTMLでCSSで装飾し、AndroidならレイアウトXMLで宣言します。そのため実際の開発で使用するIDEなどを使用することが多く、UIの検証というよりは非機能要件の検証の意味合いが強くなります。<br/>
 <img src="http://taninno.github.io/images/prototyper/blend.png" width="480"/><br/>
 Windows ストア アプリのプロトタイプ作成イメージ<br/>
-Visual Studio 2013 <a href="http://www.microsoft.com/visualstudio">http://www.microsoft.com/visualstudio</a></li>
-</ul>
+Visual Studio 2013 <a href="http://www.microsoft.com/visualstudio">http://www.microsoft.com/visualstudio</a></p>
+
+<br/>
+
+
 
 
 <br/>
 
 
-<h3>3.モックアップツール</h3>
+<h3>3.それぞれの成果物の作成目的</h3>
+
+<p>それぞれの方法は目的が違いますが、全体としてはより具体的に（ローフィデリティからハイフィデリティ）段階を移していきます。全てを通るわけではなく、個人的には1→4が多いです。</p>
+
+<p>ローフィデリティ<br/>
+↑</p>
+
+<ol>
+<li>紙に手書きするスケッチ → 画面のアイディアを考察するため</li>
+<li>ペーパープロトタイプ → 専門チーム内でのインタラクションの共通理解のため</li>
+<li>一枚絵のモックアップ → ビジュアルを含めたインタラクションの早期確認のため（デザインが既にある場合のみ）</li>
+<li>操作可能なモックアップ → UIの操作性の検証とUXの実現可能性を検証のため</li>
+<li>ソースコードから作るプロトタイプ → 技術検証や非機能要件の検証のため</li>
+</ol>
+
+
+<p>↓<br/>
+ハイフィデリティ</p>
+
+<h3>4.モックアップツール</h3>
 
 <p><strong>Designer’s Toolkit: Road Testing Prototype Tools</strong><br/>
 <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes">http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes</a></p>
@@ -133,7 +161,7 @@ via : <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-tes
 <br/>
 
 
-<h3>4.Prototyper</h3>
+<h3>5.Prototyper</h3>
 
 <p>PrototyperはJustinmind社によるプロトタイピングツールです。プロトタイプツールにはproto.ioなどのWebブラウザが多いですが、Prototypeは珍しくスタンドアローンのデスクトップアプリです。</p>
 
@@ -152,7 +180,7 @@ via : Prototyper <a href="http://www.justinmind.com/">http://www.justinmind.com/
 <br/>
 
 
-<h3>5.モックアップにはインタラクションが必要</h3>
+<h3>6.モックアップにはインタラクションが必要</h3>
 
 <p>先のモックアップの説明ではPOPのような一枚絵を使用すると記載しましたが、Prototyperやproto.ioなどのインタラクションが設定できるツールを活用させてもらうことでモックアップ段階でもボタンやテキストフィールドなどのコンポーネントを操作可能な状態の画面をスマートフォンなどの実機で操作することができるようになります。</p>
 
@@ -165,21 +193,6 @@ via : Prototyper <a href="http://www.justinmind.com/">http://www.justinmind.com/
 <p><img src="http://taninno.github.io/images/prototyper/device.png" width="auto"/><br/>
 PowerPointのような感覚でスクロール可能な実機のモックアップを作ることが出来ます<br/>
 via : Prototyper <a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
-
-<br/>
-
-
-<h3>6.それぞれの成果物の作成目的</h3>
-
-<p>ローフィデリティ<br/>
-↑<br/>
-紙に手書きするスケッチ → 画面のアイディアを考察するため<br/>
-ペーパープロトタイプ → 専門チーム内でのインタラクションの共通理解のため<br/>
-一枚絵のモックアップ → ビジュアルを含めたインタラクションの早期確認のため（デザインが既にある場合のみ）<br/>
-操作可能なモックアップ → UIの操作性の検証とUXの実現可能性を検証のため <br/>
-ソースコードから作るプロトタイプ → 技術検証や非機能要件の検証のため<br/>
-↓<br/>
-ハイフィデリティ</p>
 
 <br/>
 
