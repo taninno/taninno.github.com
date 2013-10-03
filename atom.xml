@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2013-10-04T00:13:49+09:00</updated>
+  <updated>2013-10-04T00:16:44+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -61,6 +61,9 @@
 <br/>
 
 
+<br/>
+
+
 <h3>2.スケッチとワイヤーフレーム、モックアップ、プロトタイプの扱い</h3>
 
 <p>モックアップやワイヤーフレーム、プロトタイプなどの言葉がどの範囲なのかを以下で定義します。これは人によっては異なるかと思いますので、ここでは以下の意味で進めています。</p>
@@ -112,8 +115,6 @@ Visual Studio 2013 <a href="http://www.microsoft.com/visualstudio">http://www.mi
 <br/>
 
 
-
-
 <br/>
 
 
@@ -135,6 +136,12 @@ Visual Studio 2013 <a href="http://www.microsoft.com/visualstudio">http://www.mi
 
 <p>↓<br/>
 ハイフィデリティ</p>
+
+<br/>
+
+
+<br/>
+
 
 <h3>4.モックアップツール</h3>
 
@@ -163,6 +170,9 @@ via : <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-tes
 <br/>
 
 
+<br/>
+
+
 <h3>5.Prototyper</h3>
 
 <p>PrototyperはJustinmind社によるモックアップツールです。モックアップツールにはproto.ioなどのWebブラウザが多いですが、Prototypeは珍しくスタンドアローンのデスクトップアプリです。</p>
@@ -180,6 +190,9 @@ via : Prototyper <a href="http://www.justinmind.com/">http://www.justinmind.com/
 <br/>
 
 
+<br/>
+
+
 <h3>6.モックアップにはインタラクションが必要</h3>
 
 <p>先のモックアップの説明ではPOPのような一枚絵を使用すると記載しましたが、Prototyperやproto.ioなどのインタラクションが設定できるツールを活用させてもらうことでモックアップ段階でもボタンやテキストフィールドなどのコンポーネントを操作可能な状態の画面をスマートフォンなどの実機で操作することができるようになります。</p>
@@ -193,6 +206,9 @@ via : Prototyper <a href="http://www.justinmind.com/">http://www.justinmind.com/
 <p><img src="http://taninno.github.io/images/prototyper/device.png" width="auto"/><br/>
 PowerPointのような感覚でスクロール可能な実機のモックアップを作ることが出来ます<br/>
 via : Prototyper <a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
+
+<br/>
+
 
 <br/>
 
@@ -226,6 +242,9 @@ Inspiring UI Wireframe Sketches <a href="http://webdesignledger.com/inspiration/
 <p><img src="http://taninno.github.io/images/prototyper/responsive.png" width="240" /><br/>
 <strong>Create a responsive wireframe</strong><br/>
 <a href="http://www.creativebloq.com/javascript/create-responsive-wireframe-3133034">http://www.creativebloq.com/javascript/create-responsive-wireframe-3133034</a></p>
+
+<br/>
+
 
 <br/>
 
