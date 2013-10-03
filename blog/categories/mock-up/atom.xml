@@ -4,7 +4,7 @@
   <title><![CDATA[Category: mock-up | taninnosorani blog]]></title>
   <link href="http://taninno.github.io/blog/categories/mock-up/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2013-10-04T00:16:44+09:00</updated>
+  <updated>2013-10-04T00:33:33+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -71,14 +71,14 @@
 <h4><strong>スケッチ</strong></h4>
 
 <p>画面のイメージを紙と鉛筆で描いたものです。画面の要素を検討するために整理に使用します。<br/>
-<img src="http://taninno.github.io/images/prototyper/linowski.png" width="320"/><br/>
+<img src="../images/prototyper/linowski.png" width="320"/><br/>
 Linowskiが公開しているスケッチのパターンルールです。スケッチのIllustratorのテンプレートを有償配布しているので宜しければ購入されてもいいかもしれません。図はテンプレートの説明PDFですが、これだけでもスケッチの参考になります。PDFは以下のページの下のほうにあります。<br/>
 <a href="http://www.linowski.ca/sketching.php">http://www.linowski.ca/sketching.php</a></p>
 
 <br/>
 
 
-<p><img src="http://taninno.github.io/images/post/sketch.jpg" width="180"/><br/>
+<p><img src="http://taninno.github.io/images/post/sketch.jpg" width="240"/><br/>
 読書メモサービスHartのスケッチです。<br/>
 <a href="http://hart.herokuapp.com">http://hart.herokuapp.com</a></p>
 
@@ -185,7 +185,8 @@ via : <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-tes
 
 <p><img src="http://taninno.github.io/images/prototyper/word.png" width="240"/><br/>
 Wordへ出力する画面を選択できます<br/>
-via : Prototyper <a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
+Prototyper<br/>
+<a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
 
 <br/>
 
@@ -199,13 +200,15 @@ via : Prototyper <a href="http://www.justinmind.com/">http://www.justinmind.com/
 
 <p><img src="http://taninno.github.io/images/prototyper/input.png" width="240"/><br/>
 Prototyperのコンポーネントは実際に文字入力をすることもできます<br/>
-via : Prototyper <a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
+Prototyper<br/>
+<a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
 
 <p>インタラクションを設定するのは少し手間ですが、このレベルでの画面操作を盛り込むことで、早期に実際の製品にとても近い操作でユーザーテストを実施することができます。これは実機で操作できることに意味があります。特にモバイルではスマートフォンのタップしやすい領域内にボタンがあるかどうかなどを確認する必要があります。そして画面がスクロールできることやタップしやすいかなどの基本的なUIの検証を行います。これをワイヤーフレームやプロトタイピングなどの少し工程が進んだ時に行っては、間違いに気付いたとしても手戻りが多くなってしまいます。</p>
 
 <p><img src="http://taninno.github.io/images/prototyper/device.png" width="auto"/><br/>
 PowerPointのような感覚でスクロール可能な実機のモックアップを作ることが出来ます<br/>
-via : Prototyper <a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
+Prototyper<br/>
+<a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
 
 <br/>
 
@@ -229,19 +232,33 @@ via : Prototyper <a href="http://www.justinmind.com/">http://www.justinmind.com/
 
 <p><img src="http://taninno.github.io/images/prototyper/wf.png" width="240"/><br/>
 画面を綺麗に描いてもUIの操作感は検証することができません。<br/>
-Inspiring UI Wireframe Sketches <a href="http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches">http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches</a></p>
+Inspiring UI Wireframe Sketches<br/>
+<a href="http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches">http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches</a></p>
 
 <p>動くものを作らなくても、パワポやPhotoshopなどで作った画面をペーパープロトタイピングすることもありますが、できれば早い時期にスケッチでおおよそのイメージが掴めてきたら、それを検証するためにも操作可能なモックアップを作成すると良いと思います。ペーパープロトはスケッチ段階中であれば自分またはチーム間の確認のためには有効だと思いますが、ユーザーテストに使用するには被験者に慣れと画面を想像するスキルが求められることになります。ユーザーに試していただくためにもスケッチを手短にして早めにモックアップに着手することが効率が良いと考えています。</p>
 
 <p><img src="http://taninno.github.io/images/prototyper/sketch.png"/><br/>
 スケッチは綺麗に書かず、これくらいレベルでモックアップに着手します。<br/>
-受諾UXアプローチ <a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/</a></p>
+受諾UXアプローチ<br/>
+<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/</a></p>
 
-<p>HTMLなどの知識があれば、Prototyperなどの専用ツールではなく、HTMLを作成すればより早く開発に着手することができ、工数を短縮できます。</p>
+<br/>
 
-<p><img src="http://taninno.github.io/images/prototyper/responsive.png" width="240" /><br/>
+
+<p>さらにHTMLなどの知識があるコーダーの方であれば、Prototyperなどの専用ツールではなく、HTMLを作成すればより早く開発に着手することができ、工数を短縮できます。</p>
+
+<p><img src="../images/prototyper/responsive.png" width="240" /><br/>
 <strong>Create a responsive wireframe</strong><br/>
 <a href="http://www.creativebloq.com/javascript/create-responsive-wireframe-3133034">http://www.creativebloq.com/javascript/create-responsive-wireframe-3133034</a></p>
+
+<br/>
+
+
+<p>または、Photoshopなどのデザインツールに慣れている方は、Photoshop上でから実機で確認ができるインタラクティブなモックアップを作成することができるようになります。まだ公開されていませんが、これによりUIフェイズからDesignフェイズをさらに効率を上げて短縮することが可能になるかもしれません。</p>
+
+<p><img src="../images/prototyper/stand.png" width="320" /><br/>
+<strong>stand in</strong><br/>
+<a href="http://standin.io/">http://standin.io/</a></p>
 
 <br/>
 
