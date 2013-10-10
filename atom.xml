@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2013-10-11T00:18:30+09:00</updated>
+  <updated>2013-10-11T00:24:25+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -94,7 +94,8 @@ Linowskiが公開しているスケッチのパターンルールです。スケ
 <p>紙またはPowerPointやPhotoshopなどのツールで画面を書き表したものです。要素のレイアウトやサイズを考察します。<br/>
 <img src="http://taninno.github.io/images/prototyper/wf2.png" width="140"/><br/>
 ワイヤーフレームのイメージ<br/>
-Putting it All Together: Wireframing the Example App <a href="http://developer.android.com/training/design-navigation/wireframing.html">http://developer.android.com/training/design-navigation/wireframing.html</a></p>
+Putting it All Together: Wireframing the Example App<br/>
+<a href="http://developer.android.com/training/design-navigation/wireframing.html">http://developer.android.com/training/design-navigation/wireframing.html</a></p>
 
 <br/>
 
@@ -104,7 +105,8 @@ Putting it All Together: Wireframing the Example App <a href="http://developer.a
 <p>ハリボテをあたかも実際に動いているように見せて画面の操作感や画面間の遷移を確認するものです。ラピッドプロトタイプとも言えるかもしれません。デザインがあたっている状態ができれば好ましいですが、鉛筆で書いたラフスケッチを配置して確認することにも用いられることもあります。モックアップは人によってペーパープロトタイプなどからパソコンで作った画面までを広く含む少し誤解を生みやすい言葉です。個人的にはペーパープロトタイプもモックアップですが、モックアップとだけ言う時はパワポなどのツールでページにシェイプを配置してそれをプレゼンテーションモードでクリックしてページを移動させたものを指すようにしています。またはデザイナーがPhotoshopで作成した画面を画面遷移できるようにしたものも含みます。<br/>
 <img src="http://taninno.github.io/images/prototyper/power.png" width="480"/><br/>
 モックアップ作成イメージ<br/>
-PowerMockup <a href="http://www.powermockup.com/">http://www.powermockup.com/</a></p>
+PowerMockup<br/>
+<a href="http://www.powermockup.com/">http://www.powermockup.com/</a></p>
 
 <br/>
 
@@ -114,7 +116,8 @@ PowerMockup <a href="http://www.powermockup.com/">http://www.powermockup.com/</a
 <p>製品版と同じ技術を使用したプロダクトレベルでの確認用の成果物です。どちらかと言うとブレッドボード・プロトタイピングかもしれません。ソースコードがそのままプロダクトに流用されることもありますが、そのような場合にはアーキテクチャレベルでの議論も含める必要がでてくるため注意が必要です。モックアップとは違い一枚絵で表記されていたボタンなども製品と同じコンポーネントで、WebでればHTMLでCSSで装飾し、AndroidならレイアウトXMLで宣言します。そのため実際の開発で使用するIDEなどを使用することが多く、UIの検証というよりは非機能要件の検証の意味合いが強くなります。目的としてはプロトタイプでは技術検証や非機能要件の検証、モックアップは主にUIの操作性の検証とUXの実現可能性を検証します。<br/>
 <img src="http://taninno.github.io/images/prototyper/blend.png" width="480"/><br/>
 Windows ストア アプリのプロトタイプ作成イメージ<br/>
-Visual Studio 2013 <a href="http://www.microsoft.com/visualstudio">http://www.microsoft.com/visualstudio</a></p>
+Visual Studio 2013<br/>
+<a href="http://www.microsoft.com/visualstudio">http://www.microsoft.com/visualstudio</a></p>
 
 <br/>
 
@@ -164,18 +167,16 @@ Inspiring UI Wireframe Sketches<br/>
 
 <h3>5.モックアップにはインタラクションが必要</h3>
 
-<p>先のモックアップの説明ではPOPのような一枚絵を使用すると記載しましたが、Prototyperやproto.ioなどのインタラクションが設定できるツールを活用させてもらうことでモックアップ段階でもボタンやテキストフィールドなどのコンポーネントを操作可能な状態の画面をスマートフォンなどの実機で操作することができるようになります。</p>
+<p>Prototyperやproto.ioなどのインタラクションが設定できるツールを利用することで、ボタンやテキストフィールドなどのコンポーネントを操作可能な状態の画面をスマートフォンなどの実機で操作することができるようになります。</p>
 
 <p><img src="http://taninno.github.io/images/prototyper/input.png" width="240"/><br/>
-Prototyperのコンポーネントは実際に文字入力をすることもできます<br/>
-Prototyper<br/>
+テキストフィールドコンポーネントに実際に文字入力をすることもできます<br/>
 <a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
 
-<p>インタラクションを設定するのは少し手間ですが、このレベルでの画面操作を盛り込むことで、早期に実際の製品にとても近い操作でユーザーテストを実施することができます。これは実機で操作できることに意味があります。特にモバイルではスマートフォンのタップしやすい領域内にボタンがあるかどうかなどを確認する必要があります。そして画面がスクロールできることやタップしやすいかなどの基本的なUIの検証を行います。これをワイヤーフレームやプロトタイピングなどの少し工程が進んだ時に行っては、間違いに気付いたとしても手戻りが多くなってしまいます。</p>
+<p>インタラクションを設定するのは少し手間ですが、このレベルでの画面操作を盛り込むことで、早期に実際の製品にとても近い操作でユーザーテストを実施することができます。実機で操作できますので、特にモバイルではスマートフォンのタップしやすい領域内にボタンがあるかなどを体感できます。そして画面がスクロールできることやタップしやすいかなどの基本的なUIの検証を行います。これらの操作感はペーパープロトタイプではできなく、ワイヤーフレームやプロトタイピングなどの少し工程が進んだ時では、間違いに気付いたとしても手戻りが多くなってしまいます。</p>
 
 <p><img src="http://taninno.github.io/images/prototyper/device.png" width="auto"/><br/>
 PowerPointのような感覚でスクロール可能な実機のモックアップを作ることが出来ます<br/>
-Prototyper<br/>
 <a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
 
 <br/>
@@ -243,16 +244,14 @@ via : <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-tes
 
 <p>私はモックアップの作成にPrototyperを使用しています。PrototyperはJustinmind社によるモックアップツールです。モックアップツールにはproto.ioなどのWebブラウザ型が多いですが、Prototypeはスタンドアローンのデスクトップアプリです。</p>
 
-<p><strong>Prototyper</strong><br/>
-<a href="http://www.justinmind.com/">http://www.justinmind.com/</a><br/>
-<img src="http://taninno.github.io/images/prototyper/prototyper.png" width="240"/></p>
+<p><img src="http://taninno.github.io/images/prototyper/prototyper.png" width="240"/><br/>
+<strong>Prototyper</strong><br/>
+<a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
 
 <p>製品名にはプロトタイプ（“prototype”）が含まれていますが、製品に近い技術で作成されるプロトタイプというよりは、動きやコンポジションなどを確認するモックアップに近いです。PrototyperではさらにWordやPDFへの画面仕様書の自動出力機能があります。仕様書に載せる画面はツールから出力したものを使用します。手戻りがあっても画面仕様書の反映作業が大幅に短縮できます。Wordのフォーマットも自分でカスタマイズできます。</p>
 
 <p><img src="http://taninno.github.io/images/prototyper/word.png" width="240"/><br/>
-Wordへ出力する画面を選択できます<br/>
-Prototyper<br/>
-<a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
+Wordへ出力する画面を選択できます</p>
 
 <br/>
 
