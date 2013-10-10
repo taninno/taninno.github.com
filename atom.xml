@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2013-10-10T23:44:56+09:00</updated>
+  <updated>2013-10-11T00:09:42+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -38,16 +38,9 @@
 </ol>
 
 
-<p>今回は上記の中で画面の要素やレイアウトを検討する「<strong>UI</strong>」の中で特にモックアップの扱いを書きながら自分の考えを整理していきたいと思います。このUIフェイズの目的は「ストーリー」で考えた体験を実現するアプリのスケッチやモックアップを通して画面詳細設計を作成することです。あくまで基本は受託UXなので、チーム・組織で活動するためにもドキュメントを成果物として考えていきます。UIフェイズのステップは以下の3つになります。</p>
+<p>今回は上記の中で画面の要素やレイアウトを検討する「<strong>UI</strong>」の中で特にモックアップの扱いを書きながら自分の考えを整理していきたいと思います。このUIフェイズの目的は「ストーリー」で考えた体験を実現するアプリのスケッチやモックアップを通して画面詳細設計を作成することです。あくまで基本は受託UXなので、チーム・組織で活動するためにもドキュメントを成果物として考えていきます。</p>
 
-<ol>
-<li>スケッチ</li>
-<li><strong>モックアップ</strong></li>
-<li>画面詳細設計（画面仕様書）</li>
-</ol>
-
-
-<p>一般的なUIのワークフローではフルスタックでは以下のステップになるかと思います。ペーパープロトタイピングが無いのは、インタラクションが重視されるモバイルでは静的なプロトタイピングは生産性が高くないためで、ワイヤーフレームはスキップしているのではなく、モックアップに含めています。</p>
+<p>一般的なUIのフルスタックなワークフローでは以下のステップになるかと思います。</p>
 
 <ol>
 <li>スケッチ</li>
@@ -58,7 +51,16 @@
 </ol>
 
 
-<p>UIフェイズで1番大切にしているのは無駄な手法を実践しないことです。UIの開発手法が数多く有るために全て行ってしまうと無駄な工程が出てきてしまいます。そのため、モックアップに集中することでペーパープロトタイプとワイヤーフレームでの作業を削減することができ、全体の工数が短縮できます。</p>
+<p>実践しているUIフェイズのステップでは以下の3つになります。ペーパープロトタイピングが無いのは、インタラクションが重視されるモバイルでは静的なプロトタイピングは生産性が高くないためで、ワイヤーフレームはスキップしているのではなく、モックアップに含めています。</p>
+
+<ol>
+<li>スケッチ</li>
+<li><strong>モックアップ</strong></li>
+<li>画面詳細設計（画面仕様書）</li>
+</ol>
+
+
+<p>UIフェイズで1番大切にしているのは無駄な手法を実践しないことです。UIの開発手法が数多くあるため全てを行ってしまうと無駄な工程が出てきてしまいます。そのため、モックアップに集中することでペーパープロトタイプとワイヤーフレームでの作業を削減することができ、全体の工数が短縮できます。</p>
 
 <br/>
 
@@ -70,7 +72,7 @@
 
 <p>モックアップに関して記載する前に、用語の整理を行いたいと思います。<strong>モックアップ</strong>や<strong>ワイヤーフレーム</strong>、<strong>プロトタイプ</strong>などの言葉が何を意味するのかを、ここでは以下の意味で進めています。もしかしたら下記の定義は学術的な意味とは大きく異るかもしれません。</p>
 
-<h4><strong>スケッチ</strong></h4>
+<h4><strong>スケッチ</strong>とは</h4>
 
 <p>画面のイメージを紙と鉛筆で描いたものです。画面の要素を検討するために整理に使用します。<br/>
 <img src="../images/prototyper/linowski.png" width="320"/><br/>
@@ -87,7 +89,7 @@ Linowskiが公開しているスケッチのパターンルールです。スケ
 <br/>
 
 
-<h4><strong>ワイヤーフレーム</strong></h4>
+<h4><strong>ワイヤーフレーム</strong>とは</h4>
 
 <p>紙またはPowerPointやPhotoshopなどのツールで画面を書き表したものです。要素のレイアウトやサイズを考察します。<br/>
 <img src="http://taninno.github.io/images/prototyper/wf2.png" width="140"/><br/>
@@ -97,7 +99,7 @@ Putting it All Together: Wireframing the Example App <a href="http://developer.a
 <br/>
 
 
-<h4><strong>モックアップ</strong></h4>
+<h4><strong>モックアップ</strong>とは</h4>
 
 <p>ハリボテをあたかも実際に動いているように見せて画面の操作感や画面間の遷移を確認するものです。ラピッドプロトタイプとも言えるかもしれません。デザインがあたっている状態ができれば好ましいですが、鉛筆で書いたラフスケッチを配置して確認することにも用いられることもあります。モックアップは人によってペーパープロトタイプなどからパソコンで作った画面までを広く含む少し誤解を生みやすい言葉です。個人的にはペーパープロトタイプもモックアップですが、モックアップとだけ言う時はパワポなどのツールでページにシェイプを配置してそれをプレゼンテーションモードでクリックしてページを移動させたものを指すようにしています。またはデザイナーがPhotoshopで作成した画面を画面遷移できるようにしたものも含みます。<br/>
 <img src="http://taninno.github.io/images/prototyper/power.png" width="480"/><br/>
@@ -107,7 +109,7 @@ PowerMockup <a href="http://www.powermockup.com/">http://www.powermockup.com/</a
 <br/>
 
 
-<h4><strong>プロトタイプ</strong></h4>
+<h4><strong>プロトタイプ</strong>とは</h4>
 
 <p>製品版と同じ技術を使用したプロダクトレベルでの確認用の成果物です。どちらかと言うとブレッドボード・プロトタイピングかもしれません。ソースコードがそのままプロダクトに流用されることもありますが、そのような場合にはアーキテクチャレベルでの議論も含める必要がでてくるため注意が必要です。モックアップとは違い一枚絵で表記されていたボタンなども製品と同じコンポーネントで、WebでればHTMLでCSSで装飾し、AndroidならレイアウトXMLで宣言します。そのため実際の開発で使用するIDEなどを使用することが多く、UIの検証というよりは非機能要件の検証の意味合いが強くなります。目的としてはプロトタイプでは技術検証や非機能要件の検証、モックアップは主にUIの操作性の検証とUXの実現可能性を検証します。<br/>
 <img src="http://taninno.github.io/images/prototyper/blend.png" width="480"/><br/>
@@ -120,7 +122,47 @@ Visual Studio 2013 <a href="http://www.microsoft.com/visualstudio">http://www.mi
 <br/>
 
 
-<h3>3.それぞれの成果物の作成目的</h3>
+<h3>3.ワイヤーフレームの代替手段としてのモックアップ</h3>
+
+<p>ワイヤーフレームはモックアップやローフィデリティなプロトタイピングでまかなっています。それは、動かないワイヤーフレームを書くよりはモックアップとしてテストもできる成果物を作成することで効率が向上します。そのため、スケッチの後はワイヤーフレームではなくモックアップの作成を行っています。この動かせる成果物のメリットに関しては長谷川さんの記事が分かりやすいとおもいます。</p>
+
+<p><strong>触れる・動くによって変わるデザインプロセス</strong><br/>
+<a href="http://www.yasuhisa.com/could/article/webdesign-and-prototyping/">http://www.yasuhisa.com/could/article/webdesign-and-prototyping/</a></p>
+
+<p>少し昔はモックアップを作るのにFlashやActionScriptなどを用いる必要があり、工数が掛かって気軽に作るものではありませんでした。そのためワイヤーフレームがUIの議論をするために活用されていました。けれども今はモックアップツールを利用することで、Flashよりも短期間で簡単に作ることができるようになります。モックアップの工数が短縮されたことでワイヤーフレームの代替手段になりえるようになりました。UIを話合う上でも、頭で動きを想像しないと行けないワイヤーフレームよりも、ハリボテとはいえ動くモックアップのほうが議論が回り道することを防ぐことができます。</p>
+
+<br/>
+
+
+<br/>
+
+
+<h3>4.荒いスケッチ</h3>
+
+<p><strong>Inspiring UI Wireframe Sketches</strong><br/>
+<a href="http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches">http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches</a></p>
+
+<p>スケッチはモックアップの前に行うステップにしています。上記の記事のように多くの方が綺麗な画面を描かれる方もいますが、あまり綺麗すぎるスケッチは効果的ではないと考えます。わざと雑に描くことはないですが、FireworksやPhotoshopでステンシルを配置するのに時間をかけるのであれば、モックアップツールで配置するのと時間は変わりません。同じボタンのステンシルを配置しても、モックアップツールなら実機でタップできるボタンができあがります。モックアップツールの充実により、スケッチがUIのアイディアを考察することに集中することができます。</p>
+
+<p><img src="http://taninno.github.io/images/prototyper/wf.png" width="240"/><br/>
+画面を綺麗に描いてもUIの操作感は検証することができません。<br/>
+Inspiring UI Wireframe Sketches<br/>
+<a href="http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches">http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches</a></p>
+
+<p>動くものを作らなくても、パワポやPhotoshopなどで作った画面をペーパープロトタイピングすることもありますが、できれば早い時期にスケッチでおおよそのイメージが掴めてきたら、それを検証するためにも操作可能なモックアップを作成すると良いと思います。ペーパープロトはスケッチ段階中であれば自分またはチーム間の確認のためには有効だと思いますが、ユーザーテストに使用するには被験者に慣れと画面を想像するスキルが求められることになります。ユーザーに試していただくためにもスケッチを手短にして早めにモックアップに着手することが効率が良いと考えています。</p>
+
+<p><img src="http://taninno.github.io/images/prototyper/sketch.png"/><br/>
+スケッチは綺麗に書かず、これくらいレベルでモックアップに着手します。<br/>
+受諾UXアプローチ<br/>
+<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/</a></p>
+
+<br/>
+
+
+<br/>
+
+
+<h3>5.それぞれの成果物の作成目的</h3>
 
 <p>それぞれの方法は目的が違いますが、全体としてはより具体的に（ローフィデリティからハイフィデリティ）段階を移していきます。全てを通るわけではなく、個人的には1→4が多いです。</p>
 
@@ -145,14 +187,14 @@ Visual Studio 2013 <a href="http://www.microsoft.com/visualstudio">http://www.mi
 <br/>
 
 
-<h3>4.モックアップツール</h3>
+<h3>6.モックアップツール</h3>
 
 <p>ここでのモックアップツールは、上記の3.と4.を作成するためのツールになります。プロトタイプツールと言ったりもしますが、5.を指すわけでなく、3.と4.にあたります。ややこしい言い方になってしまいますが、モックアップツールとプロトタイピングツールは同じものを指します。それはプロトタイプをブレッドボード・プロトタイピングと定義しているため、プロトタイプを作るにはIDEなどの本番の開発環境を用いるためです。そういう意味では狭義のプロトタイピングツールと言うものはありません。</p>
 
 <p><strong>Designer’s Toolkit: Road Testing Prototype Tools</strong><br/>
 <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes">http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes</a></p>
 
-<p>アラン・クーパーさんのブログでモックアップツール関するものがありますが、その中にPrototyperも取り上げられてます。注目なのは比較されている10個のうちインタラクションの項目がHighなのはPrototyperとproto.ioの2つだけでした。</p>
+<p>アラン・クーパーさんのブログでモックアップツール関するものがありますが、その中にPrototyperも取り上げられてます。ちなみに、比較されている10個のツールうち、インタラクションの項目が<strong>High</strong>なのはPrototyperとproto.ioの2つだけです。</p>
 
 <p><img src="http://taninno.github.io/images/prototyper/summaryChart.png" width="520"/><br/>
 via : <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes">http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes</a></p>
@@ -175,9 +217,9 @@ via : <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-tes
 <br/>
 
 
-<h3>5.Prototyper</h3>
+<h3>7.Prototyper</h3>
 
-<p>PrototyperはJustinmind社によるモックアップツールです。モックアップツールにはproto.ioなどのWebブラウザが多いですが、Prototypeは珍しくスタンドアローンのデスクトップアプリです。</p>
+<p>PrototyperはJustinmind社によるモックアップツールです。モックアップツールにはproto.ioなどのWebブラウザ型が多いですが、Prototypeはスタンドアローンのデスクトップアプリです。</p>
 
 <p><strong>Prototyper</strong><br/>
 <a href="http://www.justinmind.com/">http://www.justinmind.com/</a><br/>
@@ -196,7 +238,7 @@ Prototyper<br/>
 <br/>
 
 
-<h3>6.モックアップにはインタラクションが必要</h3>
+<h3>8.モックアップにはインタラクションが必要</h3>
 
 <p>先のモックアップの説明ではPOPのような一枚絵を使用すると記載しましたが、Prototyperやproto.ioなどのインタラクションが設定できるツールを活用させてもらうことでモックアップ段階でもボタンやテキストフィールドなどのコンポーネントを操作可能な状態の画面をスマートフォンなどの実機で操作することができるようになります。</p>
 
@@ -218,36 +260,9 @@ Prototyper<br/>
 <br/>
 
 
-<h3>7.モックアップ主導のアプローチ</h3>
+<h3>9.今後の新しいフロー</h3>
 
-<p>POPやFlintoをワイヤーフレーム段階で使用しないのは、実質的にワイヤーフレームをモックアップないしローフィデリティなプロトタイピングでまかなっているからです。ワークフローに関係することですが、動かないワイヤーフレームを書くよりはモックアップとしてテストもできる成果物を作成した方が効率が良いと思っています。なので、UIのスケッチの後はワイヤーフレームではなくモックアップの作成を行っています。この動かせる成果物のメリットに関しては私より長谷川さんの記事が分かりやすいとおもいます。</p>
-
-<p><strong>触れる・動くによって変わるデザインプロセス</strong><br/>
-<a href="http://www.yasuhisa.com/could/article/webdesign-and-prototyping/">http://www.yasuhisa.com/could/article/webdesign-and-prototyping/</a></p>
-
-<p>少し昔はモックアップを作るのにFlashとActionScriptなどで工数がかかるために気軽に作るものではありませんでした。そのためワイヤーフレームというドキュメントを元にUIの議論が行われてきました。けれども今はPrototyperなどのツールを用いればFlashよりも簡単に早く作ることができるようになります。モックアップが作りやすくなったことでワイヤーフレームの作成の代替手段としてモックアップを選択可能になりました。どうせ作るのでしたら操作可能なワイヤーフレームのほうが関係者へのお披露目でも理解していただきやすくなります。</p>
-
-<p><strong>Inspiring UI Wireframe Sketches</strong><br/>
-<a href="http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches">http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches</a></p>
-
-<p>上記の記事のように多くの方が綺麗な画面を描かれていますが、あまり効果的ではないと考えています。わざと雑に描くことはないですが、FireworksやPhotoshopでステンシルを配置するのに時間をかけるのであれば、Prototyperで配置するのと時間は変わらないと思います。同じボタンのステンシルを配置しても、Prototyperなら実機でタップできるボタンができあがります。</p>
-
-<p><img src="http://taninno.github.io/images/prototyper/wf.png" width="240"/><br/>
-画面を綺麗に描いてもUIの操作感は検証することができません。<br/>
-Inspiring UI Wireframe Sketches<br/>
-<a href="http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches">http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches</a></p>
-
-<p>動くものを作らなくても、パワポやPhotoshopなどで作った画面をペーパープロトタイピングすることもありますが、できれば早い時期にスケッチでおおよそのイメージが掴めてきたら、それを検証するためにも操作可能なモックアップを作成すると良いと思います。ペーパープロトはスケッチ段階中であれば自分またはチーム間の確認のためには有効だと思いますが、ユーザーテストに使用するには被験者に慣れと画面を想像するスキルが求められることになります。ユーザーに試していただくためにもスケッチを手短にして早めにモックアップに着手することが効率が良いと考えています。</p>
-
-<p><img src="http://taninno.github.io/images/prototyper/sketch.png"/><br/>
-スケッチは綺麗に書かず、これくらいレベルでモックアップに着手します。<br/>
-受諾UXアプローチ<br/>
-<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/</a></p>
-
-<br/>
-
-
-<p>さらにHTMLなどの知識があるコーダーの方であれば、Prototyperなどの専用ツールではなく、HTMLを作成すればより早く開発に着手することができ、工数を短縮できます。</p>
+<p>さらにHTMLなどの知識があるコーダーの方であれば、Prototyperなどの専用ツールではなく、HTMLを作成すればより早く開発に着手することができ、さらに工数を短縮できます。</p>
 
 <p><img src="../images/prototyper/responsive.png" width="240" /><br/>
 <strong>Create a responsive wireframe</strong><br/>
@@ -268,7 +283,7 @@ Inspiring UI Wireframe Sketches<br/>
 <br/>
 
 
-<h3>8.Prototyper Tips</h3>
+<h3>Prototyper Tips</h3>
 
 <!-- Place this tag in your head or just before your close body tag. -->
 
