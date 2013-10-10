@@ -4,7 +4,7 @@
   <title><![CDATA[Category: mock-up | taninnosorani blog]]></title>
   <link href="http://taninno.github.io/blog/categories/mock-up/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2013-10-11T00:09:42+09:00</updated>
+  <updated>2013-10-11T00:18:30+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -122,22 +122,7 @@ Visual Studio 2013 <a href="http://www.microsoft.com/visualstudio">http://www.mi
 <br/>
 
 
-<h3>3.ワイヤーフレームの代替手段としてのモックアップ</h3>
-
-<p>ワイヤーフレームはモックアップやローフィデリティなプロトタイピングでまかなっています。それは、動かないワイヤーフレームを書くよりはモックアップとしてテストもできる成果物を作成することで効率が向上します。そのため、スケッチの後はワイヤーフレームではなくモックアップの作成を行っています。この動かせる成果物のメリットに関しては長谷川さんの記事が分かりやすいとおもいます。</p>
-
-<p><strong>触れる・動くによって変わるデザインプロセス</strong><br/>
-<a href="http://www.yasuhisa.com/could/article/webdesign-and-prototyping/">http://www.yasuhisa.com/could/article/webdesign-and-prototyping/</a></p>
-
-<p>少し昔はモックアップを作るのにFlashやActionScriptなどを用いる必要があり、工数が掛かって気軽に作るものではありませんでした。そのためワイヤーフレームがUIの議論をするために活用されていました。けれども今はモックアップツールを利用することで、Flashよりも短期間で簡単に作ることができるようになります。モックアップの工数が短縮されたことでワイヤーフレームの代替手段になりえるようになりました。UIを話合う上でも、頭で動きを想像しないと行けないワイヤーフレームよりも、ハリボテとはいえ動くモックアップのほうが議論が回り道することを防ぐことができます。</p>
-
-<br/>
-
-
-<br/>
-
-
-<h3>4.荒いスケッチ</h3>
+<h3>3.荒いスケッチ</h3>
 
 <p><strong>Inspiring UI Wireframe Sketches</strong><br/>
 <a href="http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches">http://webdesignledger.com/inspiration/inspiring-ui-wireframe-sketches</a></p>
@@ -162,9 +147,46 @@ Inspiring UI Wireframe Sketches<br/>
 <br/>
 
 
-<h3>5.それぞれの成果物の作成目的</h3>
+<h3>4.ワイヤーフレームの代替手段としてのモックアップ</h3>
 
-<p>それぞれの方法は目的が違いますが、全体としてはより具体的に（ローフィデリティからハイフィデリティ）段階を移していきます。全てを通るわけではなく、個人的には1→4が多いです。</p>
+<p>ワイヤーフレームはモックアップやローフィデリティなプロトタイピングでまかなっています。それは、動かないワイヤーフレームを書くよりはモックアップとしてテストもできる成果物を作成することで効率が向上します。そのため、スケッチの後はワイヤーフレームではなくモックアップの作成を行っています。この動かせる成果物のメリットに関しては長谷川さんの記事が分かりやすいとおもいます。</p>
+
+<p><strong>触れる・動くによって変わるデザインプロセス</strong><br/>
+<a href="http://www.yasuhisa.com/could/article/webdesign-and-prototyping/">http://www.yasuhisa.com/could/article/webdesign-and-prototyping/</a></p>
+
+<p>少し昔はモックアップを作るのにFlashやActionScriptなどを用いる必要があり、工数が掛かって気軽に作るものではありませんでした。そのためワイヤーフレームがUIの議論をするために活用されていました。けれども今はモックアップツールを利用することで、Flashよりも短期間で簡単に作ることができるようになります。モックアップの工数が短縮されたことでワイヤーフレームの代替手段になりえるようになりました。UIを話合う上でも、頭で動きを想像しないと行けないワイヤーフレームよりも、ハリボテとはいえ動くモックアップのほうが議論が回り道することを防ぐことができます。</p>
+
+<br/>
+
+
+<br/>
+
+
+<h3>5.モックアップにはインタラクションが必要</h3>
+
+<p>先のモックアップの説明ではPOPのような一枚絵を使用すると記載しましたが、Prototyperやproto.ioなどのインタラクションが設定できるツールを活用させてもらうことでモックアップ段階でもボタンやテキストフィールドなどのコンポーネントを操作可能な状態の画面をスマートフォンなどの実機で操作することができるようになります。</p>
+
+<p><img src="http://taninno.github.io/images/prototyper/input.png" width="240"/><br/>
+Prototyperのコンポーネントは実際に文字入力をすることもできます<br/>
+Prototyper<br/>
+<a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
+
+<p>インタラクションを設定するのは少し手間ですが、このレベルでの画面操作を盛り込むことで、早期に実際の製品にとても近い操作でユーザーテストを実施することができます。これは実機で操作できることに意味があります。特にモバイルではスマートフォンのタップしやすい領域内にボタンがあるかどうかなどを確認する必要があります。そして画面がスクロールできることやタップしやすいかなどの基本的なUIの検証を行います。これをワイヤーフレームやプロトタイピングなどの少し工程が進んだ時に行っては、間違いに気付いたとしても手戻りが多くなってしまいます。</p>
+
+<p><img src="http://taninno.github.io/images/prototyper/device.png" width="auto"/><br/>
+PowerPointのような感覚でスクロール可能な実機のモックアップを作ることが出来ます<br/>
+Prototyper<br/>
+<a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
+
+<br/>
+
+
+<br/>
+
+
+<h3>6.UI開発手法のそれぞれの目的</h3>
+
+<p>それぞれの方法は目的が違いますが、全体としてはより具体的に（ローフィデリティからハイフィデリティ）段階を移していきます。ここで実践しているUIフェイズでは1.のスケッチと4.のモックアップの2つを取り入れています。</p>
 
 <p>ローフィデリティ<br/>
 ↑</p>
@@ -187,14 +209,14 @@ Inspiring UI Wireframe Sketches<br/>
 <br/>
 
 
-<h3>6.モックアップツール</h3>
+<h3>7.モックアップツール</h3>
 
-<p>ここでのモックアップツールは、上記の3.と4.を作成するためのツールになります。プロトタイプツールと言ったりもしますが、5.を指すわけでなく、3.と4.にあたります。ややこしい言い方になってしまいますが、モックアップツールとプロトタイピングツールは同じものを指します。それはプロトタイプをブレッドボード・プロトタイピングと定義しているため、プロトタイプを作るにはIDEなどの本番の開発環境を用いるためです。そういう意味では狭義のプロトタイピングツールと言うものはありません。</p>
+<p>ここで記載していますモックアップツールは、上記の3.と4.を作成するためのツールになります。プロトタイプツールと言ったりもしますが、5.を指すわけでなく、3.と4.にあたります。ややこしい言い方になってしまいますが、モックアップツールとプロトタイピングツールは同じものを指します。それはプロトタイプをブレッドボード・プロトタイピングと定義しているため、プロトタイプを作るにはIDEなどの本番の開発環境を用いるためです。そういう意味では狭義のプロトタイピングツールと言うものはありません。</p>
 
 <p><strong>Designer’s Toolkit: Road Testing Prototype Tools</strong><br/>
 <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes">http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes</a></p>
 
-<p>アラン・クーパーさんのブログでモックアップツール関するものがありますが、その中にPrototyperも取り上げられてます。ちなみに、比較されている10個のツールうち、インタラクションの項目が<strong>High</strong>なのはPrototyperとproto.ioの2つだけです。</p>
+<p>アラン・クーパーさんのブログでモックアップツールを紹介する記事がありますが、その中には後述しますPrototyperが取り上げられてます。ちなみに、比較されている10個のツールうち、インタラクションの項目が<strong>High</strong>なのはPrototyperとproto.ioの2つだけです。</p>
 
 <p><img src="http://taninno.github.io/images/prototyper/summaryChart.png" width="520"/><br/>
 via : <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes">http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes</a></p>
@@ -217,9 +239,9 @@ via : <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-tes
 <br/>
 
 
-<h3>7.Prototyper</h3>
+<h3>8.Prototyper</h3>
 
-<p>PrototyperはJustinmind社によるモックアップツールです。モックアップツールにはproto.ioなどのWebブラウザ型が多いですが、Prototypeはスタンドアローンのデスクトップアプリです。</p>
+<p>私はモックアップの作成にPrototyperを使用しています。PrototyperはJustinmind社によるモックアップツールです。モックアップツールにはproto.ioなどのWebブラウザ型が多いですが、Prototypeはスタンドアローンのデスクトップアプリです。</p>
 
 <p><strong>Prototyper</strong><br/>
 <a href="http://www.justinmind.com/">http://www.justinmind.com/</a><br/>
@@ -229,28 +251,6 @@ via : <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-tes
 
 <p><img src="http://taninno.github.io/images/prototyper/word.png" width="240"/><br/>
 Wordへ出力する画面を選択できます<br/>
-Prototyper<br/>
-<a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
-
-<br/>
-
-
-<br/>
-
-
-<h3>8.モックアップにはインタラクションが必要</h3>
-
-<p>先のモックアップの説明ではPOPのような一枚絵を使用すると記載しましたが、Prototyperやproto.ioなどのインタラクションが設定できるツールを活用させてもらうことでモックアップ段階でもボタンやテキストフィールドなどのコンポーネントを操作可能な状態の画面をスマートフォンなどの実機で操作することができるようになります。</p>
-
-<p><img src="http://taninno.github.io/images/prototyper/input.png" width="240"/><br/>
-Prototyperのコンポーネントは実際に文字入力をすることもできます<br/>
-Prototyper<br/>
-<a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
-
-<p>インタラクションを設定するのは少し手間ですが、このレベルでの画面操作を盛り込むことで、早期に実際の製品にとても近い操作でユーザーテストを実施することができます。これは実機で操作できることに意味があります。特にモバイルではスマートフォンのタップしやすい領域内にボタンがあるかどうかなどを確認する必要があります。そして画面がスクロールできることやタップしやすいかなどの基本的なUIの検証を行います。これをワイヤーフレームやプロトタイピングなどの少し工程が進んだ時に行っては、間違いに気付いたとしても手戻りが多くなってしまいます。</p>
-
-<p><img src="http://taninno.github.io/images/prototyper/device.png" width="auto"/><br/>
-PowerPointのような感覚でスクロール可能な実機のモックアップを作ることが出来ます<br/>
 Prototyper<br/>
 <a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
 
