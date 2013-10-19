@@ -9,7 +9,7 @@
   <meta name="author" content="taninno">
 
   
-  <meta name="description" content="ワイヤーフレームとモックアップの関係とモバイル向けのモックアップツールに関することを記載しています。 1.モックアップのワークフロー アプリやWebサービス・サイトを作っていく全体の流れは以下のプロセスを行っています。ほとんど基本的なUXデザイン通りの流れですが、 &hellip;">
+  <meta name="description" content="ユーザーインターフェイスを設計する上で、主にモバイル向けのワイヤーフレームとモックアップの関係とモックアップツールに関することを記載しています。 1.UIワークフロー アプリやWebサービス・サイトを作っていく全体の流れは以下のプロセスを行っています。ほとんど基本的なUXデザイン通りの流れですが、 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -83,7 +83,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/09/12/justinmind-prototyper/">Prototyperによるモックアップ中心のワークフロー</a></h1>
+      <h1 class="entry-title"><a href="/blog/2013/09/12/justinmind-prototyper/">Prototyperを使ったモックアップ主導のUIワークフロー</a></h1>
     
     
       <p class="meta">
@@ -106,12 +106,12 @@
   </header>
 
 
-  <div class="entry-content"><p>ワイヤーフレームとモックアップの関係とモバイル向けのモックアップツールに関することを記載しています。</p>
+  <div class="entry-content"><p>ユーザーインターフェイスを設計する上で、主にモバイル向けのワイヤーフレームとモックアップの関係とモックアップツールに関することを記載しています。</p>
 
 <br/>
 
 
-<h3>1.モックアップのワークフロー</h3>
+<h3>1.UIワークフロー</h3>
 
 <p>アプリやWebサービス・サイトを作っていく全体の流れは以下のプロセスを行っています。ほとんど基本的なUXデザイン通りの流れですが、アイディアの創出がやや早いのとUIでインタラクティブなモックアップを重視している所が多少異なるかもしれません。もしご興味ありましたら詳細は<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">受諾型UXデザインアプローチ</a>を御覧ください。</p>
 
@@ -156,7 +156,7 @@
 <br/>
 
 
-<h3>2.スケッチとワイヤーフレーム、モックアップ、プロトタイプの扱い</h3>
+<h3>2.スケッチやワイヤーフレーム、モックアップなどの用語</h3>
 
 <p>モックアップに関して記載する前に、用語の整理を行いたいと思います。<strong>モックアップ</strong>や<strong>ワイヤーフレーム</strong>、<strong>プロトタイプ</strong>などの言葉が何を意味するのかを、ここでは以下の意味で進めています。もしかしたら下記の定義は学術的な意味とは大きく異るかもしれません。</p>
 
@@ -180,7 +180,7 @@ Linowskiが公開しているスケッチのパターンルールです。スケ
 <h4><strong>ワイヤーフレーム</strong>とは</h4>
 
 <p>ここではスケッチとワイヤーフレームの違いを精度（フィデリティ）の差異である、と単純に考えていきます。スケッチは自分のノートに書き込んで個人的な整理に使うのも、ワイヤーフレームは成果物でありチーム・関係者に対して伝えるもの。そのため、ワイヤーフレームはスケッチよりも画面遷移や画面レイアウトを正確に書き表します。ある意味、定規を使うのがワイヤーフレームです。ワイヤーフレームのツールは数多くありますが、スケッチとは違ってパソコンを使うことになるかと思います。PowerPointやPhotoshopなどのツールで画面を書き表し、画面のpxなどのサイズを画面詳細設計に記載します。ただ、個人的にはワイヤーフレームの成果物は静的なPDFやPSDとなるので、早い段階でインタラクションの検証を行いたいモバイルには不向きと考えています。  <br/>
-<img src="http://taninno.github.io/images/prototyper/wf2.png" width="140"/><br/>
+<img src="../images/prototyper/wires-tablet.png" width="480"/><br/>
 ワイヤーフレームのイメージ<br/>
 Putting it All Together: Wireframing the Example App<br/>
 <a href="http://developer.android.com/training/design-navigation/wireframing.html">http://developer.android.com/training/design-navigation/wireframing.html</a></p>
@@ -239,7 +239,7 @@ Inspiring UI Wireframe Sketches<br/>
 <br/>
 
 
-<h3>4.ワイヤーフレームの代替手段としてのモックアップ</h3>
+<h3>4.ワイヤーフレームではなく、モックアップで検証する</h3>
 
 <p>ワイヤーフレームの工程はモックアップやローフィデリティなプロトタイピングでまかなっています。動かないワイヤーフレームを書くよりはモックアップとしてテストもできる成果物を作成することで効率が向上するため、スケッチの後はワイヤーフレームではなくモックアップの作成を行っています。</p>
 
@@ -254,7 +254,7 @@ Inspiring UI Wireframe Sketches<br/>
 <br/>
 
 
-<h3>5.たくさんのモックアップツール</h3>
+<h3>5.たくさんのモックアップツールの中で</h3>
 
 <p>ここで記載していますモックアップツールは、下記の3.と4.を作成するためのツールになります。</p>
 
@@ -287,13 +287,18 @@ via : <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-tes
 
 <p><img src="http://taninno.github.io/images/prototyper/protoio.png" width="240"/><br/>
 <strong>proto.io</strong><br/>
-<a href="http://proto.io/">http://proto.io/</a></p>
+<a href="http://proto.io">http://proto.io</a></p>
 
 <p>他には<a href="https://popapp.in/">POP</a>や<a href="https://www.flinto.com/">Flinto</a>もありますが、ワイヤーフレームの段階というよりもスケッチ段階で使用することが多くなります。まだUIを考え始めた段階で手軽にできるのが助かります。</p>
 
-<p><img src="http://taninno.github.io/images/prototyper/pop.png" width="240"/><br/>
+<p><img src="../images/prototyper/pop.png" width="240"/><br/>
 <strong>POP</strong><br/>
-<a href="https://popapp.in/">https://popapp.in/</a></p>
+<a href="https://popapp.in">https://popapp.in</a></p>
+
+<p>UXPinというWebブラウザ上で動作するツールも使いやすいのですが、こちらは有償になります。ただペルソナのテンプレートが用意されているなど、UXワークフロー全般をサポートしてくれます。
+<img src="../images/prototyper/uxpin.png" width="480"/><br/>
+<strong>UXPin</strong><br/>
+<a href="http://uxpin.com">http://uxpin.com</a></p>
 
 <br/>
 
@@ -303,26 +308,35 @@ via : <a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-tes
 
 <h3>6.Prototyper</h3>
 
-<p>私はモックアップの作成に<a href="http://www.justinmind.com/">Prototyper</a>を使用しています。PrototyperはJustinmind社によるモックアップツールです。インタラクション性の高いモックアップツールにはproto.ioなどのWebブラウザ型が多いですが、Prototypeはスタンドアローンのデスクトップアプリなのが特徴です。またモバイルのモックアップにも向いており、QRコードを出力して簡単に実機でモックアップを操作することができます。<a href="https://www.justinmind.com/usernote/tests/4/1765/11188319/index.html">iOS7</a>や<a href="https://www.justinmind.com/usernote/tests/4/1765/10148555/test/screens/Screen%201.html">Android</a>、<a href="https://www.justinmind.com/usernote/tests/4/1765/10341535/index.html">Windows8</a>、<a href="http://www.justinmind.com/usernote/tests/4/1765/10099572/test/screens/Windows%207%20Phone%20Library.html">Windows Phone</a>などのウィジェットも用意されています。Justinmindのブログには<a href="http://blog.justinmind.com/justinmind-at-google-glass-san-francisco/">Google Glassのウィジェット</a>も作成予定とのことです。</p>
+<p>私はモックアップの作成に<a href="http://www.justinmind.com/">Prototyper</a>を使用しています。PrototyperはJustinmind社によるモックアップツールです。インタラクション性の高いモックアップツールにはproto.ioなどのWebブラウザ型が多いですが、Prototypeはスタンドアローンのデスクトップアプリなのが特徴です。製品名にはプロトタイプ（“prototype”）が含まれていますが、製品に近い技術で作成されるプロトタイプというよりは、動きやコンポジションなどを確認するモックアップに近いです。</p>
 
 <p><img src="http://taninno.github.io/images/prototyper/prototyper.png" width="240"/><br/>
 <strong>Prototyper</strong><br/>
 <a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
 
-<p>製品名にはプロトタイプ（“prototype”）が含まれていますが、製品に近い技術で作成されるプロトタイプというよりは、動きやコンポジションなどを確認するモックアップに近いです。PrototyperではさらにWordやPDFへの画面仕様書の自動出力機能があります。仕様書に載せる画面はツールから出力したものを使用します。手戻りがあっても画面仕様書の反映作業が大幅に短縮できます。Wordのフォーマットも自分でカスタマイズできます。</p>
+<p>またモバイルのモックアップにも向いており、QRコードを出力して簡単に実機でモックアップを操作することができます。<a href="https://www.justinmind.com/usernote/tests/4/1765/11188319/index.html">iOS7</a>や<a href="https://www.justinmind.com/usernote/tests/4/1765/10148555/test/screens/Screen%201.html">Android</a>、<a href="https://www.justinmind.com/usernote/tests/4/1765/10341535/index.html">Windows8</a>、<a href="http://www.justinmind.com/usernote/tests/4/1765/10099572/test/screens/Windows%207%20Phone%20Library.html">Windows Phone</a>などのウィジェットも用意されています。</p>
 
-<p><img src="http://taninno.github.io/images/prototyper/word.png" width="240"/><br/>
+<p><img src="../images/prototyper/ios7_component.png" width="320"/>
+<img src="../images/prototyper/andoroid_component.png" width="320"/></p>
+
+<p>Justinmindのブログには<a href="http://blog.justinmind.com/justinmind-at-google-glass-san-francisco/">Google Glassのウィジェット</a>も作成予定とのことです。</p>
+
+<p><img src="../images/prototyper/googleglass.png" width="240"/></p>
+
+<p>PrototyperではさらにWordやPDFへの画面仕様書の自動出力機能があります。仕様書に載せる画面はツールから出力したものを使用します。手戻りがあっても画面仕様書の反映作業が大幅に短縮できます。Wordのフォーマットも自分でカスタマイズできます。</p>
+
+<p><img src="../images/prototyper/word.png" width="240"/><br/>
 Wordへ出力する画面を選択できます</p>
 
 <p>ボタンやテキストフィールドなどのコンポーネントを操作可能な状態の画面をスマートフォンなどの実機で操作することができます。</p>
 
-<p><img src="http://taninno.github.io/images/prototyper/input.png" width="240"/><br/>
+<p><img src="../images/prototyper/input.png" width="240"/><br/>
 テキストフィールドコンポーネントに実際に文字入力が可能<br/>
 <a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
 
 <p>インタラクションを設定するのは少し手間ですが、このレベルでの画面操作を盛り込むことで、早期に実際の製品にとても近い操作でユーザーテストを実施することができます。実機で操作できますので、特にモバイルではスマートフォンのタップしやすい領域内にボタンがあるかなどを体感できます。そして画面がスクロールできることやタップしやすいかなどの基本的なUIの検証を行います。これらの操作感はペーパープロトタイプではできなく、ワイヤーフレームやプロトタイピングなどの少し工程が進んだ時では、間違いに気付いたとしても手戻りが多くなってしまいます。</p>
 
-<p><img src="http://taninno.github.io/images/prototyper/device.png" width="auto"/><br/>
+<p><img src="../images/prototyper/device.png" width="auto"/><br/>
 PowerPointのような感覚でスクロール可能な実機のモックアップを作ることが出来ます<br/>
 <a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
 
@@ -872,7 +886,7 @@ Surface 1 Guideline PDF<br/>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/09/12/justinmind-prototyper/">Prototyperによるモックアップ中心のワークフロー</a>
+        <a href="/blog/2013/09/12/justinmind-prototyper/">Prototyperを使ったモックアップ主導のUIワークフロー</a>
       </li>
     
       <li class="post">
