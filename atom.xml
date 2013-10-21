@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2013-10-19T12:31:43+09:00</updated>
+  <updated>2013-10-21T23:44:59+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -329,7 +329,23 @@ PowerPointのような感覚でスクロール可能な実機のモックアッ�
 <div class="g-post" data-href="https://plus.google.com/107539786331492217195/posts/XeUyNu4Yxyp"></div>
 
 
-<p>（続く）</p>
+
+
+<!-- Place this tag in your head or just before your close body tag. -->
+
+
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+
+
+
+<!-- Place this tag where you want the widget to render. -->
+
+
+<div class="g-post" data-href="https://plus.google.com/107539786331492217195/posts/JiK8Gojab94"></div>
+
+
+
 ]]></content>
   </entry>
   
