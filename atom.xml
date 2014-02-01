@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2013-12-07T10:55:47+09:00</updated>
+  <updated>2014-02-01T21:15:14+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -12,6 +12,79 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ユーザビリティテストテンプレート]]></title>
+    <link href="http://taninno.github.io/blog/2014/02/01/usability-testing-template/"/>
+    <updated>2014-02-01T20:10:16+09:00</updated>
+    <id>http://taninno.github.io/blog/2014/02/01/usability-testing-template</id>
+    <content type="html"><![CDATA[<p>ユーザビリティテスト中に使用するメモ用紙のテンプレート（雛形）を記載しています。ただ私はユーザビリティテストを専門で行っているわけではないので、要素の抜け漏れなどはあると思います。</p>
+
+<br/>
+
+
+<h3>1.ユーザビリティテストの雛形</h3>
+
+<iframe width='850' height='600' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0ApZE_qOGDfNHdEYySkRNOGRBR0U0N2s3T2U0azJwelE&single=true&gid=0&output=html&widget=true'></iframe>
+
+
+
+
+<!-- more -->
+
+
+<p><a href="https://docs.google.com/spreadsheet/ccc?key=0ApZE_qOGDfNHdEYySkRNOGRBR0U0N2s3T2U0azJwelE&amp;usp=sharing">https://docs.google.com/spreadsheet/ccc?key=0ApZE_qOGDfNHdEYySkRNOGRBR0U0N2s3T2U0azJwelE&amp;usp=sharing</a></p>
+
+<h3>2.項目</h3>
+
+<h4>達成</h4>
+
+<ul>
+<li>◯はタスクを完了した場合</li>
+<li>△はインタビューアーのヒントを得てタスクを完了した場合</li>
+<li>☓はタスクを完了で来なかった場合</li>
+</ul>
+
+
+<h4>効率</h4>
+
+<ul>
+<li>◯は想定の操作通りにできた場合</li>
+<li>△は多少迷っていた場合</li>
+<li>☓は目安時間を超過した場合</li>
+</ul>
+
+
+<h4>満足度</h4>
+
+<ul>
+<li>◯は被験者が特に不満を持っていないと思われた場合</li>
+<li>△は不満を持っていそうだと思われた場合</li>
+<li>☓は不満を露わにしていた場合</li>
+</ul>
+
+
+<h3>x.参考</h3>
+
+<ul>
+<li><a href="http://www.usability.gr.jp/">http://www.usability.gr.jp/</a></li>
+<li><a href="http://www.usability.gr.jp/tag/usability-test/">http://www.usability.gr.jp/tag/usability-test/</a></li>
+<li><a href="http://www.usability.gov/">http://www.usability.gov/</a></li>
+<li><a href="http://www.nngroup.com/reports/mobile-website-and-application-usability/">http://www.nngroup.com/reports/mobile-website-and-application-usability/</a></li>
+<li><a href="http://www.nngroup.com/articles/ten-usability-heuristics/">http://www.nngroup.com/articles/ten-usability-heuristics/</a></li>
+<li><a href="http://www.nngroup.com/articles/affordable_care_act_usability_issues/">http://www.nngroup.com/articles/affordable_care_act_usability_issues/</a></li>
+<li><a href="http://ja.wikipedia.org/wiki/ISO_9126">http://ja.wikipedia.org/wiki/ISO_9126</a></li>
+<li><a href="http://www.iid.co.jp/">http://www.iid.co.jp/</a></li>
+<li><a href="http://directorblog.jp/archives/51780644.html">http://directorblog.jp/archives/51780644.html</a></li>
+<li><a href="http://gigazine.net/news/20120830-ui-design-cedec2012/">http://gigazine.net/news/20120830-ui-design-cedec2012/</a></li>
+<li><a href="http://www.coprosystem.co.jp/marketingblog/2012/01/24.html">http://www.coprosystem.co.jp/marketingblog/2012/01/24.html</a></li>
+<li><a href="http://d.hatena.ne.jp/absj31/20120310/1331399198">http://d.hatena.ne.jp/absj31/20120310/1331399198</a></li>
+<li><a href="http://www.userside.jp/evaluation/usability-test/index.html">http://www.userside.jp/evaluation/usability-test/index.html</a></li>
+<li><a href="http://www.mitsue.co.jp/service/usability/web_usability_testing/">http://www.mitsue.co.jp/service/usability/web_usability_testing/</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Prototyperを使ったモックアップ主導のUIワークフロー]]></title>
