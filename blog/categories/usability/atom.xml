@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: usability | taninnosorani blog]]></title>
+  <link href="http://taninno.github.io/blog/categories/usability/atom.xml" rel="self"/>
+  <link href="http://taninno.github.io/"/>
+  <updated>2014-02-02T12:10:20+09:00</updated>
+  <id>http://taninno.github.io/</id>
+  <author>
+    <name><![CDATA[taninno]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ユーザビリティテストのタスクシート]]></title>
+    <link href="http://taninno.github.io/blog/2014/02/01/usability-testing-template/"/>
+    <updated>2014-02-01T20:10:16+09:00</updated>
+    <id>http://taninno.github.io/blog/2014/02/01/usability-testing-template</id>
+    <content type="html"><![CDATA[<p>ユーザビリティテスト中に使用するメモ用紙の項目をメモするためのテンプレート（雛形）を記載しています。ただユーザビリティテストを専門で行っているわけではないので、要素の抜け漏れなどはあるかもしれません。ここではユーザビリティ全体ではなく、テスト時に使用するタスクシートに関して記載しています。ユーザビリティのプラン作成やレポート作成、リクルーティングなどは参考情報をご参照下さい。</p>
+
+<br/>
+
+
+<h3>1.タスクシートの雛形</h3>
+
+<iframe width='850' height='600' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0ApZE_qOGDfNHdEYySkRNOGRBR0U0N2s3T2U0azJwelE&single=true&gid=0&output=html&widget=true'></iframe>
+
+
+
+
+<!-- more -->
+
+
+<p><a href="https://docs.google.com/spreadsheet/ccc?key=0ApZE_qOGDfNHdEYySkRNOGRBR0U0N2s3T2U0azJwelE&amp;usp=sharing">https://docs.google.com/spreadsheet/ccc?key=0ApZE_qOGDfNHdEYySkRNOGRBR0U0N2s3T2U0azJwelE&amp;usp=sharing</a></p>
+
+<h3>2.項目</h3>
+
+<h4>達成</h4>
+
+<ul>
+<li>◯はタスクを完了した場合</li>
+<li>△はインタビューアーのヒントを得てタスクを完了した場合</li>
+<li>☓はタスクを完了で来なかった場合</li>
+</ul>
+
+
+<h4>効率</h4>
+
+<ul>
+<li>◯は想定の操作通りにできた場合</li>
+<li>△は多少迷っていた場合</li>
+<li>☓は目安時間を超過した場合</li>
+</ul>
+
+
+<h4>満足</h4>
+
+<ul>
+<li>◯は被験者が特に不満を持っていないと思われた場合</li>
+<li>△は不満を持っていそうだと思われた場合</li>
+<li>☓は不満を露わにしていた場合</li>
+</ul>
+
+
+<h4>評価</h4>
+
+<p>達成・効率・満足を数値化してどの操作（タスク）が問題となっていたかを把握します。設定してる係数は以下の表の通りです。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">　　</th>
+<th align="center">  達成   </th>
+<th align="right">  効率   </th>
+<th align="right"> 満足</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">◯   </td>
+<td align="center"> 0      </td>
+<td align="right"> 0       </td>
+<td align="right"> 0</td>
+</tr>
+<tr>
+<td align="left">△   </td>
+<td align="center"> 3      </td>
+<td align="right"> 2       </td>
+<td align="right"> 1</td>
+</tr>
+<tr>
+<td align="left">☓   </td>
+<td align="center"> 5      </td>
+<td align="right"> 4       </td>
+<td align="right"> 3</td>
+</tr>
+</tbody>
+</table>
+
+
+<h3>3.</h3>
+
+<h3>4.</h3>
+
+<h3>5.</h3>
+
+<h3>x.参考情報</h3>
+
+<ul>
+<li><a href="http://www.usability.gr.jp/">http://www.usability.gr.jp/</a></li>
+<li><a href="http://www.usability.gr.jp/tag/usability-test/">http://www.usability.gr.jp/tag/usability-test/</a></li>
+<li><a href="http://www.usability.gov/">http://www.usability.gov/</a></li>
+<li><a href="http://www.nngroup.com/reports/mobile-website-and-application-usability/">http://www.nngroup.com/reports/mobile-website-and-application-usability/</a></li>
+<li><a href="http://www.nngroup.com/articles/ten-usability-heuristics/">http://www.nngroup.com/articles/ten-usability-heuristics/</a></li>
+<li><a href="http://www.nngroup.com/articles/affordable_care_act_usability_issues/">http://www.nngroup.com/articles/affordable_care_act_usability_issues/</a></li>
+<li><a href="http://ja.wikipedia.org/wiki/ISO_9126">http://ja.wikipedia.org/wiki/ISO_9126</a></li>
+<li><a href="http://www.iid.co.jp/">http://www.iid.co.jp/</a></li>
+<li><a href="http://directorblog.jp/archives/51780644.html">http://directorblog.jp/archives/51780644.html</a></li>
+<li><a href="http://gigazine.net/news/20120830-ui-design-cedec2012/">http://gigazine.net/news/20120830-ui-design-cedec2012/</a></li>
+<li><a href="http://www.coprosystem.co.jp/marketingblog/2012/01/24.html">http://www.coprosystem.co.jp/marketingblog/2012/01/24.html</a></li>
+<li><a href="http://d.hatena.ne.jp/absj31/20120310/1331399198">http://d.hatena.ne.jp/absj31/20120310/1331399198</a></li>
+<li><a href="http://www.userside.jp/evaluation/usability-test/index.html">http://www.userside.jp/evaluation/usability-test/index.html</a></li>
+<li><a href="http://www.mitsue.co.jp/service/usability/web_usability_testing/">http://www.mitsue.co.jp/service/usability/web_usability_testing/</a></li>
+</ul>
+
+
+<h3>x.参考書籍</h3>
+
+<ul>
+<li><a href="http://www.amazon.co.jp/gp/product/4798112941/ref=as_li_tf_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4798112941&linkCode=as2&tag=copy-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4798112941&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=copy-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=copy-22&l=as2&o=9&a=4798112941" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4274201449/ref=as_li_tf_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4274201449&linkCode=as2&tag=copy-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4274201449&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=copy-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=copy-22&l=as2&o=9&a=4274201449" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4822296105/ref=as_li_tf_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4822296105&linkCode=as2&tag=copy-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4822296105&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=copy-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=copy-22&l=as2&o=9&a=4822296105" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4797339098/ref=as_li_tf_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4797339098&linkCode=as2&tag=copy-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4797339098&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=copy-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=copy-22&l=as2&o=9&a=4797339098" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4839922330/ref=as_li_tf_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4839922330&linkCode=as2&tag=copy-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4839922330&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=copy-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=copy-22&l=as2&o=9&a=4839922330" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
