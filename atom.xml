@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2014-02-02T23:23:21+09:00</updated>
+  <updated>2014-02-04T00:31:12+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -18,12 +18,12 @@
     <link href="http://taninno.github.io/blog/2014/02/01/usability-testing-template/"/>
     <updated>2014-02-01T20:10:16+09:00</updated>
     <id>http://taninno.github.io/blog/2014/02/01/usability-testing-template</id>
-    <content type="html"><![CDATA[<p>ユーザビリティテスト中に使用するメモ用紙の項目をメモするためのテンプレート（雛形）を記載しています。ただユーザビリティテストを専門で行っているわけではないので、要素の抜け漏れなどはあるかもしれません。ここではユーザビリティ全体ではなく、テスト時に使用するタスクシートに関して記載しています。ユーザビリティのプラン作成やレポート作成、リクルーティングなどは参考情報をご参照下さい。</p>
+    <content type="html"><![CDATA[<p>ユーザビリティテスト中に使用するメモ用紙の項目をメモするためのテンプレート（雛形）を記載しています。ユーザーの行動と発言を記録したプロトコルのようなものです。ただユーザビリティテストを専門で行っているわけではないので、要素の抜け漏れなどはあるかもしれません。ここではユーザビリティ全体ではなく、テスト時に使用するタスクシートに関して記載しています。ユーザビリティのプラン作成やレポート作成、リクルーティングなどは参考情報をご参照下さい。</p>
 
 <br/>
 
 
-<h3>1.タスクシートの雛形</h3>
+<h3>タスクシートの雛形</h3>
 
 <iframe width='850' height='600' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0ApZE_qOGDfNHdEYySkRNOGRBR0U0N2s3T2U0azJwelE&single=true&gid=0&output=html&widget=true'></iframe>
 
@@ -35,9 +35,62 @@
 
 <p><a href="https://docs.google.com/spreadsheet/ccc?key=0ApZE_qOGDfNHdEYySkRNOGRBR0U0N2s3T2U0azJwelE&amp;usp=sharing">https://docs.google.com/spreadsheet/ccc?key=0ApZE_qOGDfNHdEYySkRNOGRBR0U0N2s3T2U0azJwelE&amp;usp=sharing</a></p>
 
-<h3>2.項目</h3>
+<h3>1.アンケート</h3>
 
-<h4>達成</h4>
+<p>口頭か、用意した紙のアンケートで被験者のリテラシーなどをもとにセグメントを把握します。</p>
+
+<h3>2.お願い</h3>
+
+<p>発話法などのお願いをします。</p>
+
+<h3>3.状況説明</h3>
+
+<p>いきなりプロトタイプを渡すのではなく、感情移入しやすいようにテスト前の状況の経緯を伝えます。</p>
+
+<h3>4.テスト</h3>
+
+<h4>タスク</h4>
+
+<p>タスクの項番です。</p>
+
+<h4>目安</h4>
+
+<p>個々のタスクにかかる時間を記載します。ここでは分単位にしています。被験者によって大きくことなるので目安として設けています。</p>
+
+<h4>優先度</h4>
+
+<p>時間が足りなくなってきた際に、どのタスクをスキップすればいいのかを判断するために記載ます。</p>
+
+<h4>発言</h4>
+
+<p>インタビューアーの発言内容を記載します。台本のように慌てても大丈夫なようにセリフのまま記載します。
+また、インタビュー中にポイントして以下のものがあります。</p>
+
+<ol>
+<li>ユーザーが「～できるんですか？」と聞いてきたら「どう思います？」と逆に聞き返す。</li>
+<li>ユーザーが思考発話でひとりごとを発している時には、「そうなんですね」とオウム返しをしてあげる。</li>
+<li>ユーザーが少し戸惑っていたら、「どうしました？」と聞く。</li>
+<li>ユーザーが操作を中段していたら、「～あたりに何かないですか？」とヒントを伝える。</li>
+</ol>
+
+
+<h4>ポイント</h4>
+
+<p>当該タスクを目的を記載します。テストで確認したい箇所や着眼すべき箇所がどこなのかをハッキリさせます。</p>
+
+<h4>想定する行動</h4>
+
+<p>被験者の操作手順が最もベストだと思える操作を記載します。ここに記載する流れは既にシナリオで作成した内容になります。ユーザビリティテストはタスクA〜nまでのストーリーボードの流れと、個々のタスクの流れがシナリオ通りに進めているかを見つけ出すものだと考えています。</p>
+
+<h4>実際の行動</h4>
+
+<p>被験者がどのような操作を行ったのか、どのような発言をしたのかを記載します。</p>
+
+<h4>メモ</h4>
+
+<p>記載者が個人的に気付いたことを記載します。被験者の発言からの発見やテストの改善など気になったことをメモする欄です。</p>
+
+<h4>達成（効果/effctiveness）</h4>
 
 <ul>
 <li>◯はタスクを完了した場合</li>
@@ -46,7 +99,7 @@
 </ul>
 
 
-<h4>効率</h4>
+<h4>効率（efficiency）</h4>
 
 <ul>
 <li>◯は想定の操作通りにできた場合</li>
@@ -55,7 +108,7 @@
 </ul>
 
 
-<h4>満足</h4>
+<h4>満足（satisfaction）</h4>
 
 <ul>
 <li>◯は被験者が特に不満を持っていないと思われた場合</li>
@@ -64,9 +117,9 @@
 </ul>
 
 
-<h4>評価</h4>
+<h4>評価（インパクト分析）</h4>
 
-<p>達成・効率・満足を数値化してどの操作（タスク）が問題となっていたかを把握します。設定してる係数は以下の表の通りです。</p>
+<p>達成・効率・満足を数値化してどの操作（タスク）が問題となっていたかを把握します。数値は一般的な優先順位付けではなく、重要度を測りやすくするため、数値が多いほど問題が大きくなるようにします。係数は以下の表の通りです。タスクが正常に完了すれば<strong>0</strong>、最も深刻な問題は<strong>12</strong>となります。</p>
 
 <table>
 <thead>
@@ -100,17 +153,14 @@
 </table>
 
 
-<h3>3.</h3>
-
-<h3>4.</h3>
-
-<h3>5.</h3>
+<h3>5.ヒアリング</h3>
 
 <h3>x.参考情報</h3>
 
 <ul>
 <li><a href="http://www.usability.gr.jp/">http://www.usability.gr.jp/</a></li>
 <li><a href="http://www.usability.gr.jp/tag/usability-test/">http://www.usability.gr.jp/tag/usability-test/</a></li>
+<li><a href="http://www.usability.gr.jp/whatis/standards/">http://www.usability.gr.jp/whatis/standards/</a></li>
 <li><a href="http://www.usability.gov/">http://www.usability.gov/</a></li>
 <li><a href="http://www.nngroup.com/reports/mobile-website-and-application-usability/">http://www.nngroup.com/reports/mobile-website-and-application-usability/</a></li>
 <li><a href="http://www.nngroup.com/articles/ten-usability-heuristics/">http://www.nngroup.com/articles/ten-usability-heuristics/</a></li>
