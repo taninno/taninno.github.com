@@ -9,7 +9,7 @@
   <meta name="author" content="taninno">
 
   
-  <meta name="description" content="ユーザビリティテスト中に使用するメモ用紙の項目をメモするためのテンプレート（雛形）を記載しています。ユーザーの行動と発言を記録したプロトコルのようなものです。ただユーザビリティテストを専門で行っているわけではないので、要素の抜け漏れなどはあるかもしれません。ここではユーザビリティ全体ではなく、 &hellip;">
+  <meta name="description" content="始めに ユーザビリティテスト中に使用するメモ用紙の項目をメモするためのテンプレート（雛形）を記載しています。ユーザーの行動と発言を記録したプロトコルのようなものです。ただユーザビリティテストを専門で行っているわけではないので、要素の抜け漏れなどはあるかもしれません。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -103,36 +103,51 @@
   </header>
 
 
-<div class="entry-content"><p>ユーザビリティテスト中に使用するメモ用紙の項目をメモするためのテンプレート（雛形）を記載しています。ユーザーの行動と発言を記録したプロトコルのようなものです。ただユーザビリティテストを専門で行っているわけではないので、要素の抜け漏れなどはあるかもしれません。ここではユーザビリティ全体ではなく、テスト時に使用するタスクシートに関して記載しています。ユーザビリティのプラン作成やレポート作成、リクルーティングなどは参考情報をご参照下さい。</p>
+<div class="entry-content"><h3>始めに</h3>
 
-<br/>
-
-
-<h3>タスクシートの雛形</h3>
-
-<iframe width='850' height='600' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0ApZE_qOGDfNHdEYySkRNOGRBR0U0N2s3T2U0azJwelE&single=true&gid=0&output=html&widget=true'></iframe>
-
-
-
+<p>ユーザビリティテスト中に使用するメモ用紙の項目をメモするためのテンプレート（雛形）を記載しています。ユーザーの行動と発言を記録したプロトコルのようなものです。ただユーザビリティテストを専門で行っているわけではないので、要素の抜け漏れなどはあるかもしれません。ここではユーザビリティ全体ではなく、<strong>テスト時に使用するタスクシートに関して記載しています</strong>。ユーザビリティのプラン作成やレポート作成、リクルーティングなどは参考情報をご参照下さい。</p>
 
 <!-- more -->
 
 
+
+
+<br/><br/>
+
+
+<h3>ステップ ~ユーザビリティテストの構成~</h3>
+
+<h4>1.アンケート</h4>
+
+<p>リクルーティング時に被験者のリテラシーを全て把握していれば必要はありませんが、社内などの身近な方を対照するディスカウントユーザビリティテストなどではデモグラフィックのデータが揃っていないことが多いので、ここでセグメントを分類するためにアンケートを記載していただきます。そのアンケートの目的は主にテストするサービスにどれだけ接点があるかです。<strong>利用頻度</strong>や<strong>サービスをどの程度まで理解</strong>されているかで、その後のテストの進め方にも影響していきます（例えば、実はハードユーザーであったのなら初心者向けタスクはスキップするなど）。もちろん外部や専門部署へリクルーティングを依頼する場合には、前もって設定したリテラシー範囲を挙げる必要があります。</p>
+
+<h4>2.テスト前のお願い</h4>
+
+<p>アンケートの後には、思ったことをそのまま口に出してもらう思考発話法の実践していただくようにお願いをします。ただし、ユーザビリティテストに慣れていない方にこのお願いをしても、すぐにはうまくいきません。そのためテストの最中に考えていること聞いて話を促しますので、<strong>わざわざ発話法に触れなくても良いと思います</strong>。そもそも発話法に慣れている方というのは被験者としてはあまり参考にならないかもしれません。他には被験者を評価しているわけではないことや、テスト中に質問されてもヒントになってしまう場合は答えられないことを伝えることが推奨されますが、儀式なようなものなので、<strong>アンケート後はすぐに状況説明をして良いと思います</strong>。</p>
+
+<h4>3.状況説明</h4>
+
+<p>いきなりプロトタイプを渡すのではなく、感情移入しやすいようにテスト前の状況の経緯を伝えます。例えば、Webサイトのテストなら対象のサイトが表示された端末を渡すのではなく、「<strong>あなたは〜が気になったので、GoogleでXXXと検索して、一番上に表示されたLLLというサイトをタップしました</strong>」と伝えてから始めます。こうすることで被験者がより自分の実体験に置き換えて実際の行動に近づけやすくなります。この状況はUXプロセスのストーリーで設計したシナリオを当てはめます。考えたシナリオは状況説明だけではなく、この後に行うテストにもシナリオがベースとなります。</p>
+
+<h4>4.テストの実施</h4>
+
+<p>テストのタスクもシナリオを流用します。最近ではユーザビリティを見込んでストーリーのプロット（<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/</a>）を作成します。<strong>ユーザーのタッチポイントや操作順序、時間経過をまとめたプロット</strong>があればタスクシートの作成も簡単になります。</p>
+
+<h4>5.質問（回顧法）</h4>
+
+<p>テスト中に思った疑問を聞きます。インタビューアーの方ならテスト中でも「どうしてXXXを選択したんですか？」など聞きやすいですが、メモをとっていた人や別室でウォッチしている人は疑問をまとめて後で質問します。インタビューアーの方でもFive-Whysなどでコアな理由・原因を知りたいときにテスト後の時間を利用すれば、時間超過やタスクのヒントを言ってしまうことも防げます。また、サービスの全体的な印象を聞いたり、100満点で点数をつけてもらうときもここで行います。あとは逆に被験者からの質問・もやもやしていることを聞いたりします。</p>
+
+<br/><br/>
+
+
+<h3>タスクシートの項目について</h3>
+
+<p>下記の表の各列を左から説明します。</p>
+
+<iframe width='850' height='600' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0ApZE_qOGDfNHdEYySkRNOGRBR0U0N2s3T2U0azJwelE&single=true&gid=0&output=html&widget=true'></iframe>
+
+
 <p><a href="https://docs.google.com/spreadsheet/ccc?key=0ApZE_qOGDfNHdEYySkRNOGRBR0U0N2s3T2U0azJwelE&amp;usp=sharing">https://docs.google.com/spreadsheet/ccc?key=0ApZE_qOGDfNHdEYySkRNOGRBR0U0N2s3T2U0azJwelE&amp;usp=sharing</a></p>
-
-<h3>1.アンケート</h3>
-
-<p>口頭か、用意した紙のアンケートで被験者のリテラシーなどをもとにセグメントを把握します。</p>
-
-<h3>2.お願い</h3>
-
-<p>発話法などのお願いをします。</p>
-
-<h3>3.状況説明</h3>
-
-<p>いきなりプロトタイプを渡すのではなく、感情移入しやすいようにテスト前の状況の経緯を伝えます。</p>
-
-<h3>4.テスト</h3>
 
 <h4>タスク</h4>
 
@@ -209,38 +224,45 @@
 <table>
 <thead>
 <tr>
-<th align="left">　　</th>
-<th align="center">  　達成   </th>
-<th align="center">  　効率   </th>
+<th></th>
+<th align="center"> &mdash;&mdash; </th>
+<th align="center">  達成  </th>
+<th align="center">  　効率  </th>
 <th align="center"> 　満足</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">◯   </td>
-<td align="center"> 0      </td>
-<td align="center"> 0       </td>
-<td align="center"> 0</td>
+<td></td>
+<td align="center">◯    </td>
+<td align="center">    0   </td>
+<td align="center">   0     </td>
+<td align="center">   0</td>
 </tr>
 <tr>
-<td align="left">△   </td>
-<td align="center"> 3      </td>
-<td align="center"> 2       </td>
-<td align="center"> 1</td>
+<td></td>
+<td align="center">△    </td>
+<td align="center">    3   </td>
+<td align="center">   2     </td>
+<td align="center">   1</td>
 </tr>
 <tr>
-<td align="left">☓   </td>
-<td align="center"> 5      </td>
-<td align="center"> 4       </td>
-<td align="center"> 3</td>
+<td></td>
+<td align="center">☓    </td>
+<td align="center">    5   </td>
+<td align="center">   4     </td>
+<td align="center">   3</td>
 </tr>
 </tbody>
 </table>
 
 
-<h3>5.ヒアリング</h3>
+<br/><br/>
 
-<h3>x.参考情報</h3>
+
+<h3>参考情報</h3>
+
+<h4>URL</h4>
 
 <ul>
 <li><a href="http://www.usability.gr.jp/">http://www.usability.gr.jp/</a></li>
@@ -261,7 +283,7 @@
 </ul>
 
 
-<h3>x.参考書籍</h3>
+<h4>書籍</h4>
 
 <ul>
 <li><a href="http://www.amazon.co.jp/gp/product/4798112941/ref=as_li_tf_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4798112941&linkCode=as2&tag=copy-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4798112941&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=copy-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=copy-22&l=as2&o=9&a=4798112941" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
