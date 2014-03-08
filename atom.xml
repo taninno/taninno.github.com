@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2014-03-05T19:02:00+09:00</updated>
+  <updated>2014-03-08T23:17:28+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -228,7 +228,7 @@
 
 <h3>UX設計プロセス</h3>
 
-<p>アプリやWebサービス、サイトなどを作っていく全体の流れは以下のプロセスを行っています。基本的なUXデザインのプロセス通りですが、<strong>コンセプトやアイディアの前に調査（理解）を重視している点</strong>と、<strong>ワイヤフレームではなくインタラクティブなモックアップを作成している点</strong>が多少異なるかもしれません。その他のプロセスのご興味がありましたら詳細は<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">受諾型UXデザインアプローチ</a>を御覧ください。</p>
+<p>アプリやWebサービス、サイトなどを作っていく全体の流れは以下のプロセスを行っています。基本的なUXデザインのプロセス通りですが、<strong>コンセプトやアイディアの前に調査（理解）を重視している点</strong>と、<strong>ワイヤフレームではなくインタラクティブなモックアップを作成している点</strong>が多少異なるかもしれません。その他のプロセスにご興味がありましたら詳細は<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">受諾型UXデザインアプローチ</a>を御覧ください。</p>
 
 <ol>
 <li>理解</li>
@@ -376,7 +376,7 @@ Inspiring UI Wireframe Sketches<br/>
 <blockquote><p>触れる・動くによって変わるデザインプロセス
 <a href="http://www.yasuhisa.com/could/article/webdesign-and-prototyping/">http://www.yasuhisa.com/could/article/webdesign-and-prototyping/</a></p></blockquote>
 
-<p>数年前まではモックアップを作るのにFlashやActionScriptなどのコードを書くことが必要でした。そのため工数が掛かってしまい、モックアップを作るためだけのプロジェクトを用意したりしていました。このように気軽に試すことができないので、UIを議論するときにはワイヤーフレームを使うことが多くありました。けれども今はモックアップ専用ツールを利用することで、Flashよりも短期間で簡単に作ることができるようになりました。</p>
+<p>数年前まではモックアップを作るのにFlashやActionScriptなどのコードを書くことが必要でした。そのため工数が掛かってしまい、<strong>モックアップを作るためだけの予算が必要になったりしていました</strong>。このように気軽に試すことができないので、UIを議論するときにはワイヤーフレームを使うことが多くありました。けれども今はモックアップ専用ツールを利用することで、Flashよりも短期間で簡単に作ることができるようになりました。</p>
 
 <p>UIを議論する場合にはハリボテとはいえ動くモックアップのほうがスムーズになります。ワイヤーフレームでは画面の流れやインタラクションを頭の中で動きを想像する必要があるため、実際の画面とイメージがかけ離れることがあります。</p>
 
@@ -390,7 +390,7 @@ Inspiring UI Wireframe Sketches<br/>
 
 <p>画面のレイアウトを考える際にもワイヤーフレームでは最初にユーザーがディスプレイ上で閲覧するファーストビューだけで考えがちですが、ケータイよりもスクロールがしやすいスマフォのUIではコンテンツやボタンなどのコントロールを全てファーストビューに収める必要が少なくなります。ケータイでは十字キーの下を画面内のリンクの回数以上を押さないとスクロールしませんが、タッチUIのスマフォでは指を上にフリックするだけで画面の下にあるコンテンツが現れます。タッチUIの画面レイアウトで大切なのはファーストビューの周りに何のコンテンツを置き、ファーストビューにはそのコンテンツをどのように気づかせ、誘導するかが重要となります。</p>
 
-<p>ワイヤーフレームではファーストビューを意識するあまり、ユーザーが操作している状態を意識することが難しくなります。ワイヤーフレームはファーストビューのレイアウトを考えるのには有効ですが、現在はユーザーによる何かを操作している状態がどのように見えているかが重要になります。その都度の状態をワイヤーフレームで書き表すのは膨大になるため、モックアップを操作することで簡単に状態を再現、体験できます。この操作中の状態がどのように見えるのかは、実際にやってみてみるとワイヤーフレームやペーパープロトタイプ以上の発見があります。ワイヤーフレームなどの静的な情報から操作中を想像するのはUIデザイナーでないと難しいですし、考慮漏れが出てきてしまいます。</p>
+<p><strong>ワイヤーフレームではファーストビューを意識するあまり、ユーザーが操作している状態を意識することが難しくなります</strong>。ワイヤーフレームはファーストビューのレイアウトを考えるのには有効ですが、現在はユーザーによる何かを操作している状態がどのように見えているかが重要になります。その都度の状態をワイヤーフレームで書き表すのは膨大になるため、モックアップを操作することで簡単に状態を再現、体験できます。この操作中の状態がどのように見えるのかは、実際にやってみてみるとワイヤーフレームやペーパープロトタイプ以上の発見があります。ワイヤーフレームなどの静的な情報から操作中を想像するのはUIデザイナーでないと難しいですし、考慮漏れが出てきてしまいます。</p>
 
 <br/>
 
@@ -398,24 +398,24 @@ Inspiring UI Wireframe Sketches<br/>
 <br/>
 
 
-<h3>たくさんのモックアップツールの中で</h3>
+<h3>たくさんのモックアップツール</h3>
 
 <p>ここで記載していますモックアップツール（またはプロトタイピングツール）は、下記の3.と4.を作成するためのツールになります。</p>
 
-<p>ローフィデリティ<br/>
+<p>低精度（ローフィデリティ）<br/>
 ↑</p>
 
 <ol>
-<li>紙に手書きするスケッチ → 画面のアイディアを考察するため</li>
+<li>紙などに手書きするスケッチ → 画面のアイディアを考察するため</li>
 <li>ペーパープロトタイプ → 専門チーム内でのインタラクションの共通理解のため</li>
-<li>一枚絵のモックアップ → ビジュアルを含めたインタラクションの早期確認のため（デザインが既にある場合のみ）</li>
-<li>操作可能なモックアップ → UIの操作性の検証とUXの実現可能性を検証のため</li>
+<li>一枚絵のモックアップ → ビジュアルを含めたインタラクションの早期確認のため（POP, Flinto）</li>
+<li>操作可能なモックアップ → UIの操作性の検証とUXの実現可能性を検証するため（Prototyper, Proto.io, UXPin）</li>
 <li>ソースコードから作るプロトタイプ → 技術検証や非機能要件の検証のため</li>
 </ol>
 
 
 <p>↓<br/>
-ハイフィデリティ</p>
+高精度（ハイフィデリティ）</p>
 
 <p>プロトタイプツールと言ったりもしますが、5.を指すわけでなく、3.と4.にあたります。ややこしい言い方になってしまいますが、モックアップツールとプロトタイピングツールは同じものを指します。それはプロトタイプをブレッドボード・プロトタイピングと定義しているため、プロトタイプを作るにはIDEなどの本番の開発環境を用いるためです。</p>
 
@@ -424,8 +424,31 @@ Inspiring UI Wireframe Sketches<br/>
 
 <p>アラン・クーパーさんのブログでモックアップツールを紹介する記事がありますが、比較されている10個のツールうち、インタラクションの項目がHighなのは2つだけです。その1つが後述しますPrototypers(<a href="http://www.justinmind.com/">http://www.justinmind.com/</a>)になります。</p>
 
-<blockquote><p><img src="http://taninno.github.io/images/prototyper/summaryChart.png" width="520"/><br/>
-<a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes">http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes</a></p></blockquote>
+<p><img src="http://taninno.github.io/images/prototyper/summaryChart.png" width="520"/><br/>
+<a href="http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes">http://www.cooper.com/journal/2013/07/designers-toolkit-proto-testing-for-prototypes</a></p>
+
+<br/>
+
+
+<br/>
+
+
+<h4>POP</h4>
+
+<p>POPはiPhoneとAndroidで配信されているアプリです。紙に書いた画面をPOPで撮影し、アプリ内で画面を繋げていくと、紙に書いた画面が端末で操作可能になるというツールです。まだUIを考え始めたスケッチ段階で手軽にできるので助かります。<br/>
+<img src="http://taninno.github.io/images/prototyper/pop.png" width="240"/><br/>
+<a href="https://popapp.in">https://popapp.in</a></p>
+
+<h4>Flinto</h4>
+
+<p>Flintoは画面（PNGなど）を配置し、画面遷移する場所を指定するだけで実機上で操作可能なアプリ（モックアップ）が作成できます。画面はPhotoshopなどで作成するので主にUIデザイナーの方が利用される場合に便利だと思います。2014年にAndroid端末にもインストールできるようになりました。<br/>
+<a href="https://www.flinto.com/">https://www.flinto.com/</a></p>
+
+<h4>Prototyper</h4>
+
+<p>PrototyperはJustinmind社によるモックアップツールです。インタラクション性の高いモックアップツールにはproto.ioなどのWebブラウザ型が多いですが、Prototypeはスタンドアローンのデスクトップアプリなのが特徴です。製品名にはプロトタイプ（“prototype”）が含まれていますが、製品に近い技術で作成されるプロトタイプというよりは、動きやコンポジションなどを確認するモックアップに近いです。<br/>
+<img src="http://taninno.github.io/images/prototyper/prototyper.png" width="240"/><br/>
+<a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
 
 <h4>proto.io</h4>
 
@@ -433,22 +456,16 @@ Inspiring UI Wireframe Sketches<br/>
 <img src="http://taninno.github.io/images/prototyper/protoio.png" width="240"/><br/>
 <a href="http://proto.io">http://proto.io</a></p>
 
-<h4>POP</h4>
-
-<p>POPや、他には<a href="https://www.flinto.com/">Flinto</a>もありますが、ワイヤーフレームの段階というよりもスケッチ段階で使用する場合に有効です。まだUIを考え始めた段階で手軽にできるのが助かります。<br/>
-<img src="http://taninno.github.io/images/prototyper/pop.png" width="240"/><br/>
-<a href="https://popapp.in">https://popapp.in</a></p>
-
-<h4>pentotype</h4>
-
-<p>こちらもモックアップ（プロトタイプ）ツールではなくスケッチ用途ですが、iPadで画面レイアウトを描くことができます。画面遷移も設定できるため、その場でスケッチしたUIの流れを把握することができます。それにpentotype自体のUIが優れているので、iPadでも簡単に操作することができます。<br/>
-<a href="http://www.pentotype.com/">http://www.pentotype.com/</a></p>
-
 <h4>UXPin</h4>
 
 <p>UXPinというWebブラウザ上で動作するツールも使いやすいのですが、こちらは有償プランのみになります。ただペルソナのテンプレートが用意されているなど、他のツールにはないUXワークフロー全般のサービスがあります。
 <img src="http://taninno.github.io/images/prototyper/uxpin.png" width="480"/><br/>
 <a href="http://uxpin.com">http://uxpin.com</a></p>
+
+<h4>pentotype</h4>
+
+<p>pentotypeはモックアップ（プロトタイプ）ツールではなくスケッチ用途ですが、iPadで簡単に画面レイアウトを描くことができます。画面遷移も設定できるため、その場でスケッチしたUIの流れを把握することができます。また、pentotype自体のUIが勉強になります。
+<a href="http://www.pentotype.com/">http://www.pentotype.com/</a></p>
 
 <br/>
 
@@ -458,34 +475,47 @@ Inspiring UI Wireframe Sketches<br/>
 
 <h3>Prototyper</h3>
 
-<p>私はモックアップの作成に<a href="http://www.justinmind.com/">Prototyper</a>を使用しています。PrototyperはJustinmind社によるモックアップツールです。インタラクション性の高いモックアップツールにはproto.ioなどのWebブラウザ型が多いですが、Prototypeはスタンドアローンのデスクトップアプリなのが特徴です。製品名にはプロトタイプ（“prototype”）が含まれていますが、製品に近い技術で作成されるプロトタイプというよりは、動きやコンポジションなどを確認するモックアップに近いです。</p>
+<p>私はたくさんあるモックアップツールの中でPrototyperを使っています。1番の理由はWebサービスではなく、デスクトップアプリなのでオフラインで作業できることなのですが、他にも多くの便利な機能があります。<br/>
+<img src="http://taninno.github.io/images/prototyper/device.png" width="auto"/></p>
 
-<p><img src="http://taninno.github.io/images/prototyper/prototyper.png" width="240"/><br/>
-<a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
+<h4>モバイルへの実機プレビューが簡単なこと</h4>
 
-<p>またモバイルのモックアップにも向いており、QRコードを出力して簡単に実機でモックアップを操作することができます。<a href="https://www.justinmind.com/usernote/tests/4/1765/11188319/index.html">iOS7</a>や<a href="https://www.justinmind.com/usernote/tests/4/1765/10148555/test/screens/Screen%201.html">Android</a>、<a href="https://www.justinmind.com/usernote/tests/4/1765/10341535/index.html">Windows8</a>、<a href="http://www.justinmind.com/usernote/tests/4/1765/10099572/test/screens/Windows%207%20Phone%20Library.html">Windows Phone</a>などのウィジェットも用意されています。</p>
+<p>PrototyperはQRコードを出力して簡単に実機でモックアップを操作することができます。</p>
 
-<p><img src="http://taninno.github.io/images/prototyper/ios7_component.png" width="320"/>
-<img src="http://taninno.github.io/images/prototyper/andoroid_component.png" width="320"/></p>
-
-<p>Justinmindのブログには<a href="http://blog.justinmind.com/justinmind-at-google-glass-san-francisco/">Google Glassのウィジェット</a>も作成予定とのことです。</p>
-
-<p><img src="http://taninno.github.io/images/prototyper/googleglass.png" width="240"/></p>
-
-<p>PrototyperではさらにWordやPDFへの画面仕様書の自動出力機能があります。仕様書に載せる画面はツールから出力したものを使用します。手戻りがあっても画面仕様書の反映作業が大幅に短縮できます。Wordのフォーマットも自分でカスタマイズできます。</p>
-
-<p><img src="http://taninno.github.io/images/prototyper/word.png" width="240"/><br/>
-Wordへ出力する画面を選択できます</p>
+<h4>操作可能なUIコンポーネント</h4>
 
 <p>ボタンやテキストフィールドなどのコンポーネントを操作可能な状態の画面をスマートフォンなどの実機で操作することができます。</p>
 
 <p><img src="http://taninno.github.io/images/prototyper/input.png" width="240"/><br/>
 テキストフィールドコンポーネントに実際に文字入力が可能</p>
 
-<p><img src="http://taninno.github.io/images/prototyper/device.png" width="auto"/><br/>
-PowerPointのような感覚でスクロール可能な実機のモックアップを作ることが出来ます</p>
+<h4>iPhoneやAndroidなどのUIコンポーネントが豊富なこと</h4>
 
-<p>インタラクションを設定するのは少し手間ですが、このレベルでの画面操作を盛り込むことで、早期に実際の製品にとても近い操作でユーザーテストを実施することができます。実機で操作できますので、特にモバイルではスマートフォンのタップしやすい領域内にボタンがあるかなどを体感できます。そして画面がスクロールできることやタップしやすいかなどの基本的なUIの検証を行います。これらの操作感はペーパープロトタイプではできなく、ワイヤーフレームやプロトタイピングなどの少し工程が進んだ時では、間違いに気付いたとしても手戻りが多くなってしまいます。</p>
+<ul>
+<li><a href="https://www.justinmind.com/usernote/tests/4/1765/11188319/index.html">iOS7</a></li>
+<li><a href="https://www.justinmind.com/usernote/tests/4/1765/11398971/index.html#/screens/d12245cc-1680-458d-89dd-4f0d7fb22724">Android 4.4</a></li>
+<li><a href="https://www.justinmind.com/usernote/tests/4/1765/10341535/index.html">Windows8</a></li>
+<li><a href="http://www.justinmind.com/usernote/tests/4/1765/10099572/test/screens/Windows%207%20Phone%20Library.html">Windows Phone</a></li>
+</ul>
+
+
+<p><img src="http://taninno.github.io/images/prototyper/ios7_component.png" width="320"/>
+<img src="http://taninno.github.io/images/prototyper/andoroid_component.png" width="320"/></p>
+
+<p>公式ブログに<a href="http://blog.justinmind.com/justinmind-at-google-glass-san-francisco/">Google Glassのウィジェット</a>も作成予定とのことです。</p>
+
+<p><img src="http://taninno.github.io/images/prototyper/googleglass.png" width="240"/></p>
+
+<h4>ドキュメントの出力</h4>
+
+<p>PrototyperではさらにWordやPDFへの画面仕様書の自動出力機能があります。仕様書に載せる画面はツールから出力したものを使用します。手戻りがあっても画面仕様書の反映作業が大幅に短縮できます。Wordのフォーマットも自分でカスタマイズできます。ただし、<strong>１枚の用紙におさまるように出力されてしまい、スマフォなどの縦に長い画面では縮小されてあまり閲覧性がよくありません</strong>。そのため、面倒ではありますが各画面を画像ファイル出力し、それをExcelに１シートに１画面を配置して画面仕様書を作成しています。</p>
+
+<p><img src="http://taninno.github.io/images/prototyper/word.png" width="240"/><br/>
+出力する画面を選択してるところです</p>
+
+<h4>欠点もありますが</h4>
+
+<p>正直、Prototyperでコンポーネントを配置し、インタラクションを設定するのは時間も掛かり、たまにバグがあったり、使いづらく感じることもあります。ですが、このレベルでの画面操作を盛り込むことで、早期に実際の製品にとても近い操作でユーザーテストを実施することができます。実機で操作できますので、<strong>特にモバイルではスマートフォンのタップしやすい領域内にボタンがあるかなどを体感できます。さらに、スクロールする情報量の確認やスクロール後の位置がタップしやすいかなどの基本的なUIの検証を行います</strong>。これらの操作感はペーパープロトタイプでは実感しづらく、ワイヤーフレームやプロトタイピングなどの少し工程が進んだ時では、間違いに気付いたとしても手戻りが多くなってしまいます。なにより、モックアップの作成コストがPowerPoint感覚まで下がってきているので、試しに簡単なモックアップを作ってみてはいかがでしょうか。</p>
 
 <br/>
 
@@ -495,7 +525,7 @@ PowerPointのような感覚でスクロール可能な実機のモックアッ�
 
 <h3>今後の新しいモックアップ</h3>
 
-<p>モックアップを重視したワークフローは工数を低減するためのものでした。今後はさらに作業効率を上げるため、途中成果物であるモックアップではなく実際の製品レベルに近いプロトタイプを簡単に作れる環境が普及すると思われます。</p>
+<p>モックアップを重視したワークフローは工数を低減するためのものでした。今後はさらに作業効率を上げるため、途中成果物であるモックアップではなく実際の製品レベルに近いプロトタイプを簡単に作れる環境が今後普及すると思われます。</p>
 
 <h4>Create a responsive wireframe</h4>
 
@@ -505,7 +535,7 @@ PowerPointのような感覚でスクロール可能な実機のモックアッ�
 
 <h4>stand in</h4>
 
-<p>Photoshopなどのデザインツールに慣れている方は、Photoshop上でから実機で確認ができるインタラクティブなモックアップを作成することができるようになります。まだ公開されていませんが、これによりUIフェイズとDesignフェイズが短縮できます。<br/>
+<p>Photoshopなどのデザインツールに慣れている方は、Photoshop上でから実機で確認ができるインタラクティブなモックアップを作成することができるようになります。これによりUIフェイズとビジュアルデザインフェイズが短縮できます。<br/>
 <img src="http://taninno.github.io/images/prototyper/stand.png" width="320" />  <br/>
 <a href="http://standin.io/">http://standin.io/</a></p>
 
@@ -515,7 +545,22 @@ PowerPointのような感覚でスクロール可能な実機のモックアッ�
 <br/>
 
 
-<h3>Prototyper Tips</h3>
+
+
+<div id="section3"></div>
+
+
+<h2>3.画面詳細設計</h2>
+
+<p>記載中です</p>
+
+<br/>
+
+
+<br/>
+
+
+<h2>Prototyper Tips</h2>
 
 <p>Prototyperに関するTipsを引用しています。</p>
 
@@ -566,21 +611,6 @@ PowerPointのような感覚でスクロール可能な実機のモックアッ�
 
 
 
-
-<br/>
-
-
-<br/>
-
-
-
-
-<div id="section3"></div>
-
-
-<h2>3.画面詳細設計</h2>
-
-<p>記載中です</p>
 ]]></content>
   </entry>
   
