@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2014-04-05T09:18:39+09:00</updated>
+  <updated>2014-04-12T13:02:11+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -313,8 +313,8 @@ Putting it All Together: Wireframing the Example App<br/>
 <p>ハリボテをあたかも実際に動いているように見せて画面の操作感や画面遷移を確認するものがモックアップです。ラピッドプロトタイプ,
 使い捨てのプロトタイプとも言います。ここでのモックアップはラピッドプロトタイプの中でもハイフィデリティなものになり、ローフィディリティなペーパープロトタイプとは異なります。
 <img src="http://taninno.github.io/images/prototyper/power.png" width="480"/><br/>
-モックアップ作成イメージ<br/>
-PowerMockup<br/>
+PowerPointでもボタンのリンクを設定することで簡易なモックアップが作成可能です<br/>
+PowerMockupを使えばモックアップに必要なステンシルが利用できるので便利です<br/>
 <a href="http://www.powermockup.com/">http://www.powermockup.com/</a></p>
 
 <br/>
@@ -459,7 +459,7 @@ Inspiring UI Wireframe Sketches<br/>
 <h4>Prototyper</h4>
 
 <p>PrototyperはJustinmind社によるモックアップツールです。インタラクション性の高いモックアップツールにはproto.ioなどのWebブラウザ型が多いですが、Prototypeはスタンドアローンのデスクトップアプリなのが特徴です。製品名にはプロトタイプ（“prototype”）が含まれていますが、製品に近い技術で作成されるプロトタイプというよりは、動きやコンポジションなどを確認するモックアップに近いです。<br/>
-<img src="http://taninno.github.io/images/prototyper/prototyper.png" width="240"/><br/>
+<img src="http://taninno.github.io/images/prototyper/device.png" width="240"/><br/>
 <a href="http://www.justinmind.com/">http://www.justinmind.com/</a></p>
 
 <h4>proto.io</h4>
@@ -485,23 +485,11 @@ Inspiring UI Wireframe Sketches<br/>
 <br/>
 
 
-<h3>Prototyper</h3>
+<h3><strong>Prototyper</strong></h3>
 
-<p>私はたくさんあるモックアップツールの中でPrototyperを使っています。1番の理由はWebサービスではなく、デスクトップアプリなのでオフラインで作業できることなのですが、他にも多くの便利な機能があります。<br/>
-<img src="http://taninno.github.io/images/prototyper/device.png" width="auto"/></p>
+<p>そのたくさんあるツールの中でモックアップを作成するにはPrototyperが最も適していると思います。先にモックアップは操作（スクロールやタップ、入力など）ができることが重要と記載しました。<strong>そのようなインタラクション性が高いモックアップを作れるのはPrototyperとproto.ioになります</strong>。proto.ioも非常に使い易いモックアップツールなのですが、proto.ioはWebサービスであるため、オフラインや機密が高い環境でも作業できるPrototyperを使用しています。もちろんPOPやFlintoなどのツールがダメなわけはありません。ローフィディリティなUIからでもイメージするスキルがある、例えばUIデザイナーやインタラクションデザイナーなど方であれば便利なツールだと思います。</p>
 
-<h4>モバイルへの実機プレビューが簡単なこと</h4>
-
-<p>PrototyperはQRコードを出力して簡単に実機でモックアップを操作することができます。</p>
-
-<h4>操作可能なUIコンポーネント</h4>
-
-<p>ボタンやテキストフィールドなどのコンポーネントを操作可能な状態の画面をスマートフォンなどの実機で操作することができます。</p>
-
-<p><img src="http://taninno.github.io/images/prototyper/input.png" width="240"/><br/>
-テキストフィールドコンポーネントに実際に文字入力が可能</p>
-
-<h4>iPhoneやAndroidなどのUIコンポーネントが豊富なこと</h4>
+<h4>iPhoneやAndroidなどのUIコンポーネントが豊富</h4>
 
 <ul>
 <li><a href="https://www.justinmind.com/usernote/tests/4/1765/11188319/index.html">iOS7</a></li>
@@ -514,9 +502,20 @@ Inspiring UI Wireframe Sketches<br/>
 <p><img src="http://taninno.github.io/images/prototyper/ios7_component.png" width="320"/>
 <img src="http://taninno.github.io/images/prototyper/andoroid_component.png" width="320"/></p>
 
-<p>公式ブログに<a href="http://blog.justinmind.com/justinmind-at-google-glass-san-francisco/">Google Glassのウィジェット</a>も作成予定とのことです。</p>
+<h4>操作可能なUIコンポーネント</h4>
+
+<p>ボタンやテキストフィールドなどのコンポーネントを操作可能な状態の画面をスマートフォンなどの実機で操作することができます。</p>
+
+<p><img src="http://taninno.github.io/images/prototyper/input.png" width="240"/><br/>
+テキストフィールドコンポーネントに実際に文字入力が可能</p>
+
+<p><a href="http://blog.justinmind.com/justinmind-at-google-glass-san-francisco/">Google Glassのウィジェット</a>も用意されるらしいです。</p>
 
 <p><img src="http://taninno.github.io/images/prototyper/googleglass.png" width="240"/></p>
+
+<h4>モバイルへの実機プレビューが簡単</h4>
+
+<p>PrototyperはQRコードを出力して簡単に実機でモックアップを操作することができます。</p>
 
 <h4>ドキュメントの出力</h4>
 
@@ -527,7 +526,7 @@ Inspiring UI Wireframe Sketches<br/>
 
 <h4>欠点</h4>
 
-<p>ハッキリ言ってPrototyperは細かくインタラクションが設定できる分、制作者のツールスキルが求められます。PrototyperのUIはPhotoshopやAxureなどの基本的なデザインツールと似ていますが、全く同じというわけではなく、ツール自体もそこまで使いやすいわけではありません。どこになにがあるか、何をしたら実現できるのかなど、慣れるまで若干時間が掛かるかと思います。</p>
+<p>ハッキリ言ってPrototyperは細かくインタラクションが設定できる分、制作者のツールスキルが求められます。PrototyperのUIはPhotoshopなどのデザインツールやAxureなどのモックアップツールに似ていますが、全く同じというわけではなく、ツール自体もそこまで使いやすいわけではありません。どこになにがあるか、何をしたら実現できるのかなど、慣れるまで若干時間が掛かるかと思います。</p>
 
 <p>Prototyperのサイトにはチュートリアルや逆引きTips、ヘルプ、サンプルファイルが掲載されていますので、こちらをもとに最初は慣れていくしかありません。</p>
 
@@ -547,17 +546,17 @@ Download free example prototypes and test them online<br/>
 
 <h3>今後の新しいモックアップ</h3>
 
-<p>モックアップを重視したワークフローは工数を低減するためのものでした。今後はさらに作業効率を上げるため、途中成果物であるモックアップではなく実際の製品レベルに近いプロトタイプを簡単に作れる環境が今後普及すると思われます。</p>
+<p>モックアップ重視のプロセスは工数を低減することが目的でした。今後はさらに作業効率を上げるため、途中成果物である模造品としてのモックアップではなく実際の製品レベルに近いプロトタイプを簡単に作れる環境が今後普及すると思われます。</p>
 
 <h4>Create a responsive wireframe</h4>
 
-<p>HTMLなどの知識があるコーダーの方であれば、Prototyperなどの専用ツールではなく、HTMLを作成すればより早く開発に着手することができ、さらに工数を短縮できます。<br/>
+<p>HTMLなどの知識があるコーダーの方であれば、Prototyperなどのモックアップツールではなく、HTMLを作成すればより早く開発に着手することができ、さらに工数を短縮できます。<br/>
 <img src="http://taninno.github.io/images/prototyper/responsive.png" width="240" /><br/>
 <a href="http://www.creativebloq.com/javascript/create-responsive-wireframe-3133034">http://www.creativebloq.com/javascript/create-responsive-wireframe-3133034</a></p>
 
 <h4>stand in</h4>
 
-<p>Photoshopなどのデザインツールに慣れている方は、Photoshop上でから実機で確認ができるインタラクティブなモックアップを作成することができるようになります。これによりUIフェイズとビジュアルデザインフェイズが短縮できます。<br/>
+<p>Photoshopなどのデザインツールに慣れている方は、Photoshop上でから実機で確認ができるインタラクティブなモックアップを作成することができるようになります。これによりUIフェイズと、さらにビジュアルデザインフェイズも短縮できます。<br/>
 <img src="http://taninno.github.io/images/prototyper/stand.png" width="320" />  <br/>
 <a href="http://standin.io/">http://standin.io/</a></p>
 
@@ -574,7 +573,11 @@ Download free example prototypes and test them online<br/>
 
 <h2>3.画面詳細設計</h2>
 
-<p>記載中です</p>
+<p>モックアップでユーザビリティテストなどの検証を何回か行った後に画面詳細設計書の作成に入ります。スケッチやモックアップを何回やり直せるかは予算とスケジュール次第ですが、画面詳細設計に着手する段階でそれなりに自信があるUIが設計していることとします。これが小規模案件であれば画面詳細画面書からやり直したり、そもそも設計書を記載せずに開発フェイズに着手しても良いと思います。もっと言えば個人やベンチャーならモックアップではなくプロダクトレベルのプロトタイプを作成することで、より期間を短縮できます。ですが、ここでは受諾型UXプロセスにより、成果物としてのUIに関するドキュメントを作成することを考えたいと思います。</p>
+
+<p>PrototyperのWordやPDFへの出力機能から自動で作成すること可能です。ただし、モバイルやコンテンツ量が多いWebですと画面が縦長となってしまい、Wordなどでは見やすくありません。それに相手の環境に依存しないことが求められます。そのため、Prototyperから各画面を画像ファイルで書き出し、Excelに配置するようにしています。Excelであれば縦長の画面を見るのも比較的簡単です。組み込みやスクロールの概念がないUIであればPowerPointを使用します。Illustratorなどのデザインツールも検討しましたが、管理保守するさいにインストールされていることが必要なため、普及しているOfficeで作成しています。できればPrototyperの出力機能が改善されるか、新しいモックアップツールが登場するのが良いのですが、今現在ではExcelを使用するのが良いと考えています。</p>
+
+<p>そのExcelでは複数のシートを分けて管理します。始めにview_listシートで画面一覧を記載し、個々の画面は１つのシートに１画面を配置します。必要があれば汎用ボタンや共通アイコンのシートを作成します。画面遷移図のシートも作成することがありますが、これはキャンバスが広い方が便利なので、画面数に酔っては他のツールを利用することもあります。</p>
 
 <br/>
 
