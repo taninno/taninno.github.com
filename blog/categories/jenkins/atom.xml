@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Jenkins | taninnosorani blog]]></title>
   <link href="http://taninno.github.io/blog/categories/jenkins/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2014-04-12T13:02:11+09:00</updated>
+  <updated>2014-04-19T10:30:44+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -19,16 +19,13 @@
     <updated>2012-08-15T22:43:00+09:00</updated>
     <id>http://taninno.github.io/blog/2012/08/15/windowsphone-on-jenkins</id>
     <content type="html"><![CDATA[<ol>
-<li><a href="http://jenkins-ci.org/">http://jenkins-ci.org/</a>でWindowsのやつをインストール。</li>
-<li>gitやMSBuildとかのプラグインをインストールする。</li>
+<li><a href="http://jenkins-ci.org/">http://jenkins-ci.org/</a>でWindowsをインストール。</li>
+<li>gitやMSBuildなどのプラグインをインストールする。</li>
 <li>jenkinsのPath to Git executableには「C:\Program Files\Git\bin\git.exe」を入れる。MSBuildのPath to MSBuildには「C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe」。</li>
-<li>個々のジョブを作って設定で、Repository URLにローカルリポジトリだと.gitまでのフォルダパスを入れる。ブランチには今回はmasterを指定している。</li>
-<li>ビルドの指定にはさっき登録したMSBuildを選択して.slnファイルへの相対パスを指定する。コマンドラインオプションには「/p:Configuration=Release /t:Clean,Build」を入れる。</li>
+<li>個々のジョブを作り設定で、Repository URLにローカルリポジトリだと.gitまでのフォルダパスを入れる。ブランチには今回はmasterを指定している。</li>
+<li>ビルドの指定には登録したMSBuildを選択して.slnファイルへの相対パスを指定する。コマンドラインオプションには「/p:Configuration=Release /t:Clean,Build」を入れる。</li>
 </ol>
 
-
-<p>てかWindowsPhone関係ないのか…
-でもこれでjenkinsでビルドが出来るはず。</p>
 
 <h2>参考URL</h2>
 

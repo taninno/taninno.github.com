@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Environment | taninnosorani blog]]></title>
   <link href="http://taninno.github.io/blog/categories/environment/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2014-04-12T13:02:11+09:00</updated>
+  <updated>2014-04-19T10:30:44+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[taninno]]></name>
@@ -18,21 +18,18 @@
     <link href="http://taninno.github.io/blog/2012/08/11/current-environment/"/>
     <updated>2012-08-11T17:11:00+09:00</updated>
     <id>http://taninno.github.io/blog/2012/08/11/current-environment</id>
-    <content type="html"><![CDATA[<p>こんな開発環境ができたらいいなのURLメモです。</p>
-
-<!-- more -->
+    <content type="html"><![CDATA[<!-- more -->
 
 
 <h3>アジャイル</h3>
 
 <p><a href="http://agilemanifesto.org/iso/ja/">http://agilemanifesto.org/iso/ja/</a><br/>
-→開発環境ではありませんが以降のツールもスクラムでの開発が想定されていると思うので</p>
+→開発環境ではありませんが以降のツールもスクラムでの開発が想定されていると思います</p>
 
 <h3>Pivotal Tracker</h3>
 
 <p><a href="http://www.pivotaltracker.com/">http://www.pivotaltracker.com/</a><br/>
 →スクラム向けスケジュール管理・バグ管理<br/>
-　今年の初めの記事ですが、シリコンバレーで使われる開発環境として3位になったり上昇中です。
 　<a href="http://japan.internet.com/wmnews/20120118/7.html">http://japan.internet.com/wmnews/20120118/7.html</a></p>
 
 <h3>Jenkins</h3>
