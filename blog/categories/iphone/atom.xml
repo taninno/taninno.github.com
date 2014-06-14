@@ -4,7 +4,7 @@
   <title><![CDATA[Category: iPhone | taninnosorani blog]]></title>
   <link href="http://taninno.github.io/blog/categories/iphone/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2014-06-14T23:55:55+09:00</updated>
+  <updated>2014-06-15T00:53:12+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -18,12 +18,32 @@
     <link href="http://taninno.github.io/blog/2014/06/14/cart/"/>
     <updated>2014-06-14T22:27:00+09:00</updated>
     <id>http://taninno.github.io/blog/2014/06/14/cart</id>
-    <content type="html"><![CDATA[<p>Cartは写真で記録する新しい家計簿です。</p>
+    <content type="html"><![CDATA[<h2>Cartは写真で記録する新しい家計簿です</h2>
 
-<p>細かな科目を分けて管理するのは疲れてしまいますよね。家計簿の本当の目的は自分がどれだけお買い物をしたのかを把握するためにあると考えます。そのときに本当に必要なのは細かな分類や金額ではなく、何を買ったのかを思い出すことだと思います。「Cart」はお買い物を思い出しやすくするために写真を撮って自動で地図情報を組み合わせるアプリです。一般的な家計簿よりも簡単に、そして家計簿を付けることでの体験をより楽しいものにします。</p>
+<p><img class="<a" src="href="http://taninno.github.io/images/cart/list.png">http://taninno.github.io/images/cart/list.png</a>" width="240" title="auto" >　
+<img class="<a" src="href="http://taninno.github.io/images/cart/cart.png">http://taninno.github.io/images/cart/cart.png</a>" width="240" title="auto" ></p>
 
-<p><img src="http://taninno.github.io/images/cart/cart.png" width="240"/><br/>
-<img src="http://taninno.github.io/images/cart/list.png" width="240"/></p>
+<h3>そもそも家計簿とは？</h3>
+
+<p>家計簿をつける目的は、どれだけの支出があって、それが収入に収まっているのかを管理して把握するためにあると思います。<strong>ですが管理することが目的になってしまい、帳簿のたくさんの数字を見ても実感がわかなかったりすることもあるかと思います</strong>。結局、支出を把握するのに「日用品」「交通費」「娯楽」などに分けても数字上の「娯楽」は先月と増えた減ったの参考になるだけで、どれだけの支出だったのかを把握するのには向いていないと考えました。家計簿に本当に必要なのは細かな分類や金額ではなく、何を買ったのかを思い出すことです。</p>
+
+<h3>Cartの特徴</h3>
+
+<p>Cartは<strong>大雑把な家計簿です</strong>。Cartの家計簿はどんな買い物をして、どれくらいのお金を使っているのかを思い出すためにあります。そのためにCartは写真と位置情報と時刻を記録します。スーパーのレジを読み取って細かな商品名と金額を記録するよりも、レジ袋を撮影して合計金額を入力するほうが後で見返したときに写真と場所から当時の買い物をしていた時の記憶が蘇りやすくなります。</p>
+
+<h3>オススメの使い方</h3>
+
+<ol>
+<li><strong>買い物をしているときに商品を撮影して、おおよその金額を入力します</strong>。</li>
+</ol>
+
+
+<p>これだけです。<br/>
+細かな金額や分類は必要ありません。Cartにとって大切なのは何にどれだけ使ったのかを管理することではないので、金額も大雑把に気楽に使います。バスに乗ったら「交通費」なんて入力しません。ただバスから見える景色に大体の金額を登録するだけで終わります。そして、<strong>1日使ってみたら以外なほどに買い物の回数が多いことに驚かれるかもしれません。これは帳簿で管理する家計簿では体験できません</strong>。もし細かな金額や分類で管理されたい方は別の家計簿アプリが良いかと思います。特に<a href="https://moneyforward.com/">マネーフォワード</a>がお勧めです。</p>
+
+<h3>仕様</h3>
+
+<p>CartはiOS7を入れたiPhone4s以上でご利用いただけます。</p>
 
 <p><a href="https://itunes.apple.com/jp/app/cart/id883013201?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.svg);}"></a></p>
 ]]></content>
