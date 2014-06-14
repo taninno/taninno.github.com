@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2014-06-08T20:14:58+09:00</updated>
+  <updated>2014-06-14T23:52:33+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[家計簿アプリCart]]></title>
+    <link href="http://taninno.github.io/blog/2014/06/14/cart/"/>
+    <updated>2014-06-14T22:27:00+09:00</updated>
+    <id>http://taninno.github.io/blog/2014/06/14/cart</id>
+    <content type="html"><![CDATA[<p>Cartは写真で記録する新しい家計簿です。</p>
+
+<p>細かな科目を分けて管理するのは疲れてしまいますよね。家計簿の本当の目的は自分がどれだけお買い物をしたのかを把握するためにあると考えます。そのときに本当に必要なのは細かな分類や金額ではなく、何を買ったのかを思い出すことだと思います。「Cart」はお買い物を思い出しやすくするために写真を撮って自動で地図情報を組み合わせるアプリです。一般的な家計簿よりも簡単に、そして家計簿を付けることでの体験をより楽しいものにします。</p>
+
+<p><img src="http://taninno.github.io/images/post/cart/cart.png" width="240"/></p>
+
+<p><a href="https://itunes.apple.com/jp/app/cart/id883013201?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.svg);}"></a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ユーザビリティテストのタスクシート]]></title>
