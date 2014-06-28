@@ -4,7 +4,7 @@
   <title><![CDATA[Category: iPhone | taninnosorani blog]]></title>
   <link href="http://taninno.github.io/blog/categories/iphone/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2014-06-28T11:47:35+09:00</updated>
+  <updated>2014-06-28T12:08:21+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -20,8 +20,8 @@
     <id>http://taninno.github.io/blog/2014/06/14/cart</id>
     <content type="html"><![CDATA[<h2>Cartは写真で記録する新しい家計簿です</h2>
 
-<p><img class="<a" src="href="http://taninno.github.io/images/cart/list.png">http://taninno.github.io/images/cart/list.png</a>" width="240" title="auto" >　
-<img class="<a" src="href="http://taninno.github.io/images/cart/cart.png">http://taninno.github.io/images/cart/cart.png</a>" width="240" title="auto" ></p>
+<p>{% img <a href="http://taninno.github.io/images/cart/list.png">http://taninno.github.io/images/cart/list.png</a> 240 auto %}　
+{% img <a href="http://taninno.github.io/images/cart/cart.png">http://taninno.github.io/images/cart/cart.png</a> 240 auto %}</p>
 
 <h3>そもそも家計簿とは？</h3>
 
