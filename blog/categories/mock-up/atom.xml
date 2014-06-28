@@ -4,7 +4,7 @@
   <title><![CDATA[Category: mock-up | taninnosorani blog]]></title>
   <link href="http://taninno.github.io/blog/categories/mock-up/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2014-06-28T12:20:50+09:00</updated>
+  <updated>2014-06-28T12:30:34+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -326,7 +326,7 @@ Inspiring UI Wireframe Sketches<br/>
 
 <h4>欠点</h4>
 
-<p>ハッキリ言ってPrototyperは細かくインタラクションが設定できる分、制作者のツールスキルが求められます。PrototyperのUIはPhotoshopなどのデザインツールやAxureなどのモックアップツールに似ていますが、全く同じというわけではなく、ツール自体もそこまで使いやすいわけではありません。どこになにがあるか、何をしたら実現できるのかなど、慣れるまで若干時間が掛かるかと思います。</p>
+<p>ハッキリ言ってPrototyperは細かくインタラクションが設定できる分、制作者のツールスキルが求められます。PrototyperのUIはPhotoshopなどのデザインツールやAxureなどのモックアップツールに似ていますが、全く同じというわけではなく、ツール自体もそこまで使いやすいわけではありません。どこになにがあるか、何をしたら実現できるのかなど、慣れるまで若干時間が掛かるかと思います。<strong>ある意味プロフェッショナル向けであるため、UIデザイナーの方以外が無理して使う必要はありません。POPやFlinto、グットパッチ社のProttなどのツールでも効率よくUI設計ができます。</strong></p>
 
 <p>Prototyperのサイトにはチュートリアルや逆引きTips、ヘルプ、サンプルファイルが掲載されていますので、こちらをもとに最初は慣れていくしかありません。</p>
 
