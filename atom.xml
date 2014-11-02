@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2014-11-03T02:28:16+09:00</updated>
+  <updated>2014-11-03T02:28:41+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,34 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[ユーザビリティタスクシートの変更]]></title>
-    <link href="http://taninno.github.io/blog/2014/11/03/usability-testing-template-ver2/"/>
-    <updated>2014-11-03T01:46:01+09:00</updated>
-    <id>http://taninno.github.io/blog/2014/11/03/usability-testing-template-ver2</id>
-    <content type="html"><![CDATA[<p>ユーザビリティテストでタスクシートを使用していますが、以前に公開（2014/2頃）したものから若干変更したものを使用しています。</p>
-
-<!--
-    
-以前（ver1）のシートに関する詳細は[こちら](http://taninno.github.io/blog/2014/02/01/usability-testing-template/)です。
-
--->
-
-
-<hr />
-
-<h2>変更箇所</h2>
-
-<ul>
-<li>ver1ではフェイズ毎に列名の行を分けていましたが、ver2では共通の列名を使用しています。列名がフェイズ毎にバラバラであったためスプレッドシートにしては複雑なレイアウトなっていました。今は列行は１つだけあるため固定行にしてスクロールしても見やすくしています。</li>
-<li>経過時刻を記載する列を追加しました。進行管理を行うときに遅れているのか進んでいるかのをすぐに把握するためです。</li>
-<li>テストからの気付きを記載する「テスト結果の感想」列と、タスクを実施するための準備を記載する「準備・メモ」列を分けました。</li>
-<li>達成や効率などの評価ポイントを自動で計算するようにしました。ちなみにこのポイントは数字が多いほどユーザーが躓いたことを表します。</li>
-</ul>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[シナリオに対するエンジニアとの共通理解]]></title>
