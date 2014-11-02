@@ -4,7 +4,7 @@
   <title><![CDATA[Category: usability | taninnosorani blog]]></title>
   <link href="http://taninno.github.io/blog/categories/usability/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2014-11-03T02:37:12+09:00</updated>
+  <updated>2014-11-03T02:41:53+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -18,8 +18,7 @@
     <link href="http://taninno.github.io/blog/2014/02/01/usability-testing-template/"/>
     <updated>2014-02-01T20:10:16+09:00</updated>
     <id>http://taninno.github.io/blog/2014/02/01/usability-testing-template</id>
-    <content type="html"><![CDATA[<p>ユーザビリティテスト中にユーザーの行動と発言を記録するプロトコルのようなメモのテンプレートを作成しました。ただユーザビリティテストを専門で行っているわけではないので、要素の抜け漏れなどはあるかもしれません。ユーザビリティのテストプラン作成やレポート作成、被験者のリクルーティングなどは参考情報をご参照下さい。<strong>ここではユーザビリティテスト全体ではなく、インタビュー中に
-使用するタスクシート（インタビューシート）に関してになります</strong>。</p>
+    <content type="html"><![CDATA[<p>ユーザビリティテストの進行やユーザーの行動などを記録するタスクシート（プロトコルのようなメモや議事録の雛形）を作成しました。ただユーザビリティテストを専門で行っているわけではないので、要素の抜け漏れなどはあるかもしれません。ユーザビリティのテストプラン作成やレポート作成、被験者のリクルーティングなどは参考情報をご参照下さい。<strong>ここではユーザビリティテスト全体ではなく、インタビュー中に使用するタスクシート（インタビューシート）に関してになります</strong>。</p>
 
 <h2>2014/10/2 新しいタスクシート(ver2)を追記しました</h2>
 
