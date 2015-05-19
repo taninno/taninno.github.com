@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-05-20T00:44:45+09:00</updated>
+  <updated>2015-05-20T00:49:59+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -14,14 +14,28 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Start_up_ui_process]]></title>
+    <title type="html"><![CDATA[スタートアップで意思決定を含めたUI設計プロセス]]></title>
     <link href="http://taninno.github.io/blog/2015/05/04/start-up-ui-process/"/>
     <updated>2015-05-04T01:40:58+09:00</updated>
     <id>http://taninno.github.io/blog/2015/05/04/start-up-ui-process</id>
     <content type="html"><![CDATA[<p>UI設計のプロセスが変わってきました。</p>
 
-<p>現在
-<img src="http://taninno.github.io/images/process/01.png" width="240" title="auto" >　</p>
+<h2>昔</h2>
+
+<ol>
+<li>理解</li>
+<li>アイディア</li>
+<li>ストーリー</li>
+<li>UI</li>
+<li>ビジュアルデザイン</li>
+<li>開発</li>
+<li>フィードバック</li>
+</ol>
+
+
+<h2>現在</h2>
+
+<p><img src="http://taninno.github.io/images/process/01.png" width="720" title="auto" >　</p>
 ]]></content>
   </entry>
   
