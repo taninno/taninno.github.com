@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-05-20T02:11:53+09:00</updated>
+  <updated>2015-05-20T02:20:20+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -18,11 +18,11 @@
     <link href="http://taninno.github.io/blog/2015/05/04/start-up-ui-process/"/>
     <updated>2015-05-04T01:40:58+09:00</updated>
     <id>http://taninno.github.io/blog/2015/05/04/start-up-ui-process</id>
-    <content type="html"><![CDATA[<p>今いるスタートアップではエンジニアが高速で実装をしているので、それに合わせてUI設計のプロセスが変わってきました。</p>
+    <content type="html"><![CDATA[<p>今いるスタートアップではエンジニアが爆速で実装をしているので、それに合わせてUI設計のプロセスが変わってきました。</p>
 
 <h2>昔</h2>
 
-<p><img src="http://taninno.github.io/images/post/ux.png" width="480"/></p>
+<p><img src="http://taninno.github.io/images/post/ux.png" width="640"/></p>
 
 <ol>
 <li>理解</li>
