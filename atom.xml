@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-05-20T01:29:54+09:00</updated>
+  <updated>2015-05-20T01:31:34+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -52,10 +52,10 @@
 <p>少ない時間でモックアップ・プロトタイピングをするため</p>
 
 <ul>
-<li>Justinmind (&lt;www.justinmind.com>)</li>
-<li>inVision (&lt;www.invisionapp.com>)</li>
-<li><p>weld.io ( &lt;www.weld.io> )</p></li>
-<li><p>zeplin ( &lt;zeplin.io> )</p></li>
+<li>Justinmind &lt;www.justinmind.com></li>
+<li>inVision &lt;www.invisionapp.com></li>
+<li><p>weld.io &lt;www.weld.io></p></li>
+<li><p>zeplin &lt;zeplin.io></p></li>
 </ul>
 
 ]]></content>
