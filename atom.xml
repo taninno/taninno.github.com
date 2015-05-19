@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2014-11-03T02:41:53+09:00</updated>
+  <updated>2015-05-20T00:44:45+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Start_up_ui_process]]></title>
+    <link href="http://taninno.github.io/blog/2015/05/04/start-up-ui-process/"/>
+    <updated>2015-05-04T01:40:58+09:00</updated>
+    <id>http://taninno.github.io/blog/2015/05/04/start-up-ui-process</id>
+    <content type="html"><![CDATA[<p>UI設計のプロセスが変わってきました。</p>
+
+<p>現在
+<img src="http://taninno.github.io/images/process/01.png" width="240" title="auto" >　</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[シナリオに対するエンジニアとの共通理解]]></title>
