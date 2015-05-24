@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-05-24T23:25:21+09:00</updated>
+  <updated>2015-05-24T23:27:18+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -67,7 +67,7 @@
 
 <p>ここではプラニングの時に決めていた指標が達成されているかどうかを振り返ります。その他にも気付いたことを話し合い、次のイテレーションのためのヒアリングを行います。</p>
 
-<h2>調査ばかりはしてられない</h2>
+<h2>推測よりも測定</h2>
 
 <p>以前の受諾向けのUXプロセスでは調査フェイズだけで長いもので数ヶ月の時間がありました。プロジェクトも組織の規模も大きからこそ初期検討が重要でした。それがスタートアップのような環境では仮説検証にそれほど時間は掛けず、<strong>実際にリリースして結果を測定することを大切にしています。</strong>必要なのか悩んだらとりあえずやってみて改善したら良し、ダメだったら次の施策に活かせば良い。コストを掛けずにABテストが短いイテレーションで実施できる社内事業だからこそで、UI設計に外部の受諾コンサルがいると気軽に試してみるというのがやや難しくなります。ただ、これは規模が大きかった受諾の場合とどっちが良いかという話ではなく、時間も人も足りないが、失敗は比較的許されるスタートアップの事情もあります。</p>
 
@@ -97,7 +97,7 @@ Justinmindでモックアップは作っていましたが、その後Sketchで�
 
 <h3>weld (<a href="http://www.weld.io">weld.io</a>)</h3>
 
-<p><img src="http://taninno.github.io/images/process/weld.png" title="auto auto" >　
+<p><img src="http://taninno.github.io/images/process/weld.png" title="auto auto" ><br/>
 モックアップにはjustinmindを使っていますが、weldがシンプルで使いやすそうなので検討しています。justinmindは多機能なのは良いのですが、その分使い勝手や動作が犠牲になっているので、気軽に使えるモックアップツールとしてweldに期待しています。</p>
 ]]></content>
   </entry>
