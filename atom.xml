@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-05-24T22:53:20+09:00</updated>
+  <updated>2015-05-24T23:25:21+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -77,24 +77,28 @@
 
 <h3>Justinmind (<a href="http://www.justinmind.com">www.justinmind.com</a>)</h3>
 
-<p><img src="http://taninno.github.io/images/process/justinmind.png" title="auto auto" >　
-以前に<a href="http://taninno.github.io/blog/2013/09/12/justinmind-prototyper/">Prototyperを使ったモックアップ主導のUI設計プロセス</a>で書いたPrototyperが名前を変えて社名でもあるJustinmindになりました。</p>
+<p><img src="http://taninno.github.io/images/process/justinmind.png" title="auto auto" ><br/>
+以前に<a href="http://taninno.github.io/blog/2013/09/12/justinmind-prototyper/">Prototyperを使ったモックアップ主導のUI設計プロセス</a>で書いたPrototyperが名前を変えて社名でもあるJustinmindになりました。Justinmindは多機能系のモックアップ（プロトタイピング）ツールです。主にモックアップ作成に用いています。最近ちょっと挙動が重いので、<a href="http://www.weld.io">weld.</a>に移行しようかと思っています。</p>
 
 <h3>Sketch3 (<a href="http://bohemiancoding.com/">bohemiancoding.com</a>)</h3>
 
-<p><img src="http://taninno.github.io/images/process/sketch.png" title="auto auto" >　</p>
+<p><img src="http://taninno.github.io/images/process/sketch.png" title="auto auto" ><br/>
+UIパーツのほとんど共通のものを使うのでモックアップが終わると実装に入ることもありますが、時には新しいレイアウト・パーツが必要となることがあるので、ドローイングツールのSketchを使ってデザイン画をおこします。Photoshopより便利ですし、後述するzeplinとの連携のためもsketchを使っています。</p>
 
 <h3>inVision (<a href="http://www.invisionapp.com">www.invisionapp.com</a>)</h3>
 
-<p><img src="http://taninno.github.io/images/process/inVision.png" title="auto auto" >　</p>
+<p><img src="http://taninno.github.io/images/process/inVision.png" title="auto auto" ><br/>
+Justinmindでモックアップは作っていましたが、その後Sketchでデザインを描いているとモックアップが古くなってしまうので、画像ファイルからモックアップを作れるinVisionを使います。最近ではProttなどのツールも検討しています。</p>
 
 <h3>zeplin (<a href="http://zeplin.io">zeplin.io</a>)</h3>
 
-<p><img src="http://taninno.github.io/images/process/zeplin.png" title="auto auto" >　</p>
+<p><img src="http://taninno.github.io/images/process/zeplin.png" title="auto auto" ><br/>
+エンジニアにデザインを渡すときにSketch上でサイズやカラーコードを生成できる<a href="https://medium.com/sketch-tricks/sketch-measure-master-a-thorough-walkthrough-57d3df25a1cf">Sketch Measure</a>を使ったりしますが、画面の量が多いといくら自動とはいえ、パーツを指定するのは手作業なので少し大変です。そこでsketchのレイアウト情報をWeb上に表示できるzeplinを使用します。これでエンジニアにはURLだけ渡しとけば、後はブラウザ上からmargin値やfont-size、文章もコピペできるようになります。出来れば画像ファイルもzeplinから出力できればいいのですが、次のアップデートまで出来ないようです。</p>
 
 <h3>weld (<a href="http://www.weld.io">weld.io</a>)</h3>
 
-<p><img src="http://taninno.github.io/images/process/weld.png" title="auto auto" >　</p>
+<p><img src="http://taninno.github.io/images/process/weld.png" title="auto auto" >　
+モックアップにはjustinmindを使っていますが、weldがシンプルで使いやすそうなので検討しています。justinmindは多機能なのは良いのですが、その分使い勝手や動作が犠牲になっているので、気軽に使えるモックアップツールとしてweldに期待しています。</p>
 ]]></content>
   </entry>
   
