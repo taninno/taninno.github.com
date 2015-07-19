@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-07-20T03:53:11+09:00</updated>
+  <updated>2015-07-20T04:08:44+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -27,13 +27,15 @@
 <!-- more -->
 
 
-<h3>ちょっと昔のデザインの受け渡し</h3>
+<h3>ちょっと昔</h3>
 
 <p>ZEPLINによってMicrosoft Expression Blend時代に夢見たデザインと開発の橋渡しがようやく実現しました。これまではPhotoshopのプラグインのinkやAssistorPSなどの補助ツールを使っていましたが、今はZEPLINが最も使いやすいと思います。﻿</p>
 
 <p><img src="http://taninno.github.io/images/zeplin/02.png" title="auto auto" ></p>
 
-<p>Expression Blendは2007年に公開されたUI設計ツールです。BlendでUIを作成するとXAMLと呼ばれるXMLが自動で生成されます。XAMLはコードエディアのMicrosoft Visual Studioから編集することができるので、XAMLを介してデザイナーとエンジニアが共通のソースコードを扱うことができます。</p>
+<p>Expression Blendは2007年に公開されたUI設計ツールです。BlendでUIを作成するとXAMLと呼ばれるXMLが自動で生成されます。XAMLはコードエディアのMicrosoft Visual Studioから編集することができるので、XAMLを介してデザイナーとエンジニアが共通のソースコードを扱うことができます。ちなみにXAMLはWPFやSilverlightで使われている宣言型言語です。</p>
+
+<p>Blendが公開されたとき始めてデザイナーとエンジニアが同じソースで作業できると期待していましたが、実際にはエンジニア側はXAMLがHTMLに似ているので慣れず、デザイナー側はWPFなどのレイアウトコンポーネントの仕様を意識してデザインする必要があるため負担が増えてしまいました。結果、デザイナーとエンジニアの間にBlendでUIを作成するインタラクションデザイナー（今で言うフロントエンドエンジニア）というロールが生まれました。</p>
 ]]></content>
   </entry>
   
