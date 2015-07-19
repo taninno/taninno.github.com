@@ -9,12 +9,8 @@
   <meta name="author" content="">
 
   
-  <meta name="description" content="以前に書いた「問題解決型UXデザインアプローチ」はクライアントワークなどの受諾を想定したプロセスでした。それとは違いfreeeのようなエンジニアが爆速で実装をしている中でのUI設計のプロセスをまとめたいと思います。 昔のプロセス 　 理解
-アイディア
-ストーリー
-UI
-ビジュアルデザイン
-開発 &hellip;">
+  <meta name="description" content="
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -91,6 +87,42 @@ UI
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2015/07/20/how-about-zeplin/">freeeではZEPLINを使っています</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-07-20T02:56:34+09:00" pubdate data-updated="true">2015/07/20</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://taninno.github.io/images/zeplin/01.png" title="auto auto" ></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2015/05/04/start-up-ui-process/">スタートアップでの意思決定を含めたUI設計プロセス</a></h1>
     
     
@@ -116,87 +148,12 @@ UI
 
   <div class="entry-content"><p>以前に書いた「<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">問題解決型UXデザインアプローチ</a>」はクライアントワークなどの受諾を想定したプロセスでした。それとは違い<a href="http://freee.co.jp">freee</a>のようなエンジニアが爆速で実装をしている中でのUI設計のプロセスをまとめたいと思います。</p>
 
-<h2>昔のプロセス</h2>
-
-<p><img src="http://taninno.github.io/images/post/ux.png" title="auto auto" >　</p>
-
-<ol>
-<li>理解</li>
-<li>アイディア</li>
-<li>ストーリー</li>
-<li>UI</li>
-<li>ビジュアルデザイン</li>
-<li>開発</li>
-<li>フィードバック</li>
-</ol>
-
-
-<h2>現在</h2>
-
-<p><img src="http://taninno.github.io/images/process/01.png" width="720" title="auto" >　</p>
-
-<h3>コミュニケーション用資料の削減</h3>
-
-<p>昔と大きく変わったのは3.ストーリーと4.UIのプロセスをほとんど簡略したことです。3.はアイディアの共有が目的で、4.は画面の共有が目的でした。どちらも関係者とのコミュニケーションのためのプロセスですが、<strong>今は関係者が自分を含めて2人だけの少数の場合が多く、以前のような会ったことのない別会社の関係者への意思疎通の為の作業は必要無くなりました。</strong>ただ、もちろんスタートアップはスケールアップするため、この方法がいつまで出来るかわかりません。100人規模では成立していますが、どこかで「思いがそれぞれ違う人の方向性を合わせるコンセプト資料」と「自分が直接説明できない伝言ゲーム用の詳細画面設計書」が必要になるかもしれません。今は考えが似ていて直接説明できるチーム規模だからこそ、先の3.と4.のプロセスを減らすことができました。</p>
-
-<h2>新しいプロセス</h2>
-
-<p>コミュニケーション資料が減ったからといっても、１つ１つのTaskのゴールがなにで、どこまでやるのか、といった共通認識は重要です。むしろ気付いたら実装が終わっているほど実装サイクルが早いスタートアップでは、むしろ最初のkickoffでの舵取りがプロジェクトを左右します。</p>
-
-<h3>プラン</h3>
-
-<p>最初に課題を見つけたり、もっと改善できそうなところがあるとまずはプラン（提案書）を作ります。提案書と言ってもWord１ページ分の簡単な文章です。口頭で言うと<strong>「こんな課題があり、原因はこれで、策としてXXXを考えていて、効果としては◯◯◯を見込んでいる」</strong>といった簡単なものです。ただ課題として挙げられた箇所は本当にそうなのかという裏付けは必要です。それらは事前に定量的な仮設を集めます（時には数字を出さなくても明確に改善が必要だと判断することもありますが）。</p>
-
-<h3>プラニング</h3>
-
-<p>上記のプランをチームに披露します。プロジェクト規模が大きればリードレベルやデータアナリストの人達にも声を掛けます。<strong>この場では方向性は合っているか、スコープは広げすぎてないか、逆に漏れはないか、効果はありそうかなど意見をもらいます。</strong>そして懸念事項が上がり、大きくは問題が無いとなったならば振り返り日を決めて、その日にKPIなどの指標の達成度合いを確認します。このような場をプラニングと言っていますが、プロジェクトがスタートするので一般的にはキックオフに近いかもしれません（ちなみにそれほど用語には意味は無く、プラニングが最初のMTG,キックオフが２回目のMTGという程度に考えています）。ただ、UIチームは披露するアウトプットが異なります。プラニングではコンセプトの共有、キックオフではモックアップの共有にフォーカスします。</p>
-
-<h3>ラフスケッチとモックアップ</h3>
-
-<p>プラニングで方向性が定まったらUIらしい作業に入ります。ここではワイヤフレームは作らずラフスケッチとモックアップを作成します。なぜワイヤフレームを作らないかは<a href="http://taninno.github.io/blog/2013/09/12/justinmind-prototyper/">Prototyperを使ったモックアップ主導のUI設計プロセス</a>を参照ください。スケッチからモックアップへの流れは変わっていません。</p>
-
-<h3>キックオフ</h3>
-
-<p>プラニングが終わったら、次回のMTGでは初めて関係者全員（といっても数人程度）が集まります。<strong>この段階では最初のモックアップが荒くても出来上がってるようにします。</strong>議論のたたき台としてある程度が形になっていたほうが議論もしやすく、関係ない話に発展することも無くなります。もちろん全く別物になることも有りますが、触れる画面が何も無いと頭で想像して議論することになり、そうなると大抵結論がでませんし、この段階ではどうでもいい細かい所の話（イレギュラーケースなど）になりがちです。それを防ぐためにたたき台が必要です。さらに複数案あると尚いいです。</p>
-
-<h3>振り返り</h3>
-
-<p>ここではプラニングの時に決めていた指標が達成されているかどうかを振り返ります。その他にも気付いたことを話し合い、次のイテレーションのためのヒアリングを行います。</p>
-
-<h2>推測よりも測定</h2>
-
-<p>以前の受諾向けのUXプロセスでは調査フェイズだけで長いもので数ヶ月の時間がありました。プロジェクトも組織の規模も大きからこそ初期検討が重要でした。それがスタートアップのような環境では仮説検証にそれほど時間は掛けず、<strong>実際にリリースして結果を測定することを大切にしています。</strong>必要なのか悩んだらとりあえずやってみて改善したら良し、ダメだったら次の施策に活かせば良い。コストを掛けずにABテストが短いイテレーションで実施できる社内事業だからこそで、UI設計に外部の受諾コンサルがいると気軽に試してみるというのがやや難しくなります。ただ、これは規模が大きかった受諾の場合とどっちが良いかという話ではなく、時間も人も足りないが、失敗は比較的許されるスタートアップの事情もあります。</p>
-
-<h2>参考:デザインツール</h2>
-
-<p>少ない時間と詳細な画面設計書を作らない代わりに画面の共有を常に行っています。そのために以下のようなモックアップ・プロトタイピングツールを使っています。</p>
-
-<h3>Justinmind (<a href="http://www.justinmind.com">www.justinmind.com</a>)</h3>
-
-<p><img src="http://taninno.github.io/images/process/justinmind.png" title="auto auto" ><br/>
-以前に<a href="http://taninno.github.io/blog/2013/09/12/justinmind-prototyper/">Prototyperを使ったモックアップ主導のUI設計プロセス</a>で書いたPrototyperが名前を変えて社名でもあるJustinmindになりました。Justinmindは多機能系のモックアップ（プロトタイピング）ツールです。主にモックアップ作成に用いています。最近ちょっと挙動が重いので、<a href="http://www.weld.io">weld.</a>に移行しようかと思っています。</p>
-
-<h3>Sketch3 (<a href="http://bohemiancoding.com/">bohemiancoding.com</a>)</h3>
-
-<p><img src="http://taninno.github.io/images/process/sketch.png" title="auto auto" ><br/>
-UIパーツのほとんど共通のものを使うのでモックアップが終わると実装に入ることもありますが、時には新しいレイアウト・パーツが必要となることがあるので、ドローイングツールのSketchを使ってデザイン画をおこします。Photoshopより便利ですし、後述するzeplinとの連携のためにもsketchを使っています。</p>
-
-<h3>inVision (<a href="http://www.invisionapp.com">www.invisionapp.com</a>)</h3>
-
-<p><img src="http://taninno.github.io/images/process/inVision.png" title="auto auto" ><br/>
-Justinmindでモックアップは作っていましたが、その後Sketchでデザインを描いているとモックアップが古くなってしまうので、画像ファイルからモックアップを作れるinVisionを使います。最近ではProttなどのツールも検討しています。</p>
-
-<h3>zeplin (<a href="http://zeplin.io">zeplin.io</a>)</h3>
-
-<p><img src="http://taninno.github.io/images/process/zeplin.png" title="auto auto" ><br/>
-エンジニアにデザインを渡すときにSketch上でサイズやカラーコードを生成できる<a href="https://medium.com/sketch-tricks/sketch-measure-master-a-thorough-walkthrough-57d3df25a1cf">Sketch Measure</a>を使ったりしますが、画面の量が多いといくら自動とはいえ、パーツを指定するのは手作業なので少し大変です。そこでsketchのレイアウト情報をWeb上に表示できるzeplinを使用します。これでエンジニアにはURLだけ渡しとけば、後はブラウザ上からmargin値やfont-size、文章もコピペできるようになります。出来れば画像ファイルもzeplinから出力できればいいのですが、次のメジャーアップデートで対応してくれるそうです。</p>
-
-<h3>weld (<a href="http://www.weld.io">weld.io</a>)</h3>
-
-<p><img src="http://taninno.github.io/images/process/weld.png" title="auto auto" ><br/>
-モックアップにはjustinmindを使っていますが、weldがシンプルで使いやすそうなので検討しています。justinmindは多機能なのは良いのですが、その分使い勝手や動作が犠牲になっているので、気軽に使えるモックアップツールとしてweldに期待しています。</p>
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/2015/05/04/start-up-ui-process/">Read on &rarr;</a>
+    </footer>
   
 
 
@@ -656,45 +613,6 @@ Justinmindでモックアップは作っていましたが、その後Sketchで�
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/08/11/current-environment/">開発環境について</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-11T17:11:00+09:00" pubdate data-updated="true">2012/08/11</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"></div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2012/08/11/current-environment/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -710,6 +628,10 @@ Justinmindでモックアップは作っていましたが、その後Sketchで�
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/07/20/how-about-zeplin/">freeeではZEPLINを使っています</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/05/04/start-up-ui-process/">スタートアップでの意思決定を含めたUI設計プロセス</a>
       </li>
     
@@ -723,10 +645,6 @@ Justinmindでモックアップは作っていましたが、その後Sketchで�
     
       <li class="post">
         <a href="/blog/2014/02/01/usability-testing-template/">ユーザビリティテストのタスクシート</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/09/12/justinmind-prototyper/">Prototyperを使ったモックアップ主導のUI設計プロセス</a>
       </li>
     
   </ul>

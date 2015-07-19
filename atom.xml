@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-06-27T10:46:26+09:00</updated>
+  <updated>2015-07-20T03:08:40+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -14,11 +14,23 @@
 
   
   <entry>
+    <title type="html"><![CDATA[freeeではZEPLINを使っています]]></title>
+    <link href="http://taninno.github.io/blog/2015/07/20/how-about-zeplin/"/>
+    <updated>2015-07-20T02:56:34+09:00</updated>
+    <id>http://taninno.github.io/blog/2015/07/20/how-about-zeplin</id>
+    <content type="html"><![CDATA[<p><img src="http://taninno.github.io/images/zeplin/01.png" title="auto auto" ></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[スタートアップでの意思決定を含めたUI設計プロセス]]></title>
     <link href="http://taninno.github.io/blog/2015/05/04/start-up-ui-process/"/>
     <updated>2015-05-04T01:40:58+09:00</updated>
     <id>http://taninno.github.io/blog/2015/05/04/start-up-ui-process</id>
     <content type="html"><![CDATA[<p>以前に書いた「<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">問題解決型UXデザインアプローチ</a>」はクライアントワークなどの受諾を想定したプロセスでした。それとは違い<a href="http://freee.co.jp">freee</a>のようなエンジニアが爆速で実装をしている中でのUI設計のプロセスをまとめたいと思います。</p>
+
+<!-- more -->
+
 
 <h2>昔のプロセス</h2>
 
