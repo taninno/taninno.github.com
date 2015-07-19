@@ -4,7 +4,7 @@
   <title><![CDATA[Category: UX | taninnosorani blog]]></title>
   <link href="http://taninno.github.io/blog/categories/ux/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-07-20T03:08:40+09:00</updated>
+  <updated>2015-07-20T03:10:45+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -19,6 +19,9 @@
     <updated>2014-08-31T16:44:53+09:00</updated>
     <id>http://taninno.github.io/blog/2014/08/31/plot-based-on-sequence-diagram</id>
     <content type="html"><![CDATA[<p>スタートアップに適したUI設計を試している中で、ペルソナ・シナリオ法を参考にエンジニアと協業しやすいシナリオ設計を記載しています。また内容は随時更新しています。</p>
+
+<!-- more -->
+
 
 <h2>シナリオを使ったサービスの設計</h2>
 
