@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-07-20T03:10:45+09:00</updated>
+  <updated>2015-07-20T03:36:24+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -18,12 +18,18 @@
     <link href="http://taninno.github.io/blog/2015/07/20/how-about-zeplin/"/>
     <updated>2015-07-20T02:56:34+09:00</updated>
     <id>http://taninno.github.io/blog/2015/07/20/how-about-zeplin</id>
-    <content type="html"><![CDATA[<p><img src="http://taninno.github.io/images/zeplin/01.png" title="auto auto" ></p>
+    <content type="html"><![CDATA[<p><a href="https://zeplin.io/">ZEPLIN</a>はドローイングツールの<a href="http://bohemiancoding.com/sketch/">Sketch</a>で作ったデザインをWebブラウザ上から簡単にMarginやColorなどを確認できるツールです。ZEPLINは今年の7月7日に<a href="https://twitter.com/zeplin_io/status/618224626238291970">1.0がリリース</a>され、<a href="https://t.co/1jv3r4qrrn">画像出力機能</a>が（やっと）追加されました。この機能のお陰で今まで手間であったデザイナーとエンジニアの画像素材の受け渡しが自動で出来るようになります。ちなみに<a href="freee.co.jp">freee</a>では$25/月のGrowingBusinessプランを買いました。</p>
+
+<p><a href="https://zeplin.io/" target="_blank">
+<img src="http://taninno.github.io/images/zeplin/01.png" title="auto auto" ><br/>
+</a></p>
 
 <!-- more -->
 
 
+<p>ZEPLINによってMicrosoft Expression Blend時代に夢見たデザインと開発の橋渡しがようやく実現しました。これまではPhotoshopのプラグインのinkやAssistorPSなどの補助ツールを使っていましたが、今はZEPLINが最も使いやすいと思います。﻿</p>
 
+<p><img src="http://taninno.github.io/images/zeplin/02.png" title="auto auto" ></p>
 ]]></content>
   </entry>
   
