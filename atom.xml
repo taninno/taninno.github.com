@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-07-20T17:44:00+09:00</updated>
+  <updated>2015-07-20T17:47:14+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[freeeではZEPLINを使っています]]></title>
+    <title type="html"><![CDATA[freeeではZeplinを使っています]]></title>
     <link href="http://taninno.github.io/blog/2015/07/20/how-about-zeplin/"/>
     <updated>2015-07-20T02:56:34+09:00</updated>
     <id>http://taninno.github.io/blog/2015/07/20/how-about-zeplin</id>
-    <content type="html"><![CDATA[<p><a href="https://zeplin.io/">ZEPLIN</a>はドローイングツールの<a href="http://bohemiancoding.com/sketch/">Sketch</a>で作ったデザインをWebブラウザ上から簡単に確認できるツールです。今年の7月7日に<a href="https://twitter.com/zeplin_io/status/618224626238291970">1.0がリリース</a>され、<a href="https://www.youtube.com/watch?v=o9kOpAaDpQU">画像出力機能</a>が（やっと）追加されました。これで今まで手間であったデザイナーとエンジニアのデザインの受け渡しが自動で出来るようになりました。ちなみに<a href="freee.co.jp">freee</a>では$25/月のGrowingBusinessプランを買っています。</p>
+    <content type="html"><![CDATA[<p><a href="https://zeplin.io/">Zeplin</a>はドローイングツールの<a href="http://bohemiancoding.com/sketch/">Sketch</a>で作ったデザインをWebブラウザ上から簡単に確認できるツールです。今年の7月7日に<a href="https://twitter.com/zeplin_io/status/618224626238291970">1.0がリリース</a>され、<a href="https://www.youtube.com/watch?v=o9kOpAaDpQU">画像出力機能</a>が（やっと）追加されました。これで今まで手間であったデザイナーとエンジニアのデザインの受け渡しが自動で出来るようになりました。ちなみに<a href="freee.co.jp">freee</a>では$25/月のGrowingBusinessプランを買っています。</p>
 
 <p><img src="http://taninno.github.io/images/zeplin/01.png" title="auto auto" ></p>
 
@@ -27,11 +27,11 @@
 
 <h2>ZEPLINの機能</h2>
 
-<p>ZEPLINは去年ローンチしてからまだ1年ほどしか経っていないため、なんでも揃っている多機能なツールではありません。ですが、だからなのか割と軽量ですし必要な機能は揃っていると思います。</p>
+<p>Zeplinは去年ローンチしてからまだ1年ほどしか経っていないため、なんでも揃っている多機能なツールではありません。ですが、だからなのか割と軽量ですし必要な機能は揃っていると思います。</p>
 
 <h3>サイズ</h3>
 
-<p>余白の距離やパーツの縦横、カラーコードを取得できるのがZEPLINのメイン機能です。</p>
+<p>余白の距離やパーツの縦横、カラーコードを取得できるのがZeplinのメイン機能です。</p>
 
 <p><img src="http://taninno.github.io/images/zeplin/07.png" title="auto auto" ><br/>
 <span style="color:#ccc">Androidのdp単位にも対応している</span></p>
@@ -45,10 +45,10 @@
 
 <h3>Webブラウザにも対応</h3>
 
-<p>最初のZEPLINはクライアントアプリケーションとして始まりましたが、今ではWebブラウザ上で確認することができます。以前なはエンジニアの方にお願いしてMacアプリをインストールしてもらっていましたが、デザインを更新したらアプリをわざわざ立ち上げないといけないのはとても不便そうでした。それがブラウザベースで表示できるようになるとURLを社内チャットで送るだけでいいのでとても簡単になりました。</p>
+<p>最初のZeplinはクライアントアプリケーションとして始まりましたが、今ではWebブラウザ上で確認することができます。以前なはエンジニアの方にお願いしてMacアプリをインストールしてもらっていましたが、デザインを更新したらアプリをわざわざ立ち上げないといけないのはとても不便そうでした。それがブラウザベースで表示できるようになるとURLを社内チャットで送るだけでいいのでとても簡単になりました。</p>
 
 <p><img src="http://taninno.github.io/images/zeplin/06.png" title="auto auto" ><br/>
-<span style="color:#ccc">freeeのAndroid版の請求書画面もZEPLINを使用した</span></p>
+<span style="color:#ccc">freeeのAndroid版の請求書画面もZeplinを使用した</span></p>
 
 <h2>コラボレーションツールの歴史</h2>
 
@@ -93,7 +93,7 @@
 
 <h2>freeeでのデザイナーの役割</h2>
 
-<p>実はZEPLINを使うのは稀で、作業の殆どは課題の整理とモックアップの作成をおこなっています。ただ、ビジュアルが重要な場合にはデザインをおこすので、細かなサイズ感などを開発側に伝えるのにZEPLINを使っています。</p>
+<p>実はZeplinを使うのは稀で、作業の殆どは課題の整理とモックアップの作成をおこなっています。ただ、ビジュアルが重要な場合にはデザインをおこすので、細かなサイズ感などを開発側に伝えるのにZeplinを使っています。</p>
 
 <p>そんなfreeeでは一緒に働いてくれるビジュアルデザイナーを募集しています。</p>
 
