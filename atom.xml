@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-07-20T17:51:57+09:00</updated>
+  <updated>2015-07-20T18:06:13+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -49,6 +49,13 @@
 
 <p><img src="http://taninno.github.io/images/zeplin/06.png" title="auto auto" ><br/>
 <span style="color:#ccc">freeeのAndroid版の請求書画面もZeplinを使用した</span></p>
+
+<h3>テキストのコピー</h3>
+
+<p>地味なんですが嬉しい機能が文章をコピーできることです。Photoshopとかでもそうですが、デザインツール上のテキストはコピーが面倒だったりします。一部のモックアップツールで作ればテキスト選択も可能ですが、Zeplinではデザイン段階の状態でもコピーが可能です。</p>
+
+<p><img src="http://taninno.github.io/images/zeplin/08.png" title="auto auto" ><br/>
+<span style="color:#ccc">&ldquo;freeeでは請求書と一緒に取引データが作成されます。取引は会計や請求書の入金などを管理するための情報です。&rdquo;</span></p>
 
 <h2>コラボレーションツールの歴史</h2>
 
