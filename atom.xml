@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-07-20T21:31:59+09:00</updated>
+  <updated>2015-07-20T21:32:50+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -69,7 +69,7 @@
 @freee_border_color: #e3e3e3
 </code></pre>
 
-<p><span style="color:#ccc">LESSをExportしたところ</span></p>
+<p><span style="color:#ccc">例）LESS</span></p>
 
 <h2>コラボレーションツールの歴史</h2>
 
