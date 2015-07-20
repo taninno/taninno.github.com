@@ -113,43 +113,58 @@
 <!-- more -->
 
 
-<h3>ZEPLINの機能</h3>
+<h2>ZEPLINの機能</h2>
 
-<h4>Webブラウザにも対応</h4>
+<h3>Webブラウザにも対応</h3>
 
 <p>最初のZEPLINはクライアントアプリケーションとして始まりましたが、今ではWebブラウザ上で確認することができます。以前なhエンジニアの方にお願いして１つ１つMacアプリをインストールしてもらっていましたが、更新したらアプリをわざわざ立ち上げないといけないのはとても不便そうでした。それがブラウザベースで表示できるようになるとURLを社内チャットで送るだけでいいので簡単になりました。</p>
 
 <p><img src="http://taninno.github.io/images/zeplin/06.png" title="auto auto" ><br/>
 <span style="color:#ccc">freeeのAndroid版の請求書画面もZEPLINを使用した</span></p>
 
-<h4>サイズ</h4>
+<h3>サイズ</h3>
 
 <p>余白の距離やパーツの縦横、カラーコードを取得できるのがZEPLINのメイン機能です。</p>
 
 <p><img src="http://taninno.github.io/images/zeplin/07.png" title="auto auto" ><br/>
 <span style="color:#ccc">Androidのdp単位にも対応している</span></p>
 
-<h3>コラボレーションツール</h3>
+<h3>画像出力</h3>
 
-<h4>昔のデザインの受け渡し</h4>
+<p>1.0になって新しく追加されたのがPNGファイルを出力してくれる機能です。SVG形式やモバイル向けに解像度別にも対応しています。ただ画像最適化はしてくれないのでダウンロード後は自分で軽量化しないといけません（ここもやってほしいですね）。</p>
+
+<p><img src="http://taninno.github.io/images/zeplin/08.png" title="auto auto" ><br/>
+<span style="color:#ccc">Androidのdp単位にも対応している</span></p>
+
+<h2>コラボレーションツールの歴史</h2>
+
+<p>デザイナーとエンジニアの協業のためのコラボレーションツールは以前から作られてきましたが普及するまでには至りませんでした。</p>
+
+<h3>昔のデザインの受け渡し</h3>
 
 <p>デザインとコードの担当を分業しているところでは、Photoshopのスライスツールで画像を書き出してExcelにassets一覧シートを作っていたと思います。場合によってはエンジニアがシートに記載してある画像ファイルのフォルダを開いてプロジェクトファイルに移動させたり…とても面倒でした。</p>
 
 <p><img src="http://taninno.github.io/images/zeplin/03.png" title="auto auto" ></p>
 
-<h4>コラボレーションツールの登場</h4>
+<h3>コラボレーションツールの登場</h3>
 
 <p>2004年にAdobeからFlex Builder、2007年にMicrosoftからExpression Blendがリリースされました。</p>
+
+<h4>Flex Builder</h4>
 
 <p><img src="http://taninno.github.io/images/zeplin/04.png" title="auto auto" ><br/>
 <span style="color:#ccc">Flex Builder</span></p>
 
 <p>Flex Builderはエンジニアが画面を作りやすいようにFlashのUIComponentをペタペタ貼っていくだけで作れるようになったことが便利でした。ただ、コラボレーションツールというよりもこれまでFlashで作っていて大変だったエンジニア向けのエディタという位置づけでした。</p>
 
+<h4>Flash Catalyst</h4>
+
 <p><img src="http://taninno.github.io/images/zeplin/05.png" title="auto auto" ><br/>
 <span style="color:#ccc">Flash Catalyst</span></p>
 
 <p>その後、Flexのデザイナー向けにFlash Catalystが2008年に公開されました。当時は初めての本格的なコラボレーションツールとして注目されましたが、結果的にデザイナーには普及しませんでした。動作がとても重かったのを覚えています。ちなみに2012年に開発が終了しました。</p>
+
+<h4>Expression Blend</h4>
 
 <p><img src="http://taninno.github.io/images/zeplin/02.png" title="auto auto" ><br/>
 <span style="color:#ccc">Expression Blend</span></p>
@@ -158,11 +173,18 @@
 
 <p>ただ、Blendが公開されたときにデザイナーとエンジニアが同じソースで作業できると期待していましたが、実際にはエンジニア側はXAMLがまるでHTMLのようで慣れず、デザイナー側はWPFなどのレイアウトコンポーネントの仕様を意識してデザインする必要があるため負担が増えてしまいました。結果、デザイナーとエンジニアの間にBlendでUIを作成するインタラクションデザイナー（今で言うフロントエンドエンジニア）というロールが生まれました。同じPlatformで作業すればもちろん効率的ですが、そのための学習コストが高くなります。</p>
 
-<h4>サイズを共有するために</h4>
+<h3>サイズを共有するために</h3>
 
-<h3>freeeでのデザイナーの役割</h3>
+<p>inkやAssistor PS</p>
 
-<p>実はZEPLINを使うのは稀で、作業の殆どは課題の整理とモックアップの作成をおこなっています。ただ、ビジュアルが重要な場合にはデザインをおこすので、細かなサイズ感などを開発側に伝えるのにZEPLINがとても便利です。</p>
+<h2>freeeでのデザイナーの役割</h2>
+
+<p>実はZEPLINを使うのは稀で、作業の殆どは課題の整理とモックアップの作成をおこなっています。ただ、ビジュアルが重要な場合にはデザインをおこすので、細かなサイズ感などを開発側に伝えるのにZEPLINを使っています。</p>
+
+<p>そんなfreeeでは一緒に働いてくれるビジュアルデザイナーを募集しています。</p>
+
+<iframe frameborder='0' height='305px' name='wantedly_project_widget_24981' scrolling='no' src='https://www.wantedly.com/projects/24981/widget' style='border: none; max-width: 100%; min-width: 240px; width: 540px;'></iframe>
+
 </div>
 
 
