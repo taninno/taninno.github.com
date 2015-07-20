@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-07-20T21:31:20+09:00</updated>
+  <updated>2015-07-20T21:31:59+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -64,10 +64,12 @@
 <p><img src="http://taninno.github.io/images/zeplin/10.png" title="auto auto" ><br/>
 <span style="color:#ccc">iOS,Androidの形式にも対応しています。</span></p>
 
-<p>@freee_green: #00ac9c
+<pre><code>@freee_green: #00ac9c
 @freee_yellow: #f9ed00
 @freee_border_color: #e3e3e3
-<span style="color:#ccc">LESSをExportしたところ</span></p>
+</code></pre>
+
+<p><span style="color:#ccc">LESSをExportしたところ</span></p>
 
 <h2>コラボレーションツールの歴史</h2>
 
