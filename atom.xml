@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-07-20T17:09:53+09:00</updated>
+  <updated>2015-07-20T17:18:03+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -27,17 +27,29 @@
 
 <h3>ZEPLINの機能</h3>
 
-<h4>ブラウザベース</h4>
+<h4>Webブラウザにも対応</h4>
 
-<p><img src="http://taninno.github.io/images/zeplin/06.png" title="auto auto" ></p>
+<p>最初のZEPLINはクライアントアプリケーションとして始まりましたが、今ではWebブラウザ上で確認することができます。以前なhエンジニアの方にお願いして１つ１つMacアプリをインストールしてもらっていましたが、更新したらアプリをわざわざ立ち上げないといけないのはとても不便そうでした。それがブラウザベースで表示できるようになるとURLを社内チャットで送るだけでいいので簡単になりました。</p>
 
-<h3>昔のデザインの受け渡し</h3>
+<p><img src="http://taninno.github.io/images/zeplin/06.png" title="auto auto" ><br/>
+<span style="color:#ccc">freeeのAndroid版の請求書画面もZEPLINを使用した</span></p>
+
+<h4>サイズ</h4>
+
+<p>余白の距離やパーツの縦横、カラーコードを取得できるのがZEPLINのメイン機能です。</p>
+
+<p><img src="http://taninno.github.io/images/zeplin/07.png" title="auto auto" ><br/>
+<span style="color:#ccc">Androidのdp単位にも対応している</span></p>
+
+<h3>コラボレーションツール</h3>
+
+<h4>昔のデザインの受け渡し</h4>
 
 <p>デザインとコードの担当を分業しているところでは、Photoshopのスライスツールで画像を書き出してExcelにassets一覧シートを作っていたと思います。場合によってはエンジニアがシートに記載してある画像ファイルのフォルダを開いてプロジェクトファイルに移動させたり…とても面倒でした。</p>
 
 <p><img src="http://taninno.github.io/images/zeplin/03.png" title="auto auto" ></p>
 
-<h3>コラボレーションツールの登場</h3>
+<h4>コラボレーションツールの登場</h4>
 
 <p>2004年にAdobeからFlex Builder、2007年にMicrosoftからExpression Blendがリリースされました。</p>
 
@@ -58,11 +70,7 @@
 
 <p>ただ、Blendが公開されたときにデザイナーとエンジニアが同じソースで作業できると期待していましたが、実際にはエンジニア側はXAMLがまるでHTMLのようで慣れず、デザイナー側はWPFなどのレイアウトコンポーネントの仕様を意識してデザインする必要があるため負担が増えてしまいました。結果、デザイナーとエンジニアの間にBlendでUIを作成するインタラクションデザイナー（今で言うフロントエンドエンジニア）というロールが生まれました。同じPlatformで作業すればもちろん効率的ですが、そのための学習コストが高くなります。</p>
 
-<h3>サイズを共有するために</h3>
-
-<h3>ZEPLIN</h3>
-
-<p>ZEPLINによってExpression Blend時代に夢見たデザインと開発の橋渡しがようやく実現しました。これまではPhotoshopのプラグインのinkやAssistorPSなどの補助ツールを使っていましたが、今はZEPLINが最も使いやすいと思います。﻿</p>
+<h4>サイズを共有するために</h4>
 
 <h3>freeeでのデザイナーの役割</h3>
 
