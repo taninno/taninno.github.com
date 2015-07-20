@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-07-20T21:43:29+09:00</updated>
+  <updated>2015-07-20T21:44:21+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -45,7 +45,7 @@
 
 <h3>Webブラウザにも対応</h3>
 
-<p>最初のZeplinはクライアントアプリケーションとして始まりましたが、今ではWebブラウザ上で確認することができます。以前はエンジニアの方にお願いしてMacアプリをインストールしてもらっていましたが、デザインを更新したらアプリをわざわざ立ち上げないといけないのはとても不便そうでした。それがブラウザベースで表示できるようになるとURLを社内チャットで送るだけでいいのでとても簡単になりました。</p>
+<p>最初のZeplinはクライアントアプリケーションとして始まりましたが、今ではWebブラウザ上で確認することができます。以前はエンジニアの方にお願いしてMacアプリをインストールしてもらっていましたが、デザインを更新したらアプリをわざわざ立ち上げないといけないのでとても申し訳なくて。それがブラウザベースで表示できるようになるとURLを社内チャットで送るだけでいいのでとても簡単になりました。</p>
 
 <p><img src="http://taninno.github.io/images/zeplin/06.png" title="auto auto" ><br/>
 <span style="color:#ccc">freeeのAndroid版の請求書画面もZeplinを使用した</span></p>
