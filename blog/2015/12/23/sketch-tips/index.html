@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>freeeでのSketch運用の実態 - taninnosorani blog</title>
+  <meta name="author" content="">
+
+  
+  <meta name="description" content="10月頃にfreeeの社内でSketchの勉強会を開催しました。その勉強会の感想で「社内事例を聞いてみたい」「外部サービスとの連携した際のモックアップ検証方法」「山田さんのSketch芸を見てみたい」という声を頂いため、 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://taninno.github.io/blog/2015/12/23/sketch-tips">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="taninnosorani blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link rel="author" href="https://plus.google.com/107539786331492217195" />
+<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-73046-12']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">taninnosorani blog</a></h1>
+  
+    <h2>What is the UX Workflow?</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:taninno.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="https://plus.google.com/107539786331492217195?rel=author">Google+</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">freeeでのSketch運用の実態</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-12-23T15:19:24+09:00" pubdate data-updated="true">2015/12/23</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>10月頃にfreeeの社内でSketchの勉強会を開催しました。その勉強会の感想で「社内事例を聞いてみたい」「外部サービスとの連携した際のモックアップ検証方法」「山田さんのSketch芸を見てみたい」という声を頂いため、ブログという形でfreeeで実際に使用しているtipを添えた社内事例をご紹介したいと思います。</p>
+
+<p>以降の記事は<a href="http://qiita.com/advent-calendar/2015/sketch3">Sketch 3 Advent Calendar 2015</a> の 23日目のエントリーになります。ちなみにfreeeでは企業カテゴリで<a href="http://qiita.com/advent-calendar/2015/freee">freee Engineers Advent Calendar 2015</a>に参加しています。エンジニア向けの記事が多いですが、とても面白いので宜しければこちらもご一読下さい。</p>
+
+<!-- more -->
+
+
+<p><em>Sketchの基本的な操作方法はここでは省略させていただきます。Sketchに興味がある方は上記のSketchのAdventCalendarがとても参考になると思います。</em></p>
+
+<h3>デザインの前に</h3>
+
+<p>それでは、とある新機能の画面デザインを実際の流れに沿って紹介をしていきたいと思います。ちなみにfreeeでは画面設計に入る前にDesignDocという課題の整理を行います。これはデザイナーに限らずfreeeのプロダクト開発をする全員が必ず行います。そもそもその課題は何が問題なのか、その課題に取り組む背景とはなにか、その課題がクリアされたとする状態とはなにかなど、これから取り組む施策を明確にし、1ヶ月後の振り返りの際にどの程度達成されているか検証します。</p>
+
+<p>課題が整理されたとして、早速Sketchで画面デザインを行っていきます。<br/>
+<img src="http://taninno.github.io/images/sketch/01.png" title="auto auto" ></p>
+
+<h3>ファイルの管理方法</h3>
+
+<p>Photoshopでは基本的には１ファイル１画面だったため、ファイル名に施策や画面名を名付けていましたが、SketchにはPages機能があります。Fireworksのページに似た機能なので、これを使ってプロジェクト管理が可能です。<br/>
+<img src="http://taninno.github.io/images/sketch/02.png" title="auto auto" ><br/>
+1つのページにはキャンバス内に複数のArtboardを配置できるので、例えば複数の画面に跨ぐチュートリアル画面やモバイルアプリのCRUD系の画面も1つのページとして管理します。ちなみに上記のキャプチャにある「signup」ページ内には5つの画面が作成されています。</p>
+
+<p>Pagesの説明が長くなってしまいましたが、これによって基本的には1個のSketchファイルを管理するだけで済みます。ただページ数が増えるとそれだけファイルサイズが多くなるので、freeeではプロダクト別にSketchファイルを分けています。あるSketchファイルは30ページ以上もあります。<br/>
+<img src="http://taninno.github.io/images/sketch/03.png" title="auto auto" ></p>
+
+<h3>Artboardの配置ルール</h3>
+
+<p>ファイルとページが用意できたので、次にArtboardを使って画面を作成していきます。Artboardはキャンバス内のどこにでも配置できますが、以下の簡単な配置ルールを設けています。ルールと言っても気にしているレベルですが。</p>
+
+<ul>
+<li>画面遷移は下方向に進めていく。つまり下側に遷移先の画面が連なっていくことになります。</li>
+<li>当該画面の右際には別ステートのAartboardを配置する。つまりhover状態やバルーン系の別レイヤーを表示させた状態の専用Artboardになります。</li>
+<li>ステートArtboardのさらに右側には参考画面を配置する。例えば既存画面や参考にしたいデザインなどをArtboardは用いずキャンバス上に配置します。</li>
+<li>左側には古いバージョンの画面を横に並べていく。</li>
+</ul>
+
+
+<p><img src="http://taninno.github.io/images/sketch/04.png" title="auto auto" ></p>
+
+<h3>UI Component</h3>
+
+<p>Component系はSketchResourcesから公開されているSketchファイルを利用します。<br/>
+<img src="http://taninno.github.io/images/sketch/05.png" title="auto auto" ></p>
+
+<p>Yosemite UI 特有のComponentもありますのでセレクトボックスやラジオボタンなどの外観のUIも簡単に用意することができます。<br/>
+<img src="http://taninno.github.io/images/sketch/06.png" title="auto auto" ></p>
+
+<h3>zeplin</h3>
+
+<p>以前の<a href="http://localhost:4000/blog/2015/07/20/how-about-zeplin/">記事</a>でもご紹介しましたが、freeeでは去年から<a href="https://zeplin.io/">zeplin</a>を使用しています。zeplin自体の詳細はそちらを参照していただくとして、Sketchでの運用方法に関してご紹介します。</p>
+
+<h4>slackとの連携</h4>
+
+<p>freeeではチャットツールのslackを使用しており、zeplinとslackを連携することができます。<br/>
+<img src="http://taninno.github.io/images/sketch/07.png" title="auto auto" ></p>
+
+<h4>外部との連携</h4>
+
+<p>プロダクト以外のLPなどの制作は外部のパートナーさんに実装をお願いする場合もあります。その際に社内で作成したデザインを共有する際にzeplinを利用しています。zeplinはコメント機能があるので「ここのパーツが足りないですよ」「すいませんすぐに用意します」といったパートナーさんへの謝罪のやりとりもzeplinで行っています。ちなみにコメントはslackにも通知されるので返信し忘れも防ぎやすくなります。
+<img src="http://taninno.github.io/images/sketch/08.png" title="auto auto" ></p>
+
+<h3>モックアップ連携</h3>
+
+<p>freeeは<a href="http://www.invisionapp.com/">inVsion</a>, <a href="https://marvelapp.com/">marvel</a>などのモックアップサービスとも連携しています。</p>
+
+<h3>最後に</h3>
+
+<p>以上、細かな話になりましたがSketchの運用Tipsになります。Sketchは便利なツールですが、いつもSketchを使っているわけではなく、画面の一部分のレイアウトをちょっと変えるくらいなら紙とペンで終わらせ、画面遷移が50枚以上なら<a href="http://taninno.github.io/blog/2013/09/12/justinmind-prototyper/">justinmindでモックアップ検証</a>を先に着手するようにプロジェクトの規模ごとにツールを選定しています。</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-12-23T15:19:24+09:00" pubdate data-updated="true">2015/12/23</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://taninno.github.io/blog/2015/12/23/sketch-tips/" data-via="" data-counturl="http://taninno.github.io/blog/2015/12/23/sketch-tips/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/07/20/how-about-zeplin/" title="Previous Post: freeeではZeplinを使っています">&laquo; freeeではZeplinを使っています</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/12/23/sketch-tips/">freeeでのSketch運用の実態</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/07/20/how-about-zeplin/">freeeではZeplinを使っています</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/05/04/start-up-ui-process/">スタートアップでの意思決定を含めたUI設計プロセス</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/08/31/plot-based-on-sequence-diagram/">シナリオに対するエンジニアとの共通理解</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/06/14/cart/">家計簿アプリCart</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+<section class="googleplus googleplus-hidden">
+  <h1>
+    <a href="https://plus.google.com/107539786331492217195?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 -  -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

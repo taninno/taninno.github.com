@@ -9,7 +9,7 @@
   <meta name="author" content="">
 
   
-  <meta name="description" content="ZeplinはドローイングツールのSketchで作ったデザインをWebブラウザ上から簡単に確認できるツールです。今年の7月7日に1.0がリリースされ、画像出力機能が（やっと）追加されました。これで今まで手間であったデザイナーとエンジニアのデザインの受け渡しが自動で出来るようになりました。 &hellip;">
+  <meta name="description" content="10月頃にfreeeの社内でSketchの勉強会を開催しました。その勉強会の感想で「社内事例を聞いてみたい」「外部サービスとの連携した際のモックアップ検証方法」「山田さんのSketch芸を見てみたい」という声を頂いため、 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +80,49 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/12/23/sketch-tips/">freeeでのSketch運用の実態</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-12-23T15:19:24+09:00" pubdate data-updated="true">2015/12/23</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>10月頃にfreeeの社内でSketchの勉強会を開催しました。その勉強会の感想で「社内事例を聞いてみたい」「外部サービスとの連携した際のモックアップ検証方法」「山田さんのSketch芸を見てみたい」という声を頂いため、ブログという形でfreeeで実際に使用しているtipを添えた社内事例をご紹介したいと思います。</p>
+
+<p>以降の記事は<a href="http://qiita.com/advent-calendar/2015/sketch3">Sketch 3 Advent Calendar 2015</a> の 23日目のエントリーになります。ちなみにfreeeでは企業カテゴリで<a href="http://qiita.com/advent-calendar/2015/freee">freee Engineers Advent Calendar 2015</a>に参加しています。エンジニア向けの記事が多いですが、とても面白いので宜しければこちらもご一読下さい。</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2015/12/23/sketch-tips/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
   
   
     <article>
@@ -537,59 +580,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/08/15/windowsphone-on-jenkins/">jenkinsでgit管理のWindowsPhoneをビルドする</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-15T22:43:00+09:00" pubdate data-updated="true">2012/08/15</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><ol>
-<li><a href="http://jenkins-ci.org/">http://jenkins-ci.org/</a>でWindowsをインストール。</li>
-<li>gitやMSBuildなどのプラグインをインストールする。</li>
-<li>jenkinsのPath to Git executableには「C:\Program Files\Git\bin\git.exe」を入れる。MSBuildのPath to MSBuildには「C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe」。</li>
-<li>個々のジョブを作り設定で、Repository URLにローカルリポジトリだと.gitまでのフォルダパスを入れる。ブランチには今回はmasterを指定している。</li>
-<li>ビルドの指定には登録したMSBuildを選択して.slnファイルへの相対パスを指定する。コマンドラインオプションには「/p:Configuration=Release /t:Clean,Build」を入れる。</li>
-</ol>
-
-
-<h2>参考URL</h2>
-
-<ol>
-<li><a href="http://tech-old.hilife-jp.info/2011/12/silverlight-unittestjenkins.html">http://tech-old.hilife-jp.info/2011/12/silverlight-unittestjenkins.html</a></li>
-<li><a href="http://kiita-it-blog.seesaa.net/article/249556782.html">http://kiita-it-blog.seesaa.net/article/249556782.html</a></li>
-<li><a href="http://d.hatena.ne.jp/ch3cooh393/20120126/1327510696">http://d.hatena.ne.jp/ch3cooh393/20120126/1327510696</a></li>
-<li><a href="http://blog.gigei.jp/tech/000053.html">http://blog.gigei.jp/tech/000053.html</a></li>
-</ol>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -605,6 +595,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/12/23/sketch-tips/">freeeでのSketch運用の実態</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/07/20/how-about-zeplin/">freeeではZeplinを使っています</a>
       </li>
     
@@ -618,10 +612,6 @@
     
       <li class="post">
         <a href="/blog/2014/06/14/cart/">家計簿アプリCart</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/02/01/usability-testing-template/">ユーザビリティテストのタスクシート</a>
       </li>
     
   </ul>
