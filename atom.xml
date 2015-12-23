@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-12-23T19:15:39+09:00</updated>
+  <updated>2015-12-23T19:17:53+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -73,7 +73,7 @@
 
 <h4>slackとの連携</h4>
 
-<p>freeeではチャットツールのslackを使用しており、zeplinとslackを連携することができます。<br/>
+<p>freeeではチャットツールのslackを使用しており、zeplinとslackを連携することができます。新しい画面をzeplinにアップロードすると画面のサマリを表示してくれます。また招待した人が参加した際も通知してくれます。<br/>
 <img src="http://taninno.github.io/images/sketch/07.png" title="auto auto" ></p>
 
 <h4>外部との連携</h4>
