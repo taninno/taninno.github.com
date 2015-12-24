@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-12-24T09:13:10+09:00</updated>
+  <updated>2015-12-24T09:14:13+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -27,7 +27,7 @@
 
 <p><em>Sketchの基本的な操作方法はここでは省略させていただきます。Sketchに興味がある方は上記のSketchのAdventCalendarがとても参考になります。</em></p>
 
-<h3>デザインの前に</h3>
+<h3>その前に</h3>
 
 <p><img src="http://taninno.github.io/images/sketch/01.png" title="auto auto" ><br/>
 早速、画面デザインを実際の流れに沿って紹介をしていきたいと思います。ちなみに画面設計に入る前にDesignDocという課題の整理を行います。これはデザイナーに限らずfreeeのプロダクト開発をする全員が必ず行います。そもそもこの課題は何が問題なのか、その課題に取り組む背景とはなにか、その課題がクリアされたとする状態とはなにかなど、これから取り組む施策を明確にし、1ヶ月後の振り返りの際にどの程度達成されているか検証します。</p>
