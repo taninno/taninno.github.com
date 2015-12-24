@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-12-23T19:44:00+09:00</updated>
+  <updated>2015-12-24T09:08:39+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -18,9 +18,9 @@
     <link href="http://taninno.github.io/blog/2015/12/23/sketch-tips/"/>
     <updated>2015-12-23T15:19:24+09:00</updated>
     <id>http://taninno.github.io/blog/2015/12/23/sketch-tips</id>
-    <content type="html"><![CDATA[<p>10月頃にfreeeの社内でSketchの勉強会を開催しました。その勉強会の感想で「社内事例を聞いてみたい」「外部サービスとの連携した際のモックアップ検証方法」「山田さんのSketch芸を見てみたい」という声を頂いため、ブログという形でfreeeで実際に使用しているtipsを添えた社内事例をご紹介したいと思います。</p>
+    <content type="html"><![CDATA[<p>この記事は<a href="http://qiita.com/advent-calendar/2015/sketch3">Sketch 3 Advent Calendar 2015</a> の 23日目のエントリーになります。あとfreeeでは企業カテゴリで<a href="http://qiita.com/advent-calendar/2015/freee">freee Engineers Advent Calendar 2015</a>に参加しています。エンジニア向けの記事が多いですが、とても面白いので宜しければこちらもご一読下さい。</p>
 
-<p>この記事は<a href="http://qiita.com/advent-calendar/2015/sketch3">Sketch 3 Advent Calendar 2015</a> の 23日目のエントリーになります。ちなみにfreeeでは企業カテゴリで<a href="http://qiita.com/advent-calendar/2015/freee">freee Engineers Advent Calendar 2015</a>に参加しています。エンジニア向けの記事が多いですが、とても面白いので宜しければこちらもご一読下さい。</p>
+<p>10月頃にfreeeの社内でSketchの勉強会を開催しました。その勉強会の感想で「社内事例を聞いてみたい」「外部サービスとの連携した際のモックアップ検証方法」「山田さんのSketch芸を見てみたい」という声を頂いため、ブログという形でtipsを添えた社内事例をご紹介したいと思います。</p>
 
 <!-- more -->
 
@@ -30,7 +30,7 @@
 <h3>デザインの前に</h3>
 
 <p><img src="http://taninno.github.io/images/sketch/01.png" title="auto auto" ><br/>
-早速、画面デザインを実際の流れに沿って紹介をしていきたいと思います。ちなみにfreeeでは画面設計に入る前にDesignDocという課題の整理を行います。これはデザイナーに限らずfreeeのプロダクト開発をする全員が必ず行います。そもそもこの課題は何が問題なのか、その課題に取り組む背景とはなにか、その課題がクリアされたとする状態とはなにかなど、これから取り組む施策を明確にし、1ヶ月後の振り返りの際にどの程度達成されているか検証します。</p>
+早速、画面デザインを実際の流れに沿って紹介をしていきたいと思います。ちなみに画面設計に入る前にDesignDocという課題の整理を行います。これはデザイナーに限らずfreeeのプロダクト開発をする全員が必ず行います。そもそもこの課題は何が問題なのか、その課題に取り組む背景とはなにか、その課題がクリアされたとする状態とはなにかなど、これから取り組む施策を明確にし、1ヶ月後の振り返りの際にどの程度達成されているか検証します。</p>
 
 <p>課題が整理されたとして、それではSketchを起動させましょう。</p>
 
@@ -69,11 +69,11 @@
 
 <h3>zeplin</h3>
 
-<p>以前の<a href="http://localhost:4000/blog/2015/07/20/how-about-zeplin/">記事</a>でもご紹介しましたが、freeeでは去年から<a href="https://zeplin.io/">zeplin</a>を使用しています。zeplin自体の詳細はそちらを参照していただくとして、Sketchでの運用方法に関してご紹介します。</p>
+<p>以前の<a href="http://localhost:4000/blog/2015/07/20/how-about-zeplin/">記事</a>でもご紹介しましたが、去年から<a href="https://zeplin.io/">zeplin</a>を使用しています。zeplin自体の詳細はそちらを参照していただくとして、Sketchでの運用方法に関してご紹介します。</p>
 
 <h4>slackとの連携</h4>
 
-<p>freeeではチャットツールのslackを使用しており、zeplinとslackを連携することができます。新しい画面をzeplinにアップロードすると画面のサマリを表示してくれます。また招待した人が参加した際も通知してくれます。<br/>
+<p>チャットツールの<a href="https://slack.com/">slack</a>とzeplinを連携することができます。例えば新しい画面をzeplinにアップロードするとslack上で画面のサムネイルを表示してくれます。他には招待した人が参加した時やzeplin上でコメントを記入した際も通知してくれます。<br/>
 <img src="http://taninno.github.io/images/sketch/07.png" title="auto auto" ></p>
 
 <h4>外部との連携</h4>
