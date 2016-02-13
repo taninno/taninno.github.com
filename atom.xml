@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2015-12-24T09:25:48+09:00</updated>
+  <updated>2016-02-13T20:33:06+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,59 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[コラボレーションツールの歴史]]></title>
+    <link href="http://taninno.github.io/blog/2016/02/13/ui-collaboration-tools/"/>
+    <updated>2016-02-13T19:59:19+09:00</updated>
+    <id>http://taninno.github.io/blog/2016/02/13/ui-collaboration-tools</id>
+    <content type="html"><![CDATA[<p>zeplinのところに書いていた記事を独立させました。特に追記等はしていません。</p>
+
+<!-- more -->
+
+
+<h2>コラボレーションツールの歴史</h2>
+
+<p>デザイナーとエンジニアの協業のためのコラボレーションツールは以前から作られてきましたが普及するまでには至りませんでした。</p>
+
+<h3>昔のデザインの受け渡し</h3>
+
+<p>デザインとコードの担当を分業しているところでは、Photoshopのスライスツールで画像を書き出してExcelにassets一覧シートを作っていたと思います。場合によってはエンジニアがシートに記載してある画像ファイルのフォルダを開いてプロジェクトファイルに移動させたり…とても面倒でした。</p>
+
+<p><img src="http://taninno.github.io/images/zeplin/03.png" title="auto auto" ></p>
+
+<h3>コラボレーションツールの登場</h3>
+
+<p>2004年にAdobeからFlex Builder、2007年にMicrosoftからExpression Blendがリリースされました。</p>
+
+<h4>Flex Builder</h4>
+
+<p><img src="http://taninno.github.io/images/zeplin/04.png" title="auto auto" ><br/>
+<span style="color:#ccc">Flex Builder</span></p>
+
+<p>Flex Builderはエンジニアが画面を作りやすいようにFlashのUIComponentをペタペタ貼っていくだけで作れるようになったことが便利でした。ただ、コラボレーションツールというよりもこれまでFlashで作っていて大変だったエンジニア向けのエディタという位置づけでした。</p>
+
+<h4>Flash Catalyst</h4>
+
+<p><img src="http://taninno.github.io/images/zeplin/05.png" title="auto auto" ><br/>
+<span style="color:#ccc">Flash Catalyst</span></p>
+
+<p>その後、Flexのデザイナー向けにFlash Catalystが2008年に公開されました。当時は初めての本格的なコラボレーションツールとして注目されましたが、結果的にデザイナーには普及しませんでした。動作がとても重かったのを覚えています。ちなみに2012年に開発が終了しました。</p>
+
+<h4>Expression Blend</h4>
+
+<p><img src="http://taninno.github.io/images/zeplin/02.png" title="auto auto" ><br/>
+<span style="color:#ccc">Expression Blend</span></p>
+
+<p>Expression BlendはMicrosoft Platform向けのUI設計ツールです。Flexよりもデザイナーとエンジニアの協業をより意識されていました。BlendでUIを作成するとXAMLと呼ばれるXMLが自動で生成されます。XAMLはコードエディアのMicrosoft Visual Studioから編集することができるので、XAMLを介してデザイナーとエンジニアが共通のソースコードを扱うことができます。</p>
+
+<p>ただ、Blendが公開されたときにデザイナーとエンジニアが同じソースで作業できると期待していましたが、実際にはエンジニア側はXAMLがまるでHTMLのようで慣れず、デザイナー側はWPFなどのレイアウトコンポーネントの仕様を意識してデザインする必要があるため負担が増えてしまいました。結果、デザイナーとエンジニアの間にBlendでUIを作成するインタラクションデザイナー（今で言うフロントエンドエンジニア）というロールが生まれました。同じPlatformで作業すればもちろん効率的ですが、そのための学習コストが高くなります。</p>
+
+<h3>サイズを共有するために</h3>
+
+<p>inkやAssistor PSなどなど。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[freeeでのSketch運用の実態]]></title>
@@ -141,7 +194,7 @@
 
 <h3>カラーガイドライン</h3>
 
-<p>正直、あまり使いませんが、Sketchで使用した配色を各形式ごとにカラースキームとして出力することができます。以下の画面はLESS形式のCSSを選択しています。変数名もZeplinで変更できます。</p>
+<p>正直、あまり使いませんが、Sketchで使用した配色を各形式ごとにカラースキームとして出力することができます。Swift/Objective-C形式で出力できたり、以下の画面はLESS形式のCSSを選択しています。変数名もZeplinで変更できます。</p>
 
 <p><img src="http://taninno.github.io/images/zeplin/10.png" title="auto auto" ><br/>
 <span style="color:#ccc">iOS,Androidの形式にも対応しています。</span></p>
@@ -153,54 +206,24 @@
 
 <p><span style="color:#ccc">例）LESS</span></p>
 
-<h2>コラボレーションツールの歴史</h2>
+<h3>CSSの自動生成 追記 2016/2/13</h3>
 
-<p>デザイナーとエンジニアの協業のためのコラボレーションツールは以前から作られてきましたが普及するまでには至りませんでした。</p>
+<p>2/11にZeplin1.2がリリースされ、CSSの自動生成が利用できるようになりました。
+<img src="http://taninno.github.io/images/zeplin/11.png" title="auto auto" ><br/>
+右下の黒いパネルが今回追加された機能です。</p>
 
-<h3>昔のデザインの受け渡し</h3>
+<h3>最新情報</h3>
 
-<p>デザインとコードの担当を分業しているところでは、Photoshopのスライスツールで画像を書き出してExcelにassets一覧シートを作っていたと思います。場合によってはエンジニアがシートに記載してある画像ファイルのフォルダを開いてプロジェクトファイルに移動させたり…とても面倒でした。</p>
+<p>zeplinの最新情報はTwitter（<a href="https://twitter.com/zeplin_io">@zeplin_io</a>）をフォローしておくと手っ取り早く得られますが、ちゃんと変更内容まで把握するにはブログを読むのが良いと思います。<br/>
+<a href="https://medium.com/zeplin-gazette">Zeplin Gazette</a></p>
 
-<p><img src="http://taninno.github.io/images/zeplin/03.png" title="auto auto" ></p>
+<h3>最後に</h3>
 
-<h3>コラボレーションツールの登場</h3>
+<p>そんなfreeeでは一緒に働いてくれるデザイナーを募集しています。</p>
 
-<p>2004年にAdobeからFlex Builder、2007年にMicrosoftからExpression Blendがリリースされました。</p>
+<iframe frameborder='0' height='305px' name='wantedly_project_widget_37927' scrolling='no' src='https://www.wantedly.com/projects/37927/widget' style='border: none; max-width: 100%; min-width: 240px; width: 540px;'></iframe>
 
-<h4>Flex Builder</h4>
 
-<p><img src="http://taninno.github.io/images/zeplin/04.png" title="auto auto" ><br/>
-<span style="color:#ccc">Flex Builder</span></p>
-
-<p>Flex Builderはエンジニアが画面を作りやすいようにFlashのUIComponentをペタペタ貼っていくだけで作れるようになったことが便利でした。ただ、コラボレーションツールというよりもこれまでFlashで作っていて大変だったエンジニア向けのエディタという位置づけでした。</p>
-
-<h4>Flash Catalyst</h4>
-
-<p><img src="http://taninno.github.io/images/zeplin/05.png" title="auto auto" ><br/>
-<span style="color:#ccc">Flash Catalyst</span></p>
-
-<p>その後、Flexのデザイナー向けにFlash Catalystが2008年に公開されました。当時は初めての本格的なコラボレーションツールとして注目されましたが、結果的にデザイナーには普及しませんでした。動作がとても重かったのを覚えています。ちなみに2012年に開発が終了しました。</p>
-
-<h4>Expression Blend</h4>
-
-<p><img src="http://taninno.github.io/images/zeplin/02.png" title="auto auto" ><br/>
-<span style="color:#ccc">Expression Blend</span></p>
-
-<p>Expression BlendはMicrosoft Platform向けのUI設計ツールです。Flexよりもデザイナーとエンジニアの協業をより意識されていました。BlendでUIを作成するとXAMLと呼ばれるXMLが自動で生成されます。XAMLはコードエディアのMicrosoft Visual Studioから編集することができるので、XAMLを介してデザイナーとエンジニアが共通のソースコードを扱うことができます。</p>
-
-<p>ただ、Blendが公開されたときにデザイナーとエンジニアが同じソースで作業できると期待していましたが、実際にはエンジニア側はXAMLがまるでHTMLのようで慣れず、デザイナー側はWPFなどのレイアウトコンポーネントの仕様を意識してデザインする必要があるため負担が増えてしまいました。結果、デザイナーとエンジニアの間にBlendでUIを作成するインタラクションデザイナー（今で言うフロントエンドエンジニア）というロールが生まれました。同じPlatformで作業すればもちろん効率的ですが、そのための学習コストが高くなります。</p>
-
-<h3>サイズを共有するために</h3>
-
-<p>inkやAssistor PS</p>
-
-<h2>freeeでのデザイナーの役割</h2>
-
-<p>実はZeplinを使うのは稀で、作業の殆どは課題の整理とモックアップの作成をおこなっています。ただ、ビジュアルが重要な場合にはデザインをおこすので、細かなサイズ感などを開発側に伝えるのにZeplinを使っています。</p>
-
-<p>そんなfreeeでは一緒に働いてくれるUIデザイナーを募集しています。</p>
-
-<iframe frameborder='0' height='305px' name='wantedly_project_widget_24981' scrolling='no' src='https://www.wantedly.com/projects/24981/widget' style='border: none; max-width: 100%; min-width: 240px; width: 540px;'></iframe>
 
 ]]></content>
   </entry>
