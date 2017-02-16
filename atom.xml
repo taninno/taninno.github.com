@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2017-02-17T00:40:54+09:00</updated>
+  <updated>2017-02-17T00:44:33+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -18,7 +18,7 @@
     <link href="http://taninno.github.io/blog/2017/02/16/tax-return-design-process/"/>
     <updated>2017-02-16T22:41:44+09:00</updated>
     <id>http://taninno.github.io/blog/2017/02/16/tax-return-design-process</id>
-    <content type="html"><![CDATA[<p>会計freeeの確定申告のUIを昨年度<a href="https://corp.freee.co.jp/news/tax-return-new-ui-4685.html">リニューアル</a>しました。これも<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">問題解決型のUXデザインアプローチ</a>を使ったので、プロセスの事例として紹介（と言いつつ半分は宣伝です）したいと思います。</p>
+    <content type="html"><![CDATA[<p>会計freeeの確定申告のUIを昨年度<a href="https://corp.freee.co.jp/news/tax-return-new-ui-4685.html">リニューアル</a>しました。これも<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">問題解決型のUXデザインアプローチ</a>で進めたので、プロセスの事例として紹介（と言いつつ半分は宣伝です）したいと思います。</p>
 
 <p><img src="http://taninno.github.io/images/tax_return/step3.png" title="auto auto" ></p>
 
