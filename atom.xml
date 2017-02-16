@@ -4,7 +4,7 @@
   <title><![CDATA[taninnosorani blog]]></title>
   <link href="http://taninno.github.io/atom.xml" rel="self"/>
   <link href="http://taninno.github.io/"/>
-  <updated>2017-02-16T23:30:16+09:00</updated>
+  <updated>2017-02-17T00:40:54+09:00</updated>
   <id>http://taninno.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -14,24 +14,25 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Tax-return-design-process]]></title>
+    <title type="html"><![CDATA[確定申告のデザインプロセス]]></title>
     <link href="http://taninno.github.io/blog/2017/02/16/tax-return-design-process/"/>
     <updated>2017-02-16T22:41:44+09:00</updated>
     <id>http://taninno.github.io/blog/2017/02/16/tax-return-design-process</id>
-    <content type="html"><![CDATA[<p>会計freeeの確定申告のUIを昨年度<a href="https://corp.freee.co.jp/news/tax-return-new-ui-4685.html">リニューアル</a>しました。これも<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">問題解決型のUXデザインアプローチ</a>を使ったので、プロセスの事例として紹介（と言いつつ宣伝です。確定申告はお早めに！）したいと思います。
-<img src="http://taninno.github.io/images/tax_return/step3.png" title="auto auto" ></p>
+    <content type="html"><![CDATA[<p>会計freeeの確定申告のUIを昨年度<a href="https://corp.freee.co.jp/news/tax-return-new-ui-4685.html">リニューアル</a>しました。これも<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">問題解決型のUXデザインアプローチ</a>を使ったので、プロセスの事例として紹介（と言いつつ半分は宣伝です）したいと思います。</p>
+
+<p><img src="http://taninno.github.io/images/tax_return/step3.png" title="auto auto" ></p>
 
 <!-- more -->
 
 
-<p>大きな進め方は以下の通りです。
-1.理解
-2.アイディア
-3.ストーリー
-4.UI
-5.ビジュアルデザイン
-6.開発
-7.フィードバック</p>
+<p>進め方は以下の通りです。
+1. 理解
+2. アイディア
+3. ストーリー
+4. UI
+5. ビジュアルデザイン
+6. 開発
+7. フィードバック</p>
 
 <h2>理解</h2>
 
@@ -56,7 +57,7 @@
 <h2>UI</h2>
 
 <p>そうして方向性が固まると<a href="https://www.freee.co.jp/launch">会社設立freee</a>でも利用した一本道のUIが良いと考えました。ただ一本道と言っても、かえって難しくなることがあります。Taskを並べるだけでは膨大なチェックリストとなってしまいモチベーションも下がってしまうので様々な「ユースケース」を組み込みました。その人に該当するかどうかで入力する必要のあるもの無いものが数多くを振り分けのUIが重要となってきます。そこで例えば「あなたは病院にいきましたか？」と聞いて医療費控除の有無を確認するような安易な言葉で対話して選択しやすくしました。
-<img src="http://taninno.github.io/images/tax_return/stepUI.jpg" title="auto auto" ></p>
+<img src="http://taninno.github.io/images/tax_return/step2.png" title="auto auto" ></p>
 
 <p>ちなみに一本道の道中に確定申告とは関係ない月々の収支グラフを表示しています。freeeが目指すのはユーザーが本業にフォーカスできることです。ユーザーには確定申告を終わるだけではなく、経営状況も把握してほしいと思っています。税務財務会計だけではなく管理会計として使うことで事業の継続に役立てると考えているからです。そこで確定申告書を作成すると同時に昨年の収支と分析AIによる分析を表示し、日々の経営を見直すキッカケとなったらと考えました。
 <img src="http://taninno.github.io/images/tax_return/chart.png" title="auto auto" ></p>
@@ -69,7 +70,7 @@
 
 <p>リニューアルしてからの最初の2015年度の確定申告ではたくさんのフィードバックをいただきました。ありがとうございます。まだ理想の確定申告には届きませんが、徐々に進化していきます。今年の<a href="https://www.freee.co.jp/kakuteishinkoku">2016年度の確定申告</a>では新しくマイナンバーや電子申告にも対応しました。ご利用頂けたら幸いです。</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uo0YZdtFWPc" frameborder="0" allowfullscreen></iframe>
+<iframe width="850" height="450" src="https://www.youtube.com/embed/Uo0YZdtFWPc" frameborder="0" allowfullscreen></iframe>
 
 ]]></content>
   </entry>
