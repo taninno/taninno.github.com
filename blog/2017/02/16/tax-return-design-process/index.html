@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Tax-return-design-process - taninnosorani blog</title>
+  <meta name="author" content="">
+
+  
+  <meta name="description" content="会計freeeの確定申告のUIを昨年度リニューアルしました。これも問題解決型のUXデザインアプローチを使ったので、プロセスの事例として紹介（と言いつつ宣伝です。確定申告はお早めに！）したいと思います。 大きな進め方は以下の通りです。
+1.理解
+2.アイディア
+3.ストーリー
+4.UI
+5. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://taninno.github.io/blog/2017/02/16/tax-return-design-process">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="taninnosorani blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link rel="author" href="https://plus.google.com/107539786331492217195" />
+<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-73046-12']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">taninnosorani blog</a></h1>
+  
+    <h2>What is the UX Workflow?</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:taninno.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="https://plus.google.com/107539786331492217195?rel=author">Google+</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Tax-return-design-process</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2017-02-16T22:41:44+09:00" pubdate data-updated="true">2017/02/16</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>会計freeeの確定申告のUIを昨年度<a href="https://corp.freee.co.jp/news/tax-return-new-ui-4685.html">リニューアル</a>しました。これも<a href="http://taninno.github.io/blog/2013/05/16/my-ux-design-approach/">問題解決型のUXデザインアプローチ</a>を使ったので、プロセスの事例として紹介（と言いつつ宣伝です。確定申告はお早めに！）したいと思います。
+<img src="http://taninno.github.io/images/tax_return/step3.png" title="auto auto" ></p>
+
+<!-- more -->
+
+
+<p>大きな進め方は以下の通りです。
+1.理解
+2.アイディア
+3.ストーリー
+4.UI
+5.ビジュアルデザイン
+6.開発
+7.フィードバック</p>
+
+<h2>理解</h2>
+
+<p>まず問題ですが以前の確定申告書作成機能でも大きな問題はありませんでした。馴染みのある申告書のレイアウト上に入力欄を配置し、ユーザーは額を入力していく直接入力というスタイルで簡単に完了できます。ただ開業して初年度のユーザーはどこに何を入力すればいいのか分からず、確定申告の知識が必要となっていました。これを解決するために確定申告の理解から始めます。</p>
+
+<p>確定申告を終わらせるだけであればさほど難しくありません。大雑把に言えば１年の収支を記載するだけでほとんどが終わります。ですが確定申告の目的は収支を記入するだけではなく収入から経費と控除を差し引いた所得金額を算出することです。収支の入力が簡単な確定申告ソフトであれば数多くありますが、控除の入力に関しては初めて人には特に難解になっていました。実際、確定申告の自社アンケートでも複数の控除を理解している人はそれほど多くありませんでした。</p>
+
+<p>難しくさせている１つに様々な控除があります。病院などで掛かった費用に対する医療費控除、最近多いふるさと納税での寄付金控除、家族を養っている場合には配偶者控除や扶養控除など、他にも多くの種類があります。これらの控除は個人事業主の斟酌と公平な税負担のためにあり、控除を申告することで正しい課税にもなります。もちろん控除に該当しても申告する義務はありませんが、支払う税金が少ないことにこしたことはないですよね。</p>
+
+<p>それと確定申告が初めての方が3割以上いることもわかりました。日本の開業率は5%前後を推移しているはずなのでfreeeの利用される方は初めての方が多いともいえますが、この初めての方も来年には二年目以降は初心者ではなくなります。だからなのか他社や国税庁でも玄人寄りのUIが多く、freee自身もこれまでそうでした。</p>
+
+<h2>アイディア</h2>
+
+<p>確定申告を１度は経験している方が大多数。だから書面を模した入力の方がどこに何を記入すればいいか分かっているので慣れた形式のままがよい。そういう考え方もあると思います。ですが私自身、フリーランスの頃だったの確定申告をもう一度やれと言われても調べるまではキレイに忘れてましたし、会社に属してからも年に１度配られる年末調整の「保険料控除申告書兼給与所得者の配偶者特別控除申告書」のどこに何を記入すればいいのか毎回経理の方に確認しています。
+<img src="http://taninno.github.io/images/tax_return/h28_05.png" title="auto auto" ></p>
+
+<p>人は364日何もしていなかったら基本的に忘れるのは仕方ありません（私も年に１回だけスノボに行きますが１日だけだと毎年行ってるのに全然上達しません）。確定申告に詳しい人というのはほとんどいないと考え、プライマリーユーザーを開業1~5年の&#8221;初心者&#8221;としました。もちろん詳しい方も含まれてしまいますが、本業以外に調べたりしなければ数回やっただけで覚えられるほど確定申告は簡単なことではないことから割り切りました。</p>
+
+<p>ペルソナを初心者にすると申告書の提出や納付方法も最初はどうしたらよいの分からないのではないかと考えました。ポストに投函できることや場合によってはコンビニで納付できることを知らないのではないか。様々な確定申告ソフトを見ると多くはが作成まで手厚くフォローしてても提出からは「国税庁に記載されている管轄の税務署に行ってください」という簡単な記載のみだったので、初めての方を想定して提出〜納付までの具体的な案内を盛り込もうと考えました。
+<img src="http://taninno.github.io/images/tax_return/step5.png" title="auto auto" ></p>
+
+<h2>UI</h2>
+
+<p>そうして方向性が固まると<a href="https://www.freee.co.jp/launch">会社設立freee</a>でも利用した一本道のUIが良いと考えました。ただ一本道と言っても、かえって難しくなることがあります。Taskを並べるだけでは膨大なチェックリストとなってしまいモチベーションも下がってしまうので様々な「ユースケース」を組み込みました。その人に該当するかどうかで入力する必要のあるもの無いものが数多くを振り分けのUIが重要となってきます。そこで例えば「あなたは病院にいきましたか？」と聞いて医療費控除の有無を確認するような安易な言葉で対話して選択しやすくしました。
+<img src="http://taninno.github.io/images/tax_return/stepUI.jpg" title="auto auto" ></p>
+
+<p>ちなみに一本道の道中に確定申告とは関係ない月々の収支グラフを表示しています。freeeが目指すのはユーザーが本業にフォーカスできることです。ユーザーには確定申告を終わるだけではなく、経営状況も把握してほしいと思っています。税務財務会計だけではなく管理会計として使うことで事業の継続に役立てると考えているからです。そこで確定申告書を作成すると同時に昨年の収支と分析AIによる分析を表示し、日々の経営を見直すキッカケとなったらと考えました。
+<img src="http://taninno.github.io/images/tax_return/chart.png" title="auto auto" ></p>
+
+<h2>ビジュアルデザイン/開発</h2>
+
+<p>確定申告のUIはSketchやPhotoshop、AdobeのXD等は使っていません。画面設計は全て<a href="https://www.justinmind.com/">Justinmind</a>だけで作成しました。これは画面や入力要素が多く入力してから数日かかることもある機能のためサーフェイスより全体の構成とインタラクションを重視したからです（ドローイングツールを使わないのは割と多く<a href="https://www.freee.co.jp/launch">会社設立freee</a>でも利用していません）。プロジェクト後期でもプロトタイプベースでUIをすぐに調整しエンジニアと意思疎通できるようになりました。</p>
+
+<h2>フィードバック</h2>
+
+<p>リニューアルしてからの最初の2015年度の確定申告ではたくさんのフィードバックをいただきました。ありがとうございます。まだ理想の確定申告には届きませんが、徐々に進化していきます。今年の<a href="https://www.freee.co.jp/kakuteishinkoku">2016年度の確定申告</a>では新しくマイナンバーや電子申告にも対応しました。ご利用頂けたら幸いです。</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uo0YZdtFWPc" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2017-02-16T22:41:44+09:00" pubdate data-updated="true">2017/02/16</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://taninno.github.io/blog/2017/02/16/tax-return-design-process/" data-via="" data-counturl="http://taninno.github.io/blog/2017/02/16/tax-return-design-process/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2016/02/13/ui-collaboration-tools/" title="Previous Post: コラボレーションツールの歴史">&laquo; コラボレーションツールの歴史</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2017/02/16/tax-return-design-process/">Tax-return-design-process</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/02/13/ui-collaboration-tools/">コラボレーションツールの歴史</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/23/sketch-tips/">freeeでのSketch運用の実態</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/07/20/how-about-zeplin/">freeeではZeplinを使っています</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/05/04/start-up-ui-process/">スタートアップでの意思決定を含めたUI設計プロセス</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+<section class="googleplus googleplus-hidden">
+  <h1>
+    <a href="https://plus.google.com/107539786331492217195?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2017 -  -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
